@@ -1,7 +1,7 @@
 #!/bin/bash
 usuario=$USER
 echo
-echo ">>> Instalando Banco de dados"
+echo ">>> Atualizando repositórios do Ubuntu"
 echo
 sudo apt-get update
 echo
