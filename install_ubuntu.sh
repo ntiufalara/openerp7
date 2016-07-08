@@ -31,6 +31,6 @@ git clone https://github.com/ntiufalara/openerp7.git
 sudo chmod 777 ~/openerp7
 sudo chown $usuario ~/openerp7
 echo
-echo ">>> Executando o servidor e abrindo o navegador..."
+echo ">>> Executando o servidor, abra o navegador e teste o ambiente em: http://localhost:8069"
 echo
 /home/$usuario/openerp7/openerp-server.py
