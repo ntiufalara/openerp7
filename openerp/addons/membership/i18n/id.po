@@ -1,21 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * membership
-# 
-# Translators:
+# Indonesian translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2015-12-18 06:51+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Indonesian (http://www.transifex.com/odoo/odoo-7/language/id/)\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: id\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:20+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_invoicetoassociate0
@@ -32,37 +32,38 @@ msgstr ""
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Paid Member"
-msgstr "Paid Member"
+msgstr ""
 
 #. module: membership
 #: view:report.membership:0
 msgid "This will display waiting, invoiced and total pending columns"
-msgstr "Ini akan menampilkan menunggu, tagihan dan total tertunda kolom"
+msgstr ""
 
 #. module: membership
-#: view:report.membership:0 view:res.partner:0
+#: view:report.membership:0
+#: view:res.partner:0
 msgid "Group By..."
-msgstr "Dikelompokan berdasarkan ..."
+msgstr ""
 
 #. module: membership
 #: field:report.membership,num_paid:0
 msgid "# Paid"
-msgstr "# Dibayar"
+msgstr ""
 
 #. module: membership
 #: field:report.membership,tot_earned:0
 msgid "Earned Amount"
-msgstr "Jumlah yang diterima"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_report_membership
 msgid "Membership Analysis"
-msgstr "Analisis keanggotaan"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "March"
-msgstr "Maret"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_setassociation0
@@ -75,17 +76,19 @@ msgid "Invoice is be paid."
 msgstr ""
 
 #. module: membership
-#: field:membership.membership_line,company_id:0 view:report.membership:0
+#: field:membership.membership_line,company_id:0
+#: view:report.membership:0
 #: field:report.membership,company_id:0
 msgid "Company"
-msgstr "Perusahaan"
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
-#: field:res.partner,free_member:0 selection:res.partner,membership_state:0
+#: field:res.partner,free_member:0
+#: selection:res.partner,membership_state:0
 msgid "Free Member"
-msgstr "Anggota gratis"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
@@ -95,19 +98,20 @@ msgstr ""
 #. module: membership
 #: help:report.membership,date_to:0
 msgid "End membership date"
-msgstr "Tanggal akhir keanggotaan"
+msgstr ""
 
 #. module: membership
 #: field:product.product,membership_date_to:0
 #: field:res.partner,membership_stop:0
 msgid "Membership End Date"
-msgstr "Tanggal akhir keanggotaan"
+msgstr ""
 
 #. module: membership
-#: view:report.membership:0 field:report.membership,user_id:0
+#: view:report.membership:0
+#: field:report.membership,user_id:0
 #: view:res.partner:0
 msgid "Salesperson"
-msgstr "Pramuniaga"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_waitingtoinvoice0
@@ -117,41 +121,41 @@ msgstr ""
 #. module: membership
 #: view:report.membership:0
 msgid "This will display paid, old and total earned columns"
-msgstr "Ini akan menampilkan dibayar, tua dan total kolom diterima"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Suppliers"
-msgstr "Pemasok"
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Non Member"
-msgstr "Bukan Anggota"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Taxes"
-msgstr "Pajak-pajak"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "All Members"
-msgstr "Semua Anggota"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "This note will be displayed on quotations..."
-msgstr "Catatan ini akan ditampilkan di kutipan..."
+msgstr ""
 
 #. module: membership
 #: code:addons/membership/membership.py:410
 #: code:addons/membership/membership.py:413
 #, python-format
 msgid "Error!"
-msgstr "Gagal!"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_producttomember0
@@ -161,7 +165,7 @@ msgstr ""
 #. module: membership
 #: model:product.template,name:membership.membership_1_product_template
 msgid "Silver Membership"
-msgstr "Keanggotaan Silver"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_associatedmember0
@@ -171,7 +175,7 @@ msgstr ""
 #. module: membership
 #: field:report.membership,tot_pending:0
 msgid "Pending Amount"
-msgstr "Jumlah tertunda"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,note:membership.process_transition_associationpartner0
@@ -181,35 +185,35 @@ msgstr ""
 #. module: membership
 #: view:res.partner:0
 msgid "Supplier Partners"
-msgstr "Rekan pemasok"
+msgstr ""
 
 #. module: membership
 #: field:report.membership,num_invoiced:0
 msgid "# Invoiced"
-msgstr "# Ditagih"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_report_membership_tree
 #: model:ir.ui.menu,name:membership.menu_report_membership
 msgid "Members Analysis"
-msgstr "Anggota analisis"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "End Membership Date"
-msgstr "Tanggal akhir keanggotaan"
+msgstr ""
 
 #. module: membership
 #: code:addons/membership/membership.py:414
 #, python-format
 msgid "Partner doesn't have an address to make the invoice."
-msgstr "Mitra tidak memiliki alamat untuk membuat faktur."
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_res_partner
 #: field:membership.membership_line,partner:0
 msgid "Partner"
-msgstr "Rekanan"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_invoicetopaid0
@@ -219,27 +223,27 @@ msgstr ""
 #. module: membership
 #: view:res.partner:0
 msgid "Customer Partners"
-msgstr "Pelanggan mitra"
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,date_from:0
 msgid "From"
-msgstr "Dari"
+msgstr ""
 
 #. module: membership
 #: constraint:membership.membership_line:0
 msgid "Error, this membership product is out of date"
-msgstr "Kesalahan, produk keanggotaan ini sudah usang"
+msgstr ""
 
 #. module: membership
 #: model:process.transition.action,name:membership.process_transition_action_create0
 msgid "Create"
-msgstr "Membuat"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_membership_line
 msgid "Member line"
-msgstr "Anggota baris"
+msgstr ""
 
 #. module: membership
 #: help:report.membership,date_from:0
@@ -249,7 +253,7 @@ msgstr ""
 #. module: membership
 #: field:res.partner,membership_cancel:0
 msgid "Cancel Membership Date"
-msgstr "Membatalkan keanggotaan tanggal"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_paidmember0
@@ -259,19 +263,20 @@ msgstr ""
 #. module: membership
 #: field:report.membership,num_waiting:0
 msgid "# Waiting"
-msgstr "# Menunggu"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_members
 #: model:ir.ui.menu,name:membership.menu_members
-#: model:ir.ui.menu,name:membership.menu_membership view:res.partner:0
+#: model:ir.ui.menu,name:membership.menu_membership
+#: view:res.partner:0
 msgid "Members"
-msgstr "Anggota"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Invoiced/Paid/Free"
-msgstr "Ditagih/dibayar/gratis"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_invoicedmember0
@@ -281,7 +286,7 @@ msgstr ""
 #. module: membership
 #: selection:report.membership,month:0
 msgid "July"
-msgstr "Juli"
+msgstr ""
 
 #. module: membership
 #: model:product.template,name:membership.membership_0_product_template
@@ -293,13 +298,14 @@ msgstr ""
 msgid ""
 "A member with whom you want to associate your membership.It will consider "
 "the membership state of the associated member."
-msgstr "Anggota dengan siapa Anda ingin keanggotaan Anda. Itu akan mempertimbangkan keadaan keanggotaan anggota Asosiasi."
+msgstr ""
 
 #. module: membership
-#: view:product.product:0 view:report.membership:0
+#: view:product.product:0
+#: view:report.membership:0
 #: field:report.membership,membership_id:0
 msgid "Membership Product"
-msgstr "Produk keanggotaan"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,note:membership.process_transition_producttomember0
@@ -315,27 +321,27 @@ msgstr ""
 #: help:product.product,membership_date_to:0
 #: help:res.partner,membership_stop:0
 msgid "Date until which membership remains active."
-msgstr "Tanggal sampai yang keanggotaan tetap aktif."
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Membership products"
-msgstr "Produk keanggotaan"
+msgstr ""
 
 #. module: membership
 #: field:res.partner,membership_state:0
 msgid "Current Membership Status"
-msgstr "Status keanggotaan saat ini"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Add a description..."
-msgstr "Menambahkan keterangan..."
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,date:0
 msgid "Join Date"
-msgstr "Join Date"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_setassociation0
@@ -350,7 +356,7 @@ msgstr ""
 #. module: membership
 #: view:res.partner:0
 msgid "Memberships"
-msgstr "Keanggotaan"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_paidmember0
@@ -360,61 +366,63 @@ msgstr ""
 #. module: membership
 #: selection:report.membership,month:0
 msgid "September"
-msgstr "September"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "December"
-msgstr "Desember"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Baris Tagihan"
+msgstr ""
 
 #. module: membership
-#: view:report.membership:0 field:report.membership,month:0
+#: view:report.membership:0
+#: field:report.membership,month:0
 msgid "Month"
-msgstr "Bulan"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Group by..."
-msgstr "Dikelompokan berdasarkan ...."
+msgstr ""
 
 #. module: membership
 #: code:addons/membership/membership.py:411
 #, python-format
 msgid "Partner is a free Member."
-msgstr "Mitra adalah anggota gratis."
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Buy Membership"
-msgstr "Membeli keanggotaan"
+msgstr ""
 
 #. module: membership
-#: field:report.membership,associate_member_id:0 view:res.partner:0
+#: field:report.membership,associate_member_id:0
+#: view:res.partner:0
 #: field:res.partner,associate_member:0
 msgid "Associate Member"
-msgstr "Anggota Asosiasi"
+msgstr ""
 
 #. module: membership
 #: help:product.product,membership_date_from:0
 #: help:res.partner,membership_start:0
 msgid "Date from which membership becomes active."
-msgstr "Tanggal dari keanggotaan yang akan menjadi aktif."
+msgstr ""
 
 #. module: membership
 #: view:report.membership:0
 msgid "Associated Partner"
-msgstr "Mitra terkait"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_invoice
 #: view:membership.invoice:0
 msgid "Membership Invoice"
-msgstr "Keanggotaan faktur"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_membershipproduct0
@@ -424,27 +432,27 @@ msgstr ""
 #. module: membership
 #: view:product.product:0
 msgid "Category"
-msgstr "Kategori"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Contacts"
-msgstr "Daftar kontak"
+msgstr ""
 
 #. module: membership
 #: view:report.membership:0
 msgid "Forecast"
-msgstr "Prakiraan"
+msgstr ""
 
 #. module: membership
 #: field:report.membership,partner_id:0
 msgid "Member"
-msgstr "Anggota"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Date From"
-msgstr "Dari tanggal:"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_associatedmember0
@@ -454,71 +462,74 @@ msgstr ""
 #. module: membership
 #: help:membership.membership_line,date:0
 msgid "Date on which member has joined the membership"
-msgstr "Tanggal pada anggota yang telah bergabung dengan keanggotaan"
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,state:0
 msgid "Membership Status"
-msgstr "Keanggotaan"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Customers"
-msgstr "Customer"
+msgstr ""
 
 #. module: membership
 #: view:membership.invoice:0
 msgid "or"
-msgstr "atau"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "August"
-msgstr "Agustus"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_products
 #: model:ir.ui.menu,name:membership.menu_membership_products
 #: view:product.product:0
 msgid "Membership Products"
-msgstr "Produk keanggotaan"
+msgstr ""
 
 #. module: membership
 #: sql_constraint:product.product:0
 msgid "Error ! Ending Date cannot be set before Beginning Date."
-msgstr "Kesalahan! Tanggal berakhirnya tidak dapat diatur sebelum tanggal awal."
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "June"
-msgstr "Juni"
+msgstr ""
 
 #. module: membership
 #: help:product.product,membership:0
 msgid "Check if the product is eligible for membership."
-msgstr "Periksa apakah produk yang memenuhi syarat untuk keanggotaan."
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Invoiced Member"
-msgstr "Anggota tagihan"
+msgstr ""
 
 #. module: membership
 #: field:membership.invoice,product_id:0
-#: field:membership.membership_line,membership_id:0 view:product.product:0
-#: field:product.product,membership:0 view:report.membership:0
-#: view:res.partner:0 field:res.partner,member_lines:0
+#: field:membership.membership_line,membership_id:0
+#: view:product.product:0
+#: field:product.product,membership:0
+#: view:report.membership:0
+#: view:res.partner:0
+#: field:res.partner,member_lines:0
 msgid "Membership"
-msgstr "Keanggotaan"
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Waiting Member"
-msgstr "Menunggu anggota"
+msgstr ""
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_associationpartner0
@@ -526,90 +537,104 @@ msgid "Association Partner"
 msgstr ""
 
 #. module: membership
-#: field:report.membership,date_from:0 view:res.partner:0
+#: field:report.membership,date_from:0
+#: view:res.partner:0
 msgid "Start Date"
-msgstr "Tanggal Mulai"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "November"
-msgstr "Nomor"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "October"
-msgstr "Oktober"
+msgstr ""
 
 #. module: membership
 #: help:res.partner,membership_state:0
 msgid ""
 "It indicates the membership state.\n"
-"                    -Non Member: A partner who has not applied for any membership.\n"
-"                    -Cancelled Member: A member who has cancelled his membership.\n"
-"                    -Old Member: A member whose membership date has expired.\n"
-"                    -Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
-"                    -Invoiced Member: A member whose invoice has been created.\n"
+"                    -Non Member: A partner who has not applied for any "
+"membership.\n"
+"                    -Cancelled Member: A member who has cancelled his "
+"membership.\n"
+"                    -Old Member: A member whose membership date has "
+"expired.\n"
+"                    -Waiting Member: A member who has applied for the "
+"membership and whose invoice is going to be created.\n"
+"                    -Invoiced Member: A member whose invoice has been "
+"created.\n"
 "                    -Paying member: A member who has paid the membership fee."
 msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "January"
-msgstr "Januari"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "Membership Partners"
-msgstr "Keanggotaan mitra"
+msgstr ""
 
 #. module: membership
-#: field:membership.membership_line,member_price:0 view:product.product:0
+#: field:membership.membership_line,member_price:0
+#: view:product.product:0
 msgid "Membership Fee"
-msgstr "Tanpa biaya keanggotaan"
+msgstr ""
 
 #. module: membership
 #: help:res.partner,membership_amount:0
 msgid "The price negotiated by the partner"
-msgstr "Harga dinegosiasikan oleh partner"
+msgstr ""
 
 #. module: membership
 #: model:product.template,name:membership.membership_2_product_template
 msgid "Basic Membership"
-msgstr "Keanggotaan dasar"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "None/Canceled/Old/Waiting"
-msgstr "Tidak ada/dibatalkan/tua/menunggu"
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Old Member"
-msgstr "Tua anggota"
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,date_to:0
 msgid "To"
-msgstr "Kepada"
+msgstr ""
 
 #. module: membership
-#: view:report.membership:0 field:report.membership,membership_state:0
+#: view:report.membership:0
+#: field:report.membership,membership_state:0
 msgid "Current Membership State"
-msgstr "Saat ini keanggotaan negara"
+msgstr ""
 
 #. module: membership
 #: help:membership.membership_line,state:0
 msgid ""
 "It indicates the membership status.\n"
-"                        -Non Member: A member who has not applied for any membership.\n"
-"                        -Cancelled Member: A member who has cancelled his membership.\n"
-"                        -Old Member: A member whose membership date has expired.\n"
-"                        -Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
-"                        -Invoiced Member: A member whose invoice has been created.\n"
-"                        -Paid Member: A member who has paid the membership amount."
-msgstr "Hal ini menunjukkan status keanggotaan.\n                        -Non Anggota: Seorang anggota yang belum diterapkan untuk keanggotaan apapun.\n                        -Cancelled Anggota: Seorang anggota yang telah membatalkan keanggotaannya.\n                        -Tua Anggota: Seorang anggota yang saat ini keanggotaan telah berakhir.\n                        -Waiting Anggota: Seorang anggota yang telah diterapkan untuk keanggotaan dan yang faktur akan dibuat.\n                        -Invoiced Anggota: Seorang anggota yang faktur telah dibuat.\n                        -Paid Anggota: Seorang anggota yang telah membayar amount.a keanggotaan"
+"                        -Non Member: A member who has not applied for any "
+"membership.\n"
+"                        -Cancelled Member: A member who has cancelled his "
+"membership.\n"
+"                        -Old Member: A member whose membership date has "
+"expired.\n"
+"                        -Waiting Member: A member who has applied for the "
+"membership and whose invoice is going to be created.\n"
+"                        -Invoiced Member: A member whose invoice has been "
+"created.\n"
+"                        -Paid Member: A member who has paid the membership "
+"amount."
+msgstr ""
 
 #. module: membership
 #: model:process.transition,note:membership.process_transition_waitingtoinvoice0
@@ -619,28 +644,28 @@ msgstr ""
 #. module: membership
 #: view:product.product:0
 msgid "Inactive"
-msgstr "Tidak aktif"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_account_invoice
 #: field:membership.membership_line,account_invoice_id:0
 msgid "Invoice"
-msgstr "Faktur"
+msgstr ""
 
 #. module: membership
 #: view:membership.invoice:0
 msgid "Cancel"
-msgstr "Batal"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
 msgid "All non Members"
-msgstr "Semua non anggota"
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,account_invoice_line:0
 msgid "Account Invoice line"
-msgstr "Rekening faktur baris"
+msgstr ""
 
 #. module: membership
 #: model:process.node,note:membership.process_node_waitingmember0
@@ -650,48 +675,49 @@ msgstr ""
 #. module: membership
 #: field:membership.invoice,member_price:0
 msgid "Member Price"
-msgstr "Anggota harga"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Membership Duration"
-msgstr "Durasi keanggotaan"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_product_product
 msgid "Product"
-msgstr "Produk"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "May"
-msgstr "Mei"
+msgstr ""
 
 #. module: membership
 #: field:product.product,membership_date_from:0
 #: field:res.partner,membership_start:0
 msgid "Membership Start Date"
-msgstr "Tanggal mulai keanggotaan"
+msgstr ""
 
 #. module: membership
 #: help:res.partner,free_member:0
 msgid "Select if you want to give free membership."
-msgstr "Pilih jika Anda ingin memberikan keanggotaan gratis."
+msgstr ""
 
 #. module: membership
 #: field:res.partner,membership_amount:0
 msgid "Membership Amount"
-msgstr "Jumlah keanggotaan"
+msgstr ""
 
 #. module: membership
-#: field:report.membership,date_to:0 view:res.partner:0
+#: field:report.membership,date_to:0
+#: view:res.partner:0
 msgid "End Date"
-msgstr "Tanggal berakhir"
+msgstr ""
 
 #. module: membership
 #: selection:report.membership,month:0
 msgid "February"
-msgstr "Februari"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_invoicedmember0
@@ -701,7 +727,7 @@ msgstr ""
 #. module: membership
 #: selection:report.membership,month:0
 msgid "April"
-msgstr "April"
+msgstr ""
 
 #. module: membership
 #: view:res.partner:0
@@ -711,12 +737,12 @@ msgstr ""
 #. module: membership
 #: help:res.partner,membership_cancel:0
 msgid "Date on which membership has been cancelled"
-msgstr "Tanggal di mana keanggotaan telah dibatalkan"
+msgstr ""
 
 #. module: membership
 #: field:membership.membership_line,date_cancel:0
 msgid "Cancel date"
-msgstr "Membatalkan tanggal"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_waitingmember0
@@ -727,7 +753,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:membership.action_membership_invoice_view
 #: view:membership.invoice:0
 msgid "Invoice Membership"
-msgstr "Faktur keanggotaan"
+msgstr ""
 
 #. module: membership
 #: model:process.node,name:membership.process_node_membershipproduct0
@@ -737,31 +763,32 @@ msgstr ""
 #. module: membership
 #: help:membership.membership_line,member_price:0
 msgid "Amount for the membership"
-msgstr "Jumlah untuk keanggotaan"
+msgstr ""
 
 #. module: membership
 #: constraint:res.partner:0
 msgid "Error ! You cannot create recursive associated members."
-msgstr "Kesalahan! Anda tidak dapat membuat anggota rekursif terkait."
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Cancelled Member"
-msgstr "Anggota dibatalkan"
+msgstr ""
 
 #. module: membership
-#: view:report.membership:0 field:report.membership,year:0
+#: view:report.membership:0
+#: field:report.membership,year:0
 msgid "Year"
-msgstr "Tahun"
+msgstr ""
 
 #. module: membership
 #: view:product.product:0
 msgid "Accounting"
-msgstr "Akuntansi"
+msgstr ""
 
 #. module: membership
 #: view:report.membership:0
 msgid "Revenue Done"
-msgstr "Pendapatan yang dilakukan"
+msgstr ""

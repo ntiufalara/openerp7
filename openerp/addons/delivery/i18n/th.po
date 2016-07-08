@@ -1,22 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * delivery
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Thai translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2016-06-30 08:40+0000\n"
-"Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
-"Language-Team: Thai (http://www.transifex.com/odoo/odoo-7/language/th/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: th\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:07+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: delivery
 #: report:sale.shipping:0
@@ -35,11 +34,7 @@ msgstr ""
 
 #. module: delivery
 #: view:delivery.carrier:0
-msgid "Zip"
-msgstr "รหัสไปรษณีย์"
-
-#. module: delivery
-#: view:delivery.carrier:0 view:delivery.grid:0
+#: view:delivery.grid:0
 msgid "Destination"
 msgstr "ปลายทาง"
 
@@ -54,28 +49,28 @@ msgid "Delivery Grid Line"
 msgstr ""
 
 #. module: delivery
-#: field:stock.move,weight_uom_id:0 field:stock.picking,weight_uom_id:0
-#: field:stock.picking.in,weight_uom_id:0
-#: field:stock.picking.out,weight_uom_id:0
+#: field:stock.move,weight_uom_id:0
+#: field:stock.picking,weight_uom_id:0
 msgid "Unit of Measure"
-msgstr "หน่วยของการวัด"
+msgstr ""
 
 #. module: delivery
-#: view:delivery.carrier:0 view:delivery.grid:0
+#: view:delivery.carrier:0
+#: view:delivery.grid:0
 msgid "Delivery grids"
 msgstr ""
 
 #. module: delivery
 #: selection:delivery.grid.line,type:0
-#: selection:delivery.grid.line,variable_factor:0 field:stock.picking,volume:0
-#: field:stock.picking.in,volume:0 field:stock.picking.out,volume:0
+#: selection:delivery.grid.line,variable_factor:0
+#: field:stock.picking,volume:0
+#: field:stock.picking.out,volume:0
 msgid "Volume"
 msgstr "ระดับเสียง"
 
 #. module: delivery
-#: code:addons/delivery/sale.py:54
-#, python-format
-msgid "No grid matching for this carrier!"
+#: view:delivery.carrier:0
+msgid "Zip"
 msgstr ""
 
 #. module: delivery
@@ -86,7 +81,7 @@ msgstr ""
 #. module: delivery
 #: help:delivery.carrier,partner_id:0
 msgid "The partner that is doing the delivery service."
-msgstr "คู่ค้าที่ให้บริการจัดส่ง"
+msgstr ""
 
 #. module: delivery
 #: model:ir.actions.report.xml,name:delivery.report_shipping
@@ -94,7 +89,7 @@ msgid "Delivery order"
 msgstr "ใบส่งสินค้า"
 
 #. module: delivery
-#: code:addons/delivery/delivery.py:222
+#: code:addons/delivery/delivery.py:221
 #, python-format
 msgid "No line matched this product or order in the chosen delivery grid."
 msgstr ""
@@ -102,12 +97,12 @@ msgstr ""
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_picking_tree4
 msgid "Picking to be invoiced"
-msgstr "การรับสินค้าที่จะแจ้งหนี้"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.carrier,pricelist_ids:0
 msgid "Advanced Pricing"
-msgstr "การกำหนดราคาขั้นสูง"
+msgstr ""
 
 #. module: delivery
 #: help:delivery.grid,sequence:0
@@ -115,7 +110,8 @@ msgid "Gives the sequence order when displaying a list of delivery grid."
 msgstr ""
 
 #. module: delivery
-#: view:delivery.grid:0 field:delivery.grid,country_ids:0
+#: view:delivery.grid:0
+#: field:delivery.grid,country_ids:0
 msgid "Countries"
 msgstr "ประเทศ"
 
@@ -123,12 +119,15 @@ msgstr "ประเทศ"
 #: model:ir.actions.act_window,help:delivery.action_delivery_grid_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a delivery price list for a specific region.\n"
+"                Click to create a delivery price list for a specific "
+"region.\n"
 "              </p><p>\n"
 "                The delivery price list allows you to compute the cost and\n"
 "                sales price of the delivery according to the weight of the\n"
-"                products and other criteria. You can define several price lists\n"
-"                for each delivery method: per country or a zone in a specific\n"
+"                products and other criteria. You can define several price "
+"lists\n"
+"                for each delivery method: per country or a zone in a "
+"specific\n"
 "                country defined by a postal code range.\n"
 "              </p>\n"
 "            "
@@ -147,26 +146,27 @@ msgstr ""
 #. module: delivery
 #: field:delivery.carrier,amount:0
 msgid "Amount"
-msgstr "ปริมาณ"
+msgstr ""
 
 #. module: delivery
 #: view:sale.order:0
 msgid "Add in Quote"
-msgstr "เพิ่มในการเสนอราคา"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.grid.line,price_type:0
 msgid "Fixed"
-msgstr "คงที่"
+msgstr ""
 
 #. module: delivery
-#: field:delivery.carrier,name:0 field:res.partner,property_delivery_carrier:0
+#: field:delivery.carrier,name:0
+#: field:res.partner,property_delivery_carrier:0
 #: field:sale.order,carrier_id:0
 msgid "Delivery Method"
 msgstr "วิธีการจัดส่งสินค้า"
 
 #. module: delivery
-#: code:addons/delivery/delivery.py:222
+#: code:addons/delivery/delivery.py:221
 #, python-format
 msgid "No price available!"
 msgstr ""
@@ -178,13 +178,13 @@ msgstr "ย้ายสต็อก"
 
 #. module: delivery
 #: field:stock.picking,carrier_tracking_ref:0
-#: field:stock.picking.in,carrier_tracking_ref:0
 #: field:stock.picking.out,carrier_tracking_ref:0
 msgid "Carrier Tracking Ref"
 msgstr ""
 
 #. module: delivery
-#: field:stock.picking,weight_net:0 field:stock.picking.in,weight_net:0
+#: field:stock.picking,weight_net:0
+#: field:stock.picking.in,weight_net:0
 #: field:stock.picking.out,weight_net:0
 msgid "Net Weight"
 msgstr "น้ำหนักสุทธิ"
@@ -195,7 +195,8 @@ msgid "Grid Lines"
 msgstr ""
 
 #. module: delivery
-#: view:delivery.carrier:0 view:delivery.grid:0
+#: view:delivery.carrier:0
+#: view:delivery.grid:0
 msgid "Grid definition"
 msgstr ""
 
@@ -203,12 +204,12 @@ msgstr ""
 #: code:addons/delivery/stock.py:90
 #, python-format
 msgid "Warning!"
-msgstr "คำเตือน!"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.grid.line,operator:0
 msgid "Operator"
-msgstr "ผู้ปฏิบัติการ"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_res_partner
@@ -223,19 +224,19 @@ msgstr "ใบสั่งขาย"
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking_out
 msgid "Delivery Orders"
-msgstr "คำสั่งซื้อที่ส่ง"
+msgstr ""
 
 #. module: delivery
 #: view:sale.order:0
 msgid ""
-"If you don't 'Add in Quote', the exact price will be computed when invoicing"
-" based on delivery order(s)."
+"If you don't 'Add in Quote', the exact price will be computed when invoicing "
+"based on delivery order(s)."
 msgstr ""
 
 #. module: delivery
 #: field:delivery.carrier,partner_id:0
 msgid "Transport Company"
-msgstr "บริษัทขนส่ง"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_grid
@@ -255,7 +256,7 @@ msgstr "ใบรายการรับ/จ่ายสินค้า"
 #. module: delivery
 #: field:delivery.grid.line,name:0
 msgid "Name"
-msgstr "ชื่อ"
+msgstr ""
 
 #. module: delivery
 #: help:delivery.carrier,free_if_more_than:0
@@ -297,17 +298,17 @@ msgstr ""
 #: code:addons/delivery/delivery.py:147
 #, python-format
 msgid "Default price"
-msgstr "ราคาเริ่มต้น"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.carrier,normal_price:0
 msgid "Normal Price"
-msgstr "ราคาปรกติ"
+msgstr ""
 
 #. module: delivery
 #: report:sale.shipping:0
 msgid "Order Date"
-msgstr "วันที่สั่งซื้อ"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.grid,name:0
@@ -316,19 +317,22 @@ msgstr ""
 
 #. module: delivery
 #: field:stock.picking,number_of_packages:0
-#: field:stock.picking.in,number_of_packages:0
 #: field:stock.picking.out,number_of_packages:0
 msgid "Number of Packages"
 msgstr ""
 
 #. module: delivery
 #: selection:delivery.grid.line,type:0
-#: selection:delivery.grid.line,variable_factor:0 report:sale.shipping:0
-#: view:stock.move:0 field:stock.move,weight:0 view:stock.picking:0
-#: field:stock.picking,weight:0 field:stock.picking.in,weight:0
+#: selection:delivery.grid.line,variable_factor:0
+#: report:sale.shipping:0
+#: view:stock.move:0
+#: field:stock.move,weight:0
+#: view:stock.picking:0
+#: field:stock.picking,weight:0
+#: field:stock.picking.in,weight:0
 #: field:stock.picking.out,weight:0
 msgid "Weight"
-msgstr "น้ำหนัก"
+msgstr ""
 
 #. module: delivery
 #: help:delivery.carrier,use_detailed_pricelist:0
@@ -344,19 +348,32 @@ msgid ""
 msgstr ""
 
 #. module: delivery
+#: code:addons/delivery/sale.py:54
+#, python-format
+msgid "No grid available !"
+msgstr ""
+
+#. module: delivery
 #: selection:delivery.grid.line,operator:0
 msgid ">="
-msgstr ">="
+msgstr ""
+
+#. module: delivery
+#: code:addons/delivery/sale.py:57
+#, python-format
+msgid "Order not in draft state !"
+msgstr ""
 
 #. module: delivery
 #: report:sale.shipping:0
 msgid "Lot"
-msgstr "ล็อต"
+msgstr ""
 
 #. module: delivery
-#: field:delivery.carrier,active:0 field:delivery.grid,active:0
+#: field:delivery.carrier,active:0
+#: field:delivery.grid,active:0
 msgid "Active"
-msgstr "เปิดใช้งาน"
+msgstr ""
 
 #. module: delivery
 #: report:sale.shipping:0
@@ -366,28 +383,23 @@ msgstr ""
 #. module: delivery
 #: field:delivery.carrier,product_id:0
 msgid "Delivery Product"
-msgstr "สินค้าจัดส่ง"
+msgstr ""
 
 #. module: delivery
 #: view:delivery.grid.line:0
 msgid "Condition"
-msgstr "เงื่อนไข"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.grid.line,standard_price:0
 msgid "Cost Price"
-msgstr "ราคาต้นทุน"
+msgstr ""
 
 #. module: delivery
-#: code:addons/delivery/sale.py:57
-#, python-format
-msgid "Order not in Draft State!"
-msgstr "คำสั่งไม่ได้อยู่ในสถานะร่าง!"
-
-#. module: delivery
-#: selection:delivery.grid.line,price_type:0 field:delivery.grid.line,type:0
+#: selection:delivery.grid.line,price_type:0
+#: field:delivery.grid.line,type:0
 msgid "Variable"
-msgstr "ตัวแปล"
+msgstr ""
 
 #. module: delivery
 #: help:res.partner,property_delivery_carrier:0
@@ -400,12 +412,16 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new deliver method. \n"
 "              </p><p>\n"
-"                Each carrier (e.g. UPS) can have several delivery methods (e.g.\n"
-"                UPS Express, UPS Standard) with a set of pricing rules attached\n"
+"                Each carrier (e.g. UPS) can have several delivery methods "
+"(e.g.\n"
+"                UPS Express, UPS Standard) with a set of pricing rules "
+"attached\n"
 "                to each method.\n"
 "              </p><p>\n"
-"                These methods allows to automaticaly compute the delivery price\n"
-"                according to your settings; on the sales order (based on the\n"
+"                These methods allows to automaticaly compute the delivery "
+"price\n"
+"                according to your settings; on the sales order (based on "
+"the\n"
 "                quotation) or the invoice (based on the delivery orders).\n"
 "              </p>\n"
 "            "
@@ -419,7 +435,7 @@ msgstr ""
 #. module: delivery
 #: report:sale.shipping:0
 msgid "Quantity"
-msgstr "จำนวน"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.grid,zip_from:0
@@ -433,12 +449,6 @@ msgid ""
 msgstr ""
 
 #. module: delivery
-#: code:addons/delivery/sale.py:54
-#, python-format
-msgid "No Grid Available!"
-msgstr ""
-
-#. module: delivery
 #: code:addons/delivery/delivery.py:136
 #, python-format
 msgid "Free if more than %.2f"
@@ -447,23 +457,22 @@ msgstr ""
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking_in
 msgid "Incoming Shipments"
-msgstr "การขนส่งขาเข้า"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.grid.line,operator:0
 msgid "<="
-msgstr "<="
+msgstr ""
 
 #. module: delivery
-#: help:stock.picking,weight_uom_id:0 help:stock.picking.in,weight_uom_id:0
-#: help:stock.picking.out,weight_uom_id:0
+#: help:stock.picking,weight_uom_id:0
 msgid "Unit of measurement for Weight"
-msgstr "หน่วยวัดสำหรับน้ำหนัก"
+msgstr ""
 
 #. module: delivery
 #: report:sale.shipping:0
 msgid "Description"
-msgstr "รายละเอียด"
+msgstr ""
 
 #. module: delivery
 #: help:delivery.carrier,active:0
@@ -479,21 +488,28 @@ msgid "Delivery Pricelist"
 msgstr ""
 
 #. module: delivery
-#: field:delivery.carrier,price:0 selection:delivery.grid.line,type:0
+#: field:delivery.carrier,price:0
+#: selection:delivery.grid.line,type:0
 #: selection:delivery.grid.line,variable_factor:0
 msgid "Price"
-msgstr "ราคา"
+msgstr ""
+
+#. module: delivery
+#: code:addons/delivery/sale.py:54
+#, python-format
+msgid "No grid matching for this carrier !"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.menu,name:delivery.menu_delivery
 msgid "Delivery"
-msgstr "การจัดส่ง"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.grid.line,type:0
 #: selection:delivery.grid.line,variable_factor:0
 msgid "Weight * Volume"
-msgstr "น้ำหนัก * ปริมาตร"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/stock.py:91
@@ -504,17 +520,19 @@ msgstr ""
 #. module: delivery
 #: view:delivery.carrier:0
 msgid "Pricing Information"
-msgstr "ข้อมูลการตั้งราคา"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.carrier,use_detailed_pricelist:0
 msgid "Advanced Pricing per Destination"
-msgstr "การกำหนดราคาขั้นสูงต่อปลายทาง"
+msgstr ""
 
 #. module: delivery
-#: view:delivery.carrier:0 field:delivery.grid,carrier_id:0
-#: model:ir.model,name:delivery.model_delivery_carrier report:sale.shipping:0
-#: field:stock.picking,carrier_id:0 field:stock.picking.in,carrier_id:0
+#: view:delivery.carrier:0
+#: field:delivery.grid,carrier_id:0
+#: model:ir.model,name:delivery.model_delivery_carrier
+#: report:sale.shipping:0
+#: field:stock.picking,carrier_id:0
 #: field:stock.picking.out,carrier_id:0
 msgid "Carrier"
 msgstr ""
@@ -529,7 +547,7 @@ msgstr ""
 #: code:addons/delivery/sale.py:57
 #, python-format
 msgid "The order state have to be draft to add delivery lines."
-msgstr "คำสั่งที่จะเพิ่มรายการจัดส่งต้องอยู่ในสถานะร่าง"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.carrier,grids_id:0
@@ -539,12 +557,12 @@ msgstr ""
 #. module: delivery
 #: field:delivery.grid,sequence:0
 msgid "Sequence"
-msgstr "กำหนดเลขที่เอกสาร"
+msgstr ""
 
 #. module: delivery
 #: field:delivery.grid.line,list_price:0
 msgid "Sale Price"
-msgstr "ลดราคา"
+msgstr ""
 
 #. module: delivery
 #: view:stock.picking.out:0
@@ -552,9 +570,10 @@ msgid "Print Delivery Order"
 msgstr ""
 
 #. module: delivery
-#: view:delivery.grid:0 field:delivery.grid,state_ids:0
+#: view:delivery.grid:0
+#: field:delivery.grid,state_ids:0
 msgid "States"
-msgstr "สถานะ"
+msgstr ""
 
 #. module: delivery
 #: help:stock.move,weight_uom_id:0
@@ -565,4 +584,4 @@ msgstr ""
 #. module: delivery
 #: field:delivery.grid.line,price_type:0
 msgid "Price Type"
-msgstr "ประเภทราคา"
+msgstr ""

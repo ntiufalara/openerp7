@@ -1,31 +1,30 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * hr_expense
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Ukrainian translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2016-05-25 16:16+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-7/language/uk/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:11+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 #: model:process.node,name:hr_expense.process_node_confirmedexpenses0
 msgid "Confirmed Expenses"
-msgstr "Підтверджені витрати"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:351
+#: code:addons/hr_expense/hr_expense.py:349
 #, python-format
 msgid ""
 "No purchase account found for the product %s (or for his category), please "
@@ -45,7 +44,7 @@ msgstr ""
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense approved"
-msgstr "Витрати затверджено"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,date_confirm:0
@@ -54,9 +53,10 @@ msgid "Confirmation Date"
 msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 view:hr.expense.report:0
+#: view:hr.expense.expense:0
+#: view:hr.expense.report:0
 msgid "Group By..."
-msgstr "Група"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.air_ticket_product_template
@@ -66,57 +66,61 @@ msgstr ""
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "Validated By"
-msgstr "Перевірено"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 field:hr.expense.expense,department_id:0
-#: view:hr.expense.report:0 field:hr.expense.report,department_id:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.expense,department_id:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,department_id:0
 msgid "Department"
-msgstr "Підрозділ"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "New Expense"
-msgstr "Нові витрати"
+msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.line,uom_id:0 view:product.product:0
+#: field:hr.expense.line,uom_id:0
+#: view:product.product:0
 msgid "Unit of Measure"
-msgstr "Одиниця виміру"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "March"
-msgstr "March"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_unread:0
 msgid "Unread Messages"
-msgstr "Непрочитані повідомлення"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Waiting Payment"
-msgstr "Очікує оплати"
+msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.expense,company_id:0 view:hr.expense.report:0
+#: field:hr.expense.expense,company_id:0
+#: view:hr.expense.report:0
 #: field:hr.expense.report,company_id:0
 msgid "Company"
-msgstr "Компанія"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Set to Draft"
-msgstr "Як чорновик"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "To Pay"
-msgstr "До сплати"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:170
+#: code:addons/hr_expense/hr_expense.py:172
 #, python-format
 msgid ""
 "No expense journal found. Please make sure you have a journal with type "
@@ -129,9 +133,10 @@ msgid "Expenses Statistics"
 msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,day:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,day:0
 msgid "Day"
-msgstr "День"
+msgstr ""
 
 #. module: hr_expense
 #: help:hr.expense.expense,date_valid:0
@@ -143,33 +148,33 @@ msgstr ""
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Notes"
-msgstr "Примітки"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_ids:0
 msgid "Messages"
-msgstr "Повідомлення"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:170
-#: code:addons/hr_expense/hr_expense.py:236
+#: code:addons/hr_expense/hr_expense.py:172
 #: code:addons/hr_expense/hr_expense.py:238
-#: code:addons/hr_expense/hr_expense.py:351
-#: code:addons/hr_expense/hr_expense.py:355
+#: code:addons/hr_expense/hr_expense.py:240
+#: code:addons/hr_expense/hr_expense.py:349
+#: code:addons/hr_expense/hr_expense.py:353
 #, python-format
 msgid "Error!"
-msgstr "Помилка!"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense refused"
-msgstr "Витрати відхилено"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_product
 #: view:product.product:0
 msgid "Products"
-msgstr "Продукти"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.report:0
@@ -179,7 +184,7 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
 msgid "Cancelled"
-msgstr "Скасований"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,note:hr_expense.process_node_refused0
@@ -194,7 +199,7 @@ msgstr ""
 #. module: hr_expense
 #: help:hr.expense.expense,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Якщо позначено, то повідомленя потребує вашої уваги"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
@@ -204,12 +209,12 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
 msgid "Accepted"
-msgstr "Прийнято"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.line,ref:0
 msgid "Reference"
-msgstr "Зв'язок"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
@@ -224,22 +229,23 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,nbr:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,nbr:0
 msgid "# of Lines"
-msgstr "К-сть рядків"
+msgstr ""
 
 #. module: hr_expense
 #: help:hr.expense.expense,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr "Містить загальну інформацію про діалоги в форматі html."
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:455
+#: code:addons/hr_expense/hr_expense.py:453
 #, python-format
 msgid "Warning"
-msgstr "Попередження"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
@@ -249,7 +255,7 @@ msgstr ""
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "Total:"
-msgstr "Разом:"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition,name:hr_expense.process_transition_refuseexpense0
@@ -259,15 +265,17 @@ msgstr ""
 #. module: hr_expense
 #: field:hr.expense.report,price_average:0
 msgid "Average Price"
-msgstr "Середня ціна"
+msgstr ""
 
 #. module: hr_expense
 #: help:hr.expense.expense,state:0
 msgid ""
 "When the expense request is created the status is 'Draft'.\n"
-" It is confirmed by the user and request is sent to admin, the status is 'Waiting Confirmation'.            \n"
+" It is confirmed by the user and request is sent to admin, the status is "
+"'Waiting Confirmation'.            \n"
 "If the admin accepts it, the status is 'Accepted'.\n"
-" If the accounting entries are made for the expense request, the status is 'Waiting Payment'."
+" If the accounting entries are made for the expense request, the status is "
+"'Waiting Payment'."
 msgstr ""
 
 #. module: hr_expense
@@ -292,16 +300,18 @@ msgid "Gives the sequence order when displaying a list of expense lines."
 msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.expense,state:0 view:hr.expense.report:0
+#: field:hr.expense.expense,state:0
+#: view:hr.expense.report:0
 #: field:hr.expense.report,state:0
 msgid "Status"
-msgstr "Статус"
+msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.line,analytic_account:0 view:hr.expense.report:0
+#: field:hr.expense.line,analytic_account:0
+#: view:hr.expense.report:0
 #: field:hr.expense.report,analytic_account:0
 msgid "Analytic account"
-msgstr "Аналітичний рахунок"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.report,date:0
@@ -311,33 +321,38 @@ msgstr ""
 #. module: hr_expense
 #: view:hr.expense.report:0
 msgid "Waiting"
-msgstr "Очікування"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_follower_ids:0
 msgid "Followers"
-msgstr "Хто слідкує"
+msgstr ""
 
 #. module: hr_expense
-#: report:hr.expense:0 view:hr.expense.expense:0
-#: field:hr.expense.expense,employee_id:0 view:hr.expense.report:0
+#: report:hr.expense:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.expense,employee_id:0
+#: view:hr.expense.report:0
 msgid "Employee"
-msgstr "Співробітник"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 selection:hr.expense.expense,state:0
+#: view:hr.expense.expense:0
+#: selection:hr.expense.expense,state:0
 msgid "New"
-msgstr "Новий"
+msgstr ""
 
 #. module: hr_expense
-#: report:hr.expense:0 field:hr.expense.report,product_qty:0
+#: report:hr.expense:0
+#: field:hr.expense.report,product_qty:0
 msgid "Qty"
-msgstr "К-сть"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,price_total:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,price_total:0
 msgid "Total Price"
-msgstr "Сума"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,note:hr_expense.process_node_reinvoicing0
@@ -345,21 +360,22 @@ msgid "Some costs may be reinvoices to the customer"
 msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:236
+#: code:addons/hr_expense/hr_expense.py:238
 #, python-format
 msgid "The employee must have a home address."
 msgstr ""
 
 #. module: hr_expense
-#: view:board.board:0 view:hr.expense.expense:0
+#: view:board.board:0
+#: view:hr.expense.expense:0
 #: model:ir.actions.act_window,name:hr_expense.action_my_expense
 msgid "My Expenses"
-msgstr "Мої витрати"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.report:0
 msgid "Creation Date"
-msgstr "Дата створення"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.report.xml,name:hr_expense.hr_expenses
@@ -377,19 +393,21 @@ msgid "Reimburse expense"
 msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.expense,journal_id:0 field:hr.expense.report,journal_id:0
+#: field:hr.expense.expense,journal_id:0
+#: field:hr.expense.report,journal_id:0
 msgid "Force Journal"
 msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,no_of_products:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,no_of_products:0
 msgid "# of Products"
-msgstr "К-сть товарів"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "July"
-msgstr "July"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition,note:hr_expense.process_transition_reimburseexpense0
@@ -397,29 +415,30 @@ msgid "After creating invoice, reimburse expenses"
 msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:119
+#: code:addons/hr_expense/hr_expense.py:121
 #, python-format
 msgid "Warning!"
-msgstr "Попередження!"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,name:hr_expense.process_node_reimbursement0
 msgid "Reimbursement"
-msgstr "Reimbursement"
+msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.expense,date_valid:0 field:hr.expense.report,date_valid:0
+#: field:hr.expense.expense,date_valid:0
+#: field:hr.expense.report,date_valid:0
 msgid "Validation Date"
-msgstr "Дата підтвердження"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:380
+#: code:addons/hr_expense/hr_expense.py:378
 #, python-format
 msgid "Expense Account Move"
 msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:238
+#: code:addons/hr_expense/hr_expense.py:240
 #, python-format
 msgid "The employee must have a payable account set on his home address."
 msgstr ""
@@ -429,17 +448,19 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_report_all
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_report_all
 msgid "Expenses Analysis"
-msgstr "Аналіз витрат"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 field:hr.expense.line,expense_id:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.line,expense_id:0
 #: model:ir.model,name:hr_expense.model_hr_expense_expense
 #: model:process.process,name:hr_expense.process_process_expenseprocess0
 msgid "Expense"
-msgstr "Витрати"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 field:hr.expense.expense,line_ids:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.expense,line_ids:0
 #: view:hr.expense.line:0
 msgid "Expense Lines"
 msgstr ""
@@ -452,24 +473,25 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "September"
-msgstr "September"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "December"
-msgstr "December"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 view:hr.expense.report:0
+#: view:hr.expense.expense:0
+#: view:hr.expense.report:0
 #: field:hr.expense.report,month:0
 msgid "Month"
-msgstr "Місяць"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,currency_id:0
 #: field:hr.expense.report,currency_id:0
 msgid "Currency"
-msgstr "Валюта"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,voucher_id:0
@@ -479,7 +501,7 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Waiting Approval"
-msgstr "Очікує затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,note:hr_expense.process_node_draftexpenses0
@@ -492,22 +514,22 @@ msgid "Free Notes"
 msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:455
+#: code:addons/hr_expense/hr_expense.py:453
 #, python-format
 msgid ""
-"Selected Unit of Measure does not belong to the same category as the product"
-" Unit of Measure"
-msgstr "Обрана одиниця виміру не належить до тієї ж категорії, що і одиниця виміру товару"
+"Selected Unit of Measure does not belong to the same category as the product "
+"Unit of Measure"
+msgstr ""
 
 #. module: hr_expense
 #: help:hr.expense.expense,journal_id:0
 msgid "The journal used when the expense is done."
-msgstr "Журнал для бухгалтерських проведень обліку витрат."
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,note:0
 msgid "Note"
-msgstr "Примітка"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition,note:hr_expense.process_transition_reimbursereinvoice0
@@ -517,15 +539,15 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
 msgid "Draft"
-msgstr "Чорновик"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Paid"
-msgstr "Оплачено"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:355
+#: code:addons/hr_expense/hr_expense.py:353
 #, python-format
 msgid ""
 "Please configure Default Expense account for Product purchase: "
@@ -540,7 +562,7 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "August"
-msgstr "August"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,note:hr_expense.process_node_approved0
@@ -548,14 +570,15 @@ msgid "The direct manager approves the sheet"
 msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 field:hr.expense.expense,amount:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.expense,amount:0
 msgid "Total Amount"
-msgstr "Разом"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "June"
-msgstr "June"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,name:hr_expense.process_node_draftexpenses0
@@ -565,7 +588,7 @@ msgstr ""
 #. module: hr_expense
 #: field:hr.expense.expense,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Стежить"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.product_normal_form_view_installer
@@ -573,25 +596,26 @@ msgid "Review Your Expenses Products"
 msgstr ""
 
 #. module: hr_expense
-#: report:hr.expense:0 field:hr.expense.expense,date:0
+#: report:hr.expense:0
+#: field:hr.expense.expense,date:0
 #: field:hr.expense.line,date_value:0
 msgid "Date"
-msgstr "Дата"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "November"
-msgstr "November"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.report:0
 msgid "Extended Filters..."
-msgstr "Extended Filters..."
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,user_id:0
 msgid "User"
-msgstr "Користувач"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
@@ -601,7 +625,7 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "October"
-msgstr "October"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.expense_all
@@ -609,8 +633,10 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to register new expenses. \n"
 "              </p><p>\n"
-"                OpenERP will ensure the whole process is followed; the expense\n"
-"                sheet is validated by manager(s), the employee is reimbursed\n"
+"                OpenERP will ensure the whole process is followed; the "
+"expense\n"
+"                sheet is validated by manager(s), the employee is "
+"reimbursed\n"
 "                from his expenses, some expenses must be re-invoiced to the\n"
 "                customers.\n"
 "              </p>\n"
@@ -625,32 +651,32 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "January"
-msgstr "January"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "HR Expenses"
-msgstr "ЛР Витрати"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_summary:0
 msgid "Summary"
-msgstr "Підсумок"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Items"
-msgstr "Проведення"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.car_travel_product_template
 msgid "Car Travel Expenses"
-msgstr "Витрати на переміщення автомобілем"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Submit to Manager"
-msgstr "Відправити керівнику"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.report:0
@@ -665,13 +691,13 @@ msgstr ""
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Expenses to Invoice"
-msgstr "Витрати до включення в рахунок"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,name:hr_expense.process_node_supplierinvoice0
 #: model:process.transition,name:hr_expense.process_transition_approveinvoice0
 msgid "Supplier Invoice"
-msgstr "Інвойс постачальника"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
@@ -681,7 +707,7 @@ msgstr ""
 #. module: hr_expense
 #: field:hr.expense.report,voucher_id:0
 msgid "Receipt"
-msgstr "Надходження"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.report:0
@@ -689,24 +715,27 @@ msgid "Approved Expenses"
 msgstr ""
 
 #. module: hr_expense
-#: report:hr.expense:0 field:hr.expense.line,unit_amount:0
+#: report:hr.expense:0
+#: field:hr.expense.line,unit_amount:0
 msgid "Unit Price"
-msgstr "Ціна за одиницю"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 selection:hr.expense.report,state:0
+#: view:hr.expense.report:0
+#: selection:hr.expense.report,state:0
 msgid "Done"
-msgstr "Завершено"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition.action,name:hr_expense.process_transition_action_supplierinvoice0
 msgid "Invoice"
-msgstr "Інвойс"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,year:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,year:0
 msgid "Year"
-msgstr "Рік"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition,name:hr_expense.process_transition_reimbursereinvoice0
@@ -742,7 +771,7 @@ msgstr ""
 #. module: hr_expense
 #: model:process.transition.action,name:hr_expense.process_transition_action_accept0
 msgid "Accept"
-msgstr "Прийняти"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
@@ -774,29 +803,33 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#: selection:hr.expense.expense,state:0 view:hr.expense.report:0
+#: selection:hr.expense.expense,state:0
+#: view:hr.expense.report:0
 #: model:mail.message.subtype,name:hr_expense.mt_expense_approved
 #: model:process.node,name:hr_expense.process_node_approved0
 msgid "Approved"
-msgstr "Ухвалений"
+msgstr ""
 
 #. module: hr_expense
-#: field:hr.expense.line,product_id:0 view:hr.expense.report:0
+#: field:hr.expense.line,product_id:0
+#: view:hr.expense.report:0
 #: field:hr.expense.report,product_id:0
 #: model:ir.model,name:hr_expense.model_product_product
 msgid "Product"
-msgstr "Продукт"
+msgstr ""
 
 #. module: hr_expense
-#: report:hr.expense:0 view:hr.expense.expense:0
-#: field:hr.expense.expense,name:0 field:hr.expense.line,description:0
+#: report:hr.expense:0
+#: view:hr.expense.expense:0
+#: field:hr.expense.expense,name:0
+#: field:hr.expense.line,description:0
 msgid "Description"
-msgstr "Опис"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "May"
-msgstr "May"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.line,unit_quantity:0
@@ -806,7 +839,7 @@ msgstr ""
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "Price"
-msgstr "Ціна"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.report,no_of_account:0
@@ -818,7 +851,7 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_expense.mt_expense_refused
 #: model:process.node,name:hr_expense.process_node_refused0
 msgid "Refused"
-msgstr "Відмовлено"
+msgstr ""
 
 #. module: hr_expense
 #: field:product.product,hr_expense_ok:0
@@ -828,20 +861,21 @@ msgstr ""
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_confirmed
 msgid "Expense confirmed, waiting confirmation"
-msgstr "Витрати підтверджено, очікується затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "Ref."
-msgstr "Пос."
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.report,employee_id:0
 msgid "Employee's Name"
-msgstr "Ім'я співробітника"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.report:0 field:hr.expense.report,user_id:0
+#: view:hr.expense.report:0
+#: field:hr.expense.report,user_id:0
 msgid "Validation User"
 msgstr ""
 
@@ -853,15 +887,15 @@ msgstr ""
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "February"
-msgstr "February"
+msgstr ""
 
 #. module: hr_expense
 #: report:hr.expense:0
 msgid "Name"
-msgstr "Назва"
+msgstr ""
 
 #. module: hr_expense
-#: code:addons/hr_expense/hr_expense.py:119
+#: code:addons/hr_expense/hr_expense.py:121
 #, python-format
 msgid "You can only delete draft expenses!"
 msgstr ""
@@ -879,12 +913,12 @@ msgstr ""
 #. module: hr_expense
 #: model:product.template,name:hr_expense.hotel_rent_product_template
 msgid "Hotel Accommodation"
-msgstr "Проживання в готелі"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense.report,month:0
 msgid "April"
-msgstr "April"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.line,name:0
@@ -894,17 +928,17 @@ msgstr ""
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Approve"
-msgstr "Затвердити"
+msgstr ""
 
 #. module: hr_expense
 #: help:hr.expense.expense,message_ids:0
 msgid "Messages and communication history"
-msgstr "Повідомлення та історія бесіди"
+msgstr ""
 
 #. module: hr_expense
 #: field:hr.expense.line,sequence:0
 msgid "Sequence"
-msgstr "Послідовність"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.transition,note:hr_expense.process_transition_confirmexpense0
@@ -918,7 +952,7 @@ msgstr ""
 #: model:ir.ui.menu,name:hr_expense.next_id_49
 #: model:product.category,name:hr_expense.cat_expense
 msgid "Expenses"
-msgstr "Витрати"
+msgstr ""
 
 #. module: hr_expense
 #: help:product.product,hr_expense_ok:0
@@ -928,19 +962,20 @@ msgstr ""
 #. module: hr_expense
 #: view:hr.expense.expense:0
 msgid "Accounting"
-msgstr "Бухгалтерський облік"
+msgstr ""
 
 #. module: hr_expense
 #: view:hr.expense.expense:0
 #: model:mail.message.subtype,name:hr_expense.mt_expense_confirmed
 msgid "To Approve"
-msgstr "Підтвердити"
+msgstr ""
 
 #. module: hr_expense
-#: view:hr.expense.expense:0 view:hr.expense.line:0
+#: view:hr.expense.expense:0
+#: view:hr.expense.line:0
 #: field:hr.expense.line,total_amount:0
 msgid "Total"
-msgstr "Разом"
+msgstr ""
 
 #. module: hr_expense
 #: model:process.node,name:hr_expense.process_node_reinvoicing0

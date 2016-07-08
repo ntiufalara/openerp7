@@ -1,22 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * point_of_sale
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Finnish translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2016-05-12 16:11+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-7/language/fi/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2014-02-18 15:44+0000\n"
+"Last-Translator: Harri Luuppala <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-02-19 05:40+0000\n"
+"X-Generator: Launchpad (build 16916)\n"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,product_nb:0
@@ -38,7 +37,8 @@ msgid ""
 "                touchscreen interface.\n"
 "              </p><p>\n"
 "                If you put a photo on the category, the layout of the\n"
-"                touchscreen interface will automatically. We suggest not to put\n"
+"                touchscreen interface will automatically. We suggest not to "
+"put\n"
 "                a photo on categories for small (1024x768) screens.\n"
 "              </p>\n"
 "            "
@@ -55,7 +55,8 @@ msgid "Computed Balance"
 msgstr "Vertailulaskelma"
 
 #. module: point_of_sale
-#: view:pos.session:0 view:report.pos.order:0
+#: view:pos.session:0
+#: view:report.pos.order:0
 msgid "Today"
 msgstr "Tänään"
 
@@ -72,7 +73,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poire_conference_product_template
 msgid "Conference pears"
-msgstr "Konferenssihedelmiä"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -82,18 +83,20 @@ msgid "&atilde;"
 msgstr ""
 
 #. module: point_of_sale
-#: field:pos.config,journal_id:0 field:pos.order,sale_journal:0
+#: field:pos.config,journal_id:0
+#: field:pos.order,sale_journal:0
 msgid "Sale Journal"
 msgstr "Myyntipäiväkirja"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_2l_product_template
 msgid "Spa Reine 2L"
-msgstr "Spa Reine 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_detail
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Details of Sales"
 msgstr "Myynnin yksityiskohdat"
 
@@ -103,14 +106,17 @@ msgid "You cannot have two cash controls in one Point Of Sale !"
 msgstr ""
 
 #. module: point_of_sale
-#: field:pos.payment.report.user,user_id:0 field:pos.sale.user,user_id:0
-#: field:pos.sales.user.today,user_id:0 view:report.pos.order:0
+#: field:pos.payment.report.user,user_id:0
+#: field:pos.sale.user,user_id:0
+#: field:pos.sales.user.today,user_id:0
+#: view:report.pos.order:0
 #: field:report.pos.order,user_id:0
 msgid "Salesperson"
 msgstr "Myyjä"
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,day:0
+#: view:report.pos.order:0
+#: field:report.pos.order,day:0
 msgid "Day"
 msgstr "Päivä"
 
@@ -123,10 +129,10 @@ msgstr "Tuotteen nimi"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pamplemousse_rouge_pamplemousse_product_template
 msgid "Red grapefruit"
-msgstr "Punainen greippi"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1392
+#: code:addons/point_of_sale/point_of_sale.py:1373
 #, python-format
 msgid "Assign a Custom EAN"
 msgstr ""
@@ -135,13 +141,17 @@ msgstr ""
 #: view:pos.session.opening:0
 msgid ""
 "You may have to control your cash amount in your cash register, before\n"
-"                          being able to start selling through the touchscreen interface."
+"                          being able to start selling through the "
+"touchscreen interface."
 msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 field:pos.box.entries,amount:0
-#: report:pos.invoice:0 field:pos.make.payment,amount:0
-#: report:pos.user.product:0 field:report.transaction.pos,amount:0
+#: report:account.statement:0
+#: field:pos.box.entries,amount:0
+#: report:pos.invoice:0
+#: field:pos.make.payment,amount:0
+#: report:pos.user.product:0
+#: field:report.transaction.pos,amount:0
 msgid "Amount"
 msgstr "Summa"
 
@@ -149,7 +159,7 @@ msgstr "Summa"
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_out
 #: view:pos.session:0
 msgid "Take Money Out"
-msgstr "Ota rahaa ulos"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:105
@@ -175,8 +185,9 @@ msgid "Reference"
 msgstr "Viite"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1085
-#: code:addons/point_of_sale/point_of_sale.py:1102 report:pos.invoice:0
+#: code:addons/point_of_sale/point_of_sale.py:1066
+#: code:addons/point_of_sale/point_of_sale.py:1083
+#: report:pos.invoice:0
 #: report:pos.lines:0
 #, python-format
 msgid "Tax"
@@ -202,7 +213,7 @@ msgstr "Punnitus"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fenouil_fenouil_product_template
 msgid "Fennel"
-msgstr "Fenkoli"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -212,10 +223,10 @@ msgid "Help needed"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:772
+#: code:addons/point_of_sale/point_of_sale.py:760
 #, python-format
 msgid "Configuration Error!"
-msgstr "Konfiguraatiovirhe!"
+msgstr ""
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -230,19 +241,21 @@ msgid "Closing Cash Control"
 msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total of the day"
 msgstr "Päivän loppusumma"
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,average_price:0
+#: view:report.pos.order:0
+#: field:report.pos.order,average_price:0
 msgid "Average Price"
 msgstr "Keskimääräinen hinta"
 
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Accounting Information"
-msgstr "Kirjanpitotiedot"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -254,7 +267,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.session.opening,show_config:0
 msgid "Show Config"
-msgstr "Näytä konfiguraatio"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.lines:0
@@ -262,7 +275,8 @@ msgid "Disc. (%)"
 msgstr "Ale. (%)"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total discount"
 msgstr "Alennus yhteensä"
 
@@ -271,20 +285,20 @@ msgstr "Alennus yhteensä"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:441
 #, python-format
 msgid "Debug Window"
-msgstr "Virheenjäljitysikkuna"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:241
-#: code:addons/point_of_sale/static/src/xml/pos.xml:618
+#: code:addons/point_of_sale/static/src/xml/pos.xml:613
 #, python-format
 msgid "Change:"
-msgstr "Vaihtorahat:"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_2l_product_template
 msgid "Coca-Cola Regular 2L"
-msgstr "Coca-Cola 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_month
@@ -294,11 +308,12 @@ msgstr "Myynnit kuukausittain"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.soda_orange
 msgid "Orange"
-msgstr "Oranssi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_today
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 msgid "Sales by User"
 msgstr "Myynnit käyttäjittäin"
 
@@ -308,20 +323,21 @@ msgid "Disc.(%)"
 msgstr "Alennus (%)"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1050
+#: code:addons/point_of_sale/point_of_sale.py:1031
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
-msgstr "Määrittele myyntitili tälle tuotteelle: \"%s\" (id:%d)."
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,price_total:0
+#: view:report.pos.order:0
+#: field:report.pos.order,price_total:0
 msgid "Total Price"
 msgstr "Hinta Yhteensä"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.leffe_brune_33cl_product_template
 msgid "Leffe Brune 33cl"
-msgstr "Leffe Brune 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.config,iface_self_checkout:0
@@ -339,18 +355,18 @@ msgstr "Myyntiraportti"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.beverage
 msgid "Beverages"
-msgstr "Juomat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_session_opening
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_session_opening
 msgid "Your Session"
-msgstr "Istuntosi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.stella_50cl_product_template
 msgid "Stella Artois 50cl"
-msgstr "Stella Artois 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.details:0
@@ -360,22 +376,17 @@ msgstr "Päivämäärät"
 #. module: point_of_sale
 #: field:pos.category,parent_id:0
 msgid "Parent Category"
-msgstr "Ylempi ryhmä"
-
-#. module: point_of_sale
-#: field:pos.details,user_ids:0
-msgid "Salespeople"
-msgstr "Myyntihenkilöstö"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:482
 #, python-format
 msgid "Open Cashbox"
-msgstr "Avaa kassakone"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:551
+#: code:addons/point_of_sale/point_of_sale.py:536
 #, python-format
 msgid ""
 "You cannot change the partner of a POS order for which an invoice has "
@@ -385,7 +396,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Select your Point of Sale"
-msgstr "Valitse kassapääte"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.sales.by.margin.pos,total:0
@@ -394,14 +405,15 @@ msgid "Margin"
 msgstr "Kate"
 
 #. module: point_of_sale
-#: field:pos.discount,discount:0 field:pos.order.line,discount:0
+#: field:pos.discount,discount:0
+#: field:pos.order.line,discount:0
 msgid "Discount (%)"
 msgstr "Alennus (%)"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_speciale_product_template
 msgid "Dr. Oetker Ristorante Speciale"
-msgstr "Dr. Oetker Ristorante Speciale"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -423,7 +435,7 @@ msgid "Hardware Events"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:302
+#: code:addons/point_of_sale/point_of_sale.py:301
 #, python-format
 msgid "You should assign a Point of Sale to your session."
 msgstr ""
@@ -436,34 +448,34 @@ msgstr "Lukumäärä yht."
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:458
-#: code:addons/point_of_sale/static/src/js/screens.js:486
-#: code:addons/point_of_sale/static/src/js/screens.js:677
-#: code:addons/point_of_sale/static/src/js/screens.js:873
+#: code:addons/point_of_sale/static/src/js/screens.js:487
+#: code:addons/point_of_sale/static/src/js/screens.js:678
+#: code:addons/point_of_sale/static/src/js/screens.js:874
 #, python-format
 msgid "Back"
-msgstr "Takaisin"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_33cl_product_template
 msgid "Fanta Orange 33cl"
-msgstr "Fanta appelsiini 33cl"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:424
+#: code:addons/point_of_sale/point_of_sale.py:423
 #, python-format
 msgid ""
 "Please set your profit and loss accounts on your payment method '%s'. This "
-"will allow OpenERP to post the difference of %.2f in your ending balance. To"
-" close this session, you can update the 'Closing Cash Control' to avoid any "
+"will allow OpenERP to post the difference of %.2f in your ending balance. To "
+"close this session, you can update the 'Closing Cash Control' to avoid any "
 "difference."
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:316
-#: code:addons/point_of_sale/point_of_sale.py:526
+#: code:addons/point_of_sale/point_of_sale.py:315
+#: code:addons/point_of_sale/point_of_sale.py:514
 #, python-format
 msgid "error!"
-msgstr "virhe!"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_month
@@ -480,34 +492,36 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid ") is \""
-msgstr ") on \""
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.Onions_product_template
 msgid "Onions"
-msgstr "Sipulit"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Validate & Open Session"
-msgstr "Validoi ja avaa istunto"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:99 selection:pos.session,state:0
+#: code:addons/point_of_sale/point_of_sale.py:99
+#: selection:pos.session,state:0
 #: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "In Progress"
-msgstr "Kesken"
+msgstr ""
 
 #. module: point_of_sale
-#: view:pos.session:0 field:pos.session,opening_details_ids:0
+#: view:pos.session:0
+#: field:pos.session,opening_details_ids:0
 msgid "Opening Cash Control"
 msgstr ""
 
 #. module: point_of_sale
 #: help:res.users,ean13:0
 msgid "BarCode"
-msgstr "Viivakoodi"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.category,image_medium:0
@@ -515,12 +529,12 @@ msgid ""
 "Medium-sized image of the category. It is automatically resized as a "
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
-msgstr "Keskikokoinen kuva tälle kategorialle. Kuvan koko muutetaan automaattisesti kokoon 128x128px, säilyttäen kuvan mittasuhteet. Käytä tätä kenttää lomakenäkymissä ja tietyissä Kanban -näkymissä."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Open Session"
-msgstr "Avaa istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_of_sale
@@ -532,12 +546,12 @@ msgstr "Päivittäiset toiminnot"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:42
 #, python-format
 msgid "Google Chrome"
-msgstr "Google Chrome"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.sparkling_water
 msgid "Sparkling Water"
-msgstr "Porevesi"
+msgstr ""
 
 #. module: point_of_sale
 #: view:account.bank.statement:0
@@ -545,12 +559,17 @@ msgid "Search Cash Statements"
 msgstr "Etsi käteiskirjanpitoa"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 field:pos.config,state:0 view:pos.order:0
-#: field:pos.order,state:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 field:pos.session,state:0
-#: field:pos.session.opening,pos_state_str:0 field:report.pos.order,state:0
+#: view:account.bank.statement:0
+#: field:pos.config,state:0
+#: view:pos.order:0
+#: field:pos.order,state:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: field:pos.session,state:0
+#: field:pos.session.opening,pos_state_str:0
+#: field:report.pos.order,state:0
 msgid "Status"
-msgstr "Tila"
+msgstr ""
 
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
@@ -560,7 +579,7 @@ msgstr "Elokuu"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_lemon_33cl_product_template
 msgid "Pepsi Max Cool Lemon 33cl"
-msgstr "Pepsi Max Cool Lemon 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
@@ -587,12 +606,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_50cl_product_template
 msgid "Fanta Orange 50cl"
-msgstr "Fanta appelsiini 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.category,child_id:0
 msgid "Children Categories"
-msgstr "Alikategoriat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_session
@@ -600,32 +619,37 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to start a new session.\n"
 "              </p><p>\n"
-"                A session is a period of time, usually one day, during which\n"
-"                you sell through the point of sale. The user has to check the\n"
-"                currencies in your cash registers at the beginning and the end\n"
+"                A session is a period of time, usually one day, during "
+"which\n"
+"                you sell through the point of sale. The user has to check "
+"the\n"
+"                currencies in your cash registers at the beginning and the "
+"end\n"
 "                of each session.\n"
 "              </p><p>\n"
-"                Note that you should better to use the menu <i>Your Session</i>\n"
+"                Note that you should better to use the menu <i>Your "
+"Session</i>\n"
 "                to quickly open a new session.\n"
 "              </p>\n"
 "            "
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:909
+#: code:addons/point_of_sale/point_of_sale.py:888
 #, python-format
 msgid "Customer Invoice"
-msgstr "Asiakaslasku"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid ""
-"You can continue sales from the touchscreen interface by clicking on \"Start"
-" Selling\" or close the cash register session."
+"You can continue sales from the touchscreen interface by clicking on \"Start "
+"Selling\" or close the cash register session."
 msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,stop_at:0
 msgid "Closing Date"
 msgstr "Päättymispäivämäärä"
@@ -643,25 +667,28 @@ msgstr "Lokakuu"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_1l_product_template
 msgid "Coca-Cola Light 1L"
-msgstr "Coca-Cola Light 1L"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Summary"
 msgstr "Yhteenveto"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_naturel_45g_product_template
 msgid "Lays Natural 45g"
-msgstr "Lays Natural 45g"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_50cl_product_template
 msgid "Chaudfontaine 50cl"
-msgstr "Chaudfontaine 50cl"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,qty:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: field:pos.order.line,qty:0
 #: field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 msgid "Quantity"
@@ -670,14 +697,14 @@ msgstr "Määrä"
 #. module: point_of_sale
 #: field:pos.order.line,name:0
 msgid "Line No"
-msgstr "Rivin nro"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:453
 #, python-format
 msgid "Set Weight"
-msgstr "Aseta paino"
+msgstr ""
 
 #. module: point_of_sale
 #: view:account.bank.statement:0
@@ -709,12 +736,12 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:457
 #, python-format
 msgid "Barcode Scanner"
-msgstr "Viivakoodinlukija"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pomme_granny_smith_product_template
 msgid "Granny Smith apples"
-msgstr "Granny Smith -omenat"
+msgstr ""
 
 #. module: point_of_sale
 #: help:product.product,expense_pdt:0
@@ -724,7 +751,8 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,total_discount:0
+#: view:report.pos.order:0
+#: field:report.pos.order,total_discount:0
 msgid "Total Discount"
 msgstr "Alennus yhteensä"
 
@@ -733,17 +761,20 @@ msgstr "Alennus yhteensä"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:39
 #, python-format
 msgid ""
-"The Point of Sale is not supported by Microsoft Internet Explorer. Please use\n"
+"The Point of Sale is not supported by Microsoft Internet Explorer. Please "
+"use\n"
 "                        a modern browser like"
 msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Click to start a session."
-msgstr "Klikkaa aloittaaksesi istunnon."
+msgstr ""
 
 #. module: point_of_sale
-#: view:pos.details:0 view:pos.payment.report:0 view:pos.payment.report.user:0
+#: view:pos.details:0
+#: view:pos.payment.report:0
+#: view:pos.payment.report.user:0
 #: view:pos.sale.user:0
 msgid "Print Report"
 msgstr "Tulosta raportti"
@@ -751,17 +782,12 @@ msgstr "Tulosta raportti"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_bolognese_product_template
 msgid "Dr. Oetker Ristorante Bolognese"
-msgstr "Dr. Oetker Ristorante Bolognese"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pizza
 msgid "Pizza"
-msgstr "Pizza"
-
-#. module: point_of_sale
-#: field:pos.order,pos_reference:0
-msgid "Receipt Ref"
-msgstr "Kuittiviite"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -778,7 +804,7 @@ msgstr "Lisää tuote"
 #. module: point_of_sale
 #: field:pos.config,name:0
 msgid "Point of Sale Name"
-msgstr "Kassapäätteen nimi"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.transaction.pos,invoice_am:0
@@ -788,7 +814,7 @@ msgstr "Laskun määrä"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.coke
 msgid "Coke"
-msgstr "Cokis"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -797,7 +823,7 @@ msgstr "Puh.:"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/widgets.js:995
+#: code:addons/point_of_sale/static/src/js/widgets.js:981
 #, python-format
 msgid "Self-Checkout"
 msgstr ""
@@ -822,7 +848,8 @@ msgid "Post All Orders"
 msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,cash_register_balance_end_real:0
 msgid "Ending Balance"
 msgstr "Loppusaldo"
@@ -843,12 +870,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_50cl_product_template
 msgid "Pepsi Max 50cl"
-msgstr "Pepsi Max 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.san_pellegrino_1l_product_template
 msgid "San Pellegrino 1L"
-msgstr "San Pellegrino 1L"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:49
@@ -858,34 +885,34 @@ msgid ""
 "sale by reusing existing bank and cash through \"Accounting / Configuration "
 "/ Journals / Journals\". Select a journal and check the field \"PoS Payment "
 "Method\" from the \"Point of Sale\" tab. You can also create new payment "
-"methods directly from menu \"PoS Backend / Configuration / Payment "
-"Methods\"."
+"methods directly from menu \"PoS Backend / Configuration / Payment Methods\"."
 msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.rouges_noyau_fruits
 msgid "Berries"
-msgstr "Marjat"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.ean_wizard:0
 msgid "Ean13 Generator"
-msgstr "EAN-13 luonti"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_1l_product_template
 msgid "Spa Reine 1L"
-msgstr "Spa Reine 1L"
+msgstr ""
 
 #. module: point_of_sale
-#: constraint:res.partner:0 constraint:res.users:0
+#: constraint:res.partner:0
+#: constraint:res.users:0
 msgid "Error: Invalid ean code"
 msgstr "Virhe: Väärä EAN-koodi"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.legumes_racine
 msgid "Root vegetables"
-msgstr "Juurikkaat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_open_statement
@@ -895,17 +922,19 @@ msgid "Open Statements"
 msgstr "Avaa tiliotteet"
 
 #. module: point_of_sale
-#: field:pos.details,date_end:0 field:pos.sale.user,date_end:0
+#: field:pos.details,date_end:0
+#: field:pos.sale.user,date_end:0
 msgid "Date End"
 msgstr "Loppupäiväys"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pomme_jonagold_product_template
 msgid "Jonagold apples"
-msgstr "Jonagold-omenat"
+msgstr ""
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 report:account.statement:0
+#: view:account.bank.statement:0
+#: report:account.statement:0
 #: report:all.closed.cashbox.of.the.day:0
 #: model:ir.model,name:point_of_sale.model_account_journal
 #: field:report.pos.order,journal_id:0
@@ -915,7 +944,7 @@ msgstr "Päiväkirja"
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Statements"
-msgstr "Tiliotteet"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.details:0
@@ -925,12 +954,13 @@ msgstr "Myynti yht (liikevaihto)"
 #. module: point_of_sale
 #: help:pos.config,group_by:0
 msgid ""
-"Check this if you want to group the Journal Items by Product while closing a"
-" Session"
-msgstr "Valitse tämä jos haluat ryhmitellä päiväkirjamerkinnät tuotteittain istuntoa suljettaessa"
+"Check this if you want to group the Journal Items by Product while closing a "
+"Session"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total paid"
 msgstr "Yhteensä maksettu"
 
@@ -948,22 +978,22 @@ msgstr ""
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:80
 #, python-format
 msgid "List of Cash Registers"
-msgstr "Lista kassakoneista"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.maes_50cl_product_template
 msgid "Maes 50cl"
-msgstr "Maes 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
 msgid "Not Invoiced"
-msgstr "Ei laskutettu"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_pickles_250g_product_template
 msgid "250g Lays Pickels"
-msgstr "250g Lays Pickels"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.session.opening,pos_session_id:0
@@ -982,65 +1012,67 @@ msgid "User's Product"
 msgstr "Käyttäjän tuote"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1023
+#: code:addons/point_of_sale/point_of_sale.py:1007
 #, python-format
 msgid "The POS order must have lines when calling this method"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1192
+#: code:addons/point_of_sale/point_of_sale.py:1173
 #, python-format
 msgid ""
 "You have to select a pricelist in the sale form !\n"
 "Please set one before choosing a product."
-msgstr "Sinun pitää valita hinnasto myyntilomakkeella !\nValitse ensin se ennenkuin valitset tuotteen."
+msgstr ""
+"Sinun pitää valita hinnasto myyntilomakkeella !\n"
+"Valitse ensin se ennenkuin valitset tuotteen."
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_2l_product_template
 msgid "Fanta Orange 2L"
-msgstr "Fanta appelsiini 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.perrier_1l_product_template
 msgid "Perrier 1L"
-msgstr "Perrier 1L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_33cl_product_template
 msgid "Spa Reine 33cl"
-msgstr "Spa Reine 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_discount
 msgid "Add a Global Discount"
-msgstr "Lisää yleisalennus (tulee mukaan kaikkiin tilauksiin)."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.config:0
 msgid "Journals"
-msgstr "Päiväkirjat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_prosciutto_product_template
 msgid "Dr. Oetker Ristorante Prosciutto"
-msgstr "Dr. Oetker Ristorante Prosciutto"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_light_paprika_170g_product_template
 #: model:product.template,name:point_of_sale.lays_paprika_170g_product_template
 msgid "Lays Light Paprika 170g"
-msgstr "Lays Light Paprika 170g"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_lemon_50cl_product_template
 msgid "Coca-Cola Light Lemon 50cl"
-msgstr "Coca-Cola Light Lemon 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/point_of_sale.py:532
-#: code:addons/point_of_sale/static/src/xml/pos.xml:694
-#: code:addons/point_of_sale/static/src/xml/pos.xml:749
+#: code:addons/point_of_sale/point_of_sale.py:520
+#: code:addons/point_of_sale/static/src/xml/pos.xml:689
+#: code:addons/point_of_sale/static/src/xml/pos.xml:744
 #, python-format
 msgid "return"
 msgstr ""
@@ -1048,19 +1080,19 @@ msgstr ""
 #. module: point_of_sale
 #: view:product.product:0
 msgid "Set a Custom EAN"
-msgstr "Valitse mukautettu EAN"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:235
 #, python-format
 msgid "Remaining:"
-msgstr "Jäljellä:"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.legumes
 msgid "Fresh vegetables"
-msgstr "Tuorevihanneksia"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -1075,7 +1107,8 @@ msgid "Scan Item Success"
 msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,cash_register_balance_start:0
 msgid "Starting Balance"
 msgstr "Alkusaldo"
@@ -1086,14 +1119,6 @@ msgid "Oven Baked Lays Natural 150g"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:477
-#, python-format
-msgid ""
-"You cannot use the session of another users. This session is owned by %s. "
-"Please first close this one to use this point of sale."
-msgstr "Et voi käyttää samaa istuntoa muiden käyttäjien kanssa. Tämän istunnon omistaa %s. Sulje ensin tämä käyttääksesi myyntipäätettä."
-
-#. module: point_of_sale
 #: sql_constraint:pos.session:0
 msgid "The name of this POS Session must be unique !"
 msgstr ""
@@ -1101,22 +1126,22 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Opening Subtotal"
-msgstr "Avaava välisaldo"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "payment method."
-msgstr "maksutapa."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Re-Print"
-msgstr "Uudelleentulosta"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chimay_bleu_75cl_product_template
 msgid "Chimay Bleu 75cl"
-msgstr "Chimay Bleu 75cl"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.payment.report.user:0
@@ -1129,13 +1154,15 @@ msgstr "Käyttäjän maksu"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:285
 #: code:addons/point_of_sale/wizard/pos_payment.py:79
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment
-#: report:pos.details:0 view:pos.order:0
+#: report:pos.details:0
+#: view:pos.order:0
 #, python-format
 msgid "Payment"
 msgstr "Maksu"
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,nbr:0
+#: view:report.pos.order:0
+#: field:report.pos.order,nbr:0
 msgid "# of Lines"
 msgstr "Rivien lukumäärä"
 
@@ -1149,12 +1176,12 @@ msgstr "Alennus"
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "(update)"
-msgstr "(päivitys)"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_vanille_2,5l_product_template
 msgid "IJsboerke Vanilla 2.5L"
-msgstr "IJsboerke Vanilla 2.5L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_details
@@ -1165,11 +1192,11 @@ msgstr "Myynnin yksityiskohdat"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.evian_2l_product_template
 msgid "2L Evian"
-msgstr "2L Evian"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:374
-#: code:addons/point_of_sale/point_of_sale.py:481
+#: code:addons/point_of_sale/point_of_sale.py:373
+#: code:addons/point_of_sale/point_of_sale.py:474
 #: code:addons/point_of_sale/wizard/pos_session_opening.py:33
 #, python-format
 msgid "Start Point Of Sale"
@@ -1178,7 +1205,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pils
 msgid "Pils"
-msgstr "Pils"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.session,cash_register_balance_end_real:0
@@ -1197,28 +1224,27 @@ msgstr "Myynti yhteensä"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:746
+#: code:addons/point_of_sale/static/src/xml/pos.xml:741
 #, python-format
 msgid "ABC"
-msgstr "ABC"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:811
+#: code:addons/point_of_sale/static/src/js/screens.js:812
 #, python-format
 msgid "Print"
-msgstr "Tulosta"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_dame_blanche_2,5l_product_template
 msgid "IJsboerke 2.5L White Lady"
-msgstr "IJsboerke 2.5L White Lady"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/wizard/pos_open_statement.py:49
-#, python-format
-msgid "No Cash Register Defined!"
-msgstr "Kassakonetta ei ole määritetty!"
+#: field:pos.order,lines:0
+msgid "Order Lines"
+msgstr "Tilausrivit"
 
 #. module: point_of_sale
 #: view:report.transaction.pos:0
@@ -1228,7 +1254,7 @@ msgstr "Kauppa yhteensä"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_petillante_50cl_product_template
 msgid "Chaudfontaine Petillante 50cl"
-msgstr "Chaudfontaine Petillante 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1271,14 +1297,17 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0
+#: view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS "
 msgstr "Kassapääte "
 
 #. module: point_of_sale
-#: report:account.statement:0 report:pos.user.product:0
+#: report:account.statement:0
+#: report:pos.user.product:0
 msgid "Total :"
 msgstr "Yhteensä:"
 
@@ -1290,7 +1319,7 @@ msgstr "Omat Myynnit"
 #. module: point_of_sale
 #: view:pos.config:0
 msgid "Set to Deprecated"
-msgstr "Aseta vanhentuneeksi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.limon_product_template
@@ -1303,7 +1332,8 @@ msgid "Pricelist"
 msgstr "Hinnasto"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total invoiced"
 msgstr "Laskutettu yhteensä"
 
@@ -1311,10 +1341,11 @@ msgstr "Laskutettu yhteensä"
 #: model:ir.model,name:point_of_sale.model_pos_category
 #: field:product.product,pos_categ_id:0
 msgid "Point of Sale Category"
-msgstr "Kassapäätteen kategoria"
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,product_qty:0
+#: view:report.pos.order:0
+#: field:report.pos.order,product_qty:0
 msgid "# of Qty"
 msgstr "Määrä"
 
@@ -1340,10 +1371,11 @@ msgstr "Myynnit katteittain kuukausittain"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poivron_jaunes_product_template
 msgid "Yellow Peppers"
-msgstr "Keltaiset paprikat"
+msgstr ""
 
 #. module: point_of_sale
-#: view:pos.order:0 field:pos.order,date_order:0
+#: view:pos.order:0
+#: field:pos.order,date_order:0
 #: field:report.sales.by.margin.pos,date_order:0
 #: field:report.sales.by.margin.pos.month,date_order:0
 #: field:report.sales.by.user.pos,date_order:0
@@ -1354,12 +1386,12 @@ msgstr "Tilauksen päivämäärä"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.stella_33cl_product_template
 msgid "Stella Artois 33cl"
-msgstr "Stella Artois 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_naturel_300g_product_template
 msgid "Lays Natural XXL 300g"
-msgstr "Lays Natural XXL 300g"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1374,7 +1406,7 @@ msgid "Today's Closed Cashbox"
 msgstr "Päivän suljettu kassakone"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:936
+#: code:addons/point_of_sale/point_of_sale.py:920
 #, python-format
 msgid "Selected orders do not have the same session!"
 msgstr ""
@@ -1400,7 +1432,8 @@ msgid "September"
 msgstr "Syyskuu"
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,start_at:0
 msgid "Opening Date"
 msgstr "Avauspäivä"
@@ -1409,14 +1442,14 @@ msgstr "Avauspäivä"
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_session
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_session_all
 msgid "All Sessions"
-msgstr "Kaikki istunnot"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:668
+#: code:addons/point_of_sale/static/src/xml/pos.xml:663
 #, python-format
 msgid "tab"
-msgstr "tab"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.lines:0
@@ -1433,18 +1466,18 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_2l_product_template
 msgid "Coca-Cola Light 2L"
-msgstr "Coca-Cola Light 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_funghi_product_template
 msgid "Dr. Oetker Ristorante Funghi"
-msgstr "Dr. Oetker Ristorante Funghi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.pos_category_action
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_category
 msgid "Product Categories"
-msgstr "Tuoteryhmät"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
@@ -1461,12 +1494,12 @@ msgstr "Ale."
 #: code:addons/point_of_sale/static/src/xml/pos.xml:467
 #, python-format
 msgid "Invalid Ean"
-msgstr "Virheellinen EAN"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lindemans_kriek_37,5cl_product_template
 msgid "Lindemans Kriek 37.5cl"
-msgstr "Lindemans Kriek 37.5cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.config:0
@@ -1476,7 +1509,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_33cl_product_template
 msgid "Coca-Cola Zero 33cl"
-msgstr "Coca-Cola Zero 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1511,7 +1544,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:595
+#: code:addons/point_of_sale/static/src/xml/pos.xml:590
 #, python-format
 msgid "Tax:"
 msgstr ""
@@ -1519,7 +1552,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "+ Transactions"
-msgstr "Tapahtumat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_discount
@@ -1528,9 +1561,13 @@ msgid "Apply Discount"
 msgstr "Laske alennus"
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
-#: field:pos.box.entries,user_id:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 view:pos.session:0 report:pos.user.product:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
+#: field:pos.box.entries,user_id:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: view:pos.session:0
+#: report:pos.user.product:0
 #: field:report.sales.by.margin.pos,user_id:0
 #: field:report.sales.by.margin.pos.month,user_id:0
 #: field:report.sales.by.user.pos,user_id:0
@@ -1541,7 +1578,7 @@ msgid "User"
 msgstr "Käyttäjä"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:414
+#: code:addons/point_of_sale/point_of_sale.py:413
 #, python-format
 msgid ""
 "The type of the journal for your payment method should be bank or cash "
@@ -1557,17 +1594,17 @@ msgstr ""
 #. module: point_of_sale
 #: field:product.product,available_in_pos:0
 msgid "Available in the Point of Sale"
-msgstr "Saatavilla kassapäätteestä"
+msgstr ""
 
 #. module: point_of_sale
 #: selection:pos.config,state:0
 msgid "Deprecated"
-msgstr "Vanhentunut"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_decaf_33cl_product_template
 msgid "Coca-Cola Light 33cl Decaf"
-msgstr "Coca-Cola Light 33cl kofeiiniton"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1582,31 +1619,32 @@ msgid "transaction for the pos"
 msgstr "Kassapäätteen tapahtuma"
 
 #. module: point_of_sale
-#: report:pos.details:0 field:report.transaction.pos,date_create:0
+#: report:pos.details:0
+#: field:report.transaction.pos,date_create:0
 msgid "Date"
 msgstr "Päivämäärä"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_box_entries
 msgid "Pos Box Entries"
-msgstr "Kassapääte"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.boon_framboise_37,5cl_product_template
 msgid "Boon Framboise 37.5cl"
-msgstr "Boon Framboise 37.5cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_config
 msgid "pos.config"
-msgstr "pos.config"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.ean_wizard:0
 msgid ""
 "Enter a reference, it will be converted\n"
 "                        automatically to a valid EAN number."
-msgstr "Syötä viite, se muutetaan automaattisesti oikeanmuotoiseksi EAN numeroksi."
+msgstr ""
 
 #. module: point_of_sale
 #: field:product.product,expense_pdt:0
@@ -1628,17 +1666,25 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poivron_verts_product_template
 msgid "Green Peppers"
-msgstr "Vihreät paprikat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.timmermans_faro_37,5cl_product_template
 msgid "Timmermans Faro 37.5cl"
-msgstr "Timmermans Faro 37.5cl"
+msgstr ""
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:410
+#, python-format
+msgid ""
+"Your ending balance is too different from the theorical cash closing (%.2f), "
+"the maximum allowed is: %.2f. You can contact your manager to force it."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Validate Closing & Post Entries"
-msgstr "Vahvista sulkeminen ja rivit"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.transaction.pos,no_trans:0
@@ -1646,7 +1692,7 @@ msgid "Number of Transaction"
 msgstr "Tapahtuman numero"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:771
+#: code:addons/point_of_sale/point_of_sale.py:759
 #, python-format
 msgid ""
 "There is no receivable account defined to make payment for the partner: "
@@ -1654,16 +1700,24 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
-#: view:pos.config:0 selection:pos.config,state:0
+#: view:pos.config:0
+#: selection:pos.config,state:0
 msgid "Inactive"
-msgstr "Passiivinen"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:313 view:pos.confirm:0
-#: view:pos.details:0 view:pos.discount:0 view:pos.ean_wizard:0
-#: view:pos.make.payment:0 view:pos.open.statement:0 view:pos.payment.report:0
-#: view:pos.payment.report.user:0 view:pos.receipt:0 view:pos.sale.user:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:313
+#: view:pos.confirm:0
+#: view:pos.details:0
+#: view:pos.discount:0
+#: view:pos.ean_wizard:0
+#: view:pos.make.payment:0
+#: view:pos.open.statement:0
+#: view:pos.payment.report:0
+#: view:pos.payment.report.user:0
+#: view:pos.receipt:0
+#: view:pos.sale.user:0
 #, python-format
 msgid "Cancel"
 msgstr "Peruuta"
@@ -1683,11 +1737,11 @@ msgstr "Myynti (yhteenveto)"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.nectarine_product_template
 msgid "Peach"
-msgstr "Persikka"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:768
+#: code:addons/point_of_sale/static/src/js/screens.js:772
 #, python-format
 msgid "Pay"
 msgstr ""
@@ -1695,7 +1749,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.timmermans_kriek_37,5cl_product_template
 msgid "Timmermans Kriek 37.5cl"
-msgstr "Timmermans Kriek 37.5cl"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.config,sequence_id:0
@@ -1703,7 +1757,9 @@ msgid "Order IDs Sequence"
 msgstr ""
 
 #. module: point_of_sale
-#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,price_unit:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: field:pos.order.line,price_unit:0
 #: report:pos.payment.report.user:0
 msgid "Unit Price"
 msgstr "Yksikköhinta"
@@ -1717,11 +1773,11 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:709
-#: code:addons/point_of_sale/static/src/xml/pos.xml:751
+#: code:addons/point_of_sale/static/src/xml/pos.xml:704
+#: code:addons/point_of_sale/static/src/xml/pos.xml:746
 #, python-format
 msgid "close"
-msgstr "sulje"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.report_user_label
@@ -1734,14 +1790,15 @@ msgid "Lines of Point of Sale"
 msgstr "Kassapäätteen rivit"
 
 #. module: point_of_sale
-#: view:pos.order:0 view:report.transaction.pos:0
+#: view:pos.order:0
+#: view:report.transaction.pos:0
 msgid "Amount total"
 msgstr "Summa yhteensä"
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "End of Session"
-msgstr "Päätä istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_new_bank_statement_all_tree
@@ -1764,7 +1821,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.food
 msgid "Food"
-msgstr "Ruoka"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.box.entries,ref:0
@@ -1773,8 +1830,10 @@ msgstr "Viite"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:94 report:pos.details:0
-#: report:pos.invoice:0 report:pos.lines:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:94
+#: report:pos.details:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
 #, python-format
 msgid "Price"
 msgstr "Hinta"
@@ -1782,26 +1841,28 @@ msgstr "Hinta"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_33cl_product_template
 msgid "Coca-Cola Light 33cl"
-msgstr "Coca-Cola Light 33cl"
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0
+#: view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS"
 msgstr "Kassapääte"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:592
+#: code:addons/point_of_sale/static/src/xml/pos.xml:587
 #, python-format
 msgid "Subtotal:"
-msgstr "Välisumma"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_33cl_product_template
 msgid "Coca-Cola Regular 33cl"
-msgstr "Coca-Cola 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1813,21 +1874,30 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.session,cash_register_difference:0
 msgid "Difference"
-msgstr "Ero"
+msgstr ""
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:549
+#, python-format
+msgid "Unable to Delete !"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.autres_agrumes
 msgid "Other Citrus"
-msgstr "Muut sitrukset"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Start Period"
 msgstr "Aloita jakso"
 
 #. module: point_of_sale
-#: report:account.statement:0 field:pos.category,complete_name:0
-#: field:pos.category,name:0 report:pos.sales.user:0
+#: report:account.statement:0
+#: field:pos.category,complete_name:0
+#: field:pos.category,name:0
+#: report:pos.sales.user:0
 #: report:pos.sales.user.today:0
 msgid "Name"
 msgstr "Nimi"
@@ -1835,13 +1905,13 @@ msgstr "Nimi"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_gazeuse_33cl_product_template
 msgid "Spa Barisart 33cl"
-msgstr "Spa Barisart 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.confirm:0
 msgid ""
-"Generate all sale journal entries for non invoiced orders linked to a closed"
-" cash register or statement."
+"Generate all sale journal entries for non invoiced orders linked to a closed "
+"cash register or statement."
 msgstr ""
 
 #. module: point_of_sale
@@ -1852,33 +1922,34 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.ean_wizard:0
 msgid "Apply"
-msgstr "Hyväksy"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:288
 #, python-format
 msgid ""
-"Please insert your card in the reader and follow the instructions to complete\n"
+"Please insert your card in the reader and follow the instructions to "
+"complete\n"
 "            your purchase"
 msgstr ""
 
 #. module: point_of_sale
 #: help:product.product,income_pdt:0
 msgid ""
-"Check if, this is a product you can use to put cash into a statement for the"
-" point of sale backend."
+"Check if, this is a product you can use to put cash into a statement for the "
+"point of sale backend."
 msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_moka_2,5l_product_template
 msgid "IJsboerke Mocha 2.5L"
-msgstr "IJsboerke Mocha 2.5L"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.session,cash_control:0
 msgid "Has Cash Control"
-msgstr "Käteiskontrolli käytössä"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_order_all
@@ -1891,10 +1962,10 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:563
 #, python-format
 msgid "User:"
-msgstr "Käyttäjä:"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:317
+#: code:addons/point_of_sale/point_of_sale.py:316
 #, python-format
 msgid ""
 "Unable to open the session. You have to assign a sale journal to your point "
@@ -1907,24 +1978,36 @@ msgid "POS ordered created during current year"
 msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
-#: report:pos.payment.report.user:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 report:pos.user.product:0
+#: model:product.template,name:point_of_sale.peche_product_template
+msgid "Fishing"
+msgstr ""
+
+#. module: point_of_sale
+#: report:pos.details:0
+#: report:pos.details_summary:0
+#: report:pos.lines:0
+#: report:pos.payment.report.user:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: report:pos.user.product:0
 msgid "Print Date"
 msgstr "Tulostuspäivämäärä"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poireaux_poireaux_product_template
 msgid "Leeks"
-msgstr "Purjot"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.category,sequence:0
-msgid "Gives the sequence order when displaying a list of product categories."
-msgstr "Antaa järjestyksen näytettäessä tuoteryhmäluettelon."
+msgid ""
+"Gives the sequence order when displaying a list of product categories."
+msgstr ""
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 view:pos.order:0 view:pos.session:0
+#: view:account.bank.statement:0
+#: view:pos.order:0
+#: view:pos.session:0
 #: view:report.pos.order:0
 msgid "Group By..."
 msgstr "Ryhmittely.."
@@ -1934,7 +2017,7 @@ msgstr "Ryhmittely.."
 #: code:addons/point_of_sale/static/src/xml/pos.xml:564
 #, python-format
 msgid "Shop:"
-msgstr "Kauppa:"
+msgstr ""
 
 #. module: point_of_sale
 #: field:account.journal,self_checkout_payment_method:0
@@ -1952,35 +2035,40 @@ msgid "All Closed CashBox"
 msgstr "Kaikki suljetut kassakoneet"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1191
-#, python-format
-msgid "No Pricelist!"
-msgstr "Ei hinnastoa!"
+#: field:pos.details,user_ids:0
+msgid "Salespeople"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:789
+#: code:addons/point_of_sale/point_of_sale.py:777
 #: code:addons/point_of_sale/wizard/pos_box_entries.py:118
 #: code:addons/point_of_sale/wizard/pos_box_out.py:91
 #, python-format
 msgid "You have to open at least one cashbox."
-msgstr "Sinun on avattava vähintään yksi kassalipas."
+msgstr ""
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:1172
+#, python-format
+msgid "No Pricelist !"
+msgstr "Ei hinnastoa!"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poivron_rouges_product_template
 msgid "Red Pepper"
-msgstr "Punainen paprika"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:682
+#: code:addons/point_of_sale/static/src/xml/pos.xml:677
 #, python-format
 msgid "caps lock"
-msgstr "caps lock"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.grisette_cerise_25cl_product_template
 msgid "Grisette Cherry 25cl"
-msgstr "Grisette Cherry 25cl"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -1989,32 +2077,38 @@ msgstr "Pohja"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:707
-#: code:addons/point_of_sale/static/src/xml/pos.xml:747
+#: code:addons/point_of_sale/static/src/xml/pos.xml:702
+#: code:addons/point_of_sale/static/src/xml/pos.xml:742
 #, python-format
 msgid "&nbsp;"
-msgstr "&nbsp;"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.categ_others
 msgid "Others"
-msgstr "Muut"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:494
-#: code:addons/point_of_sale/static/src/js/screens.js:881
+#: code:addons/point_of_sale/static/src/js/screens.js:495
+#: code:addons/point_of_sale/static/src/js/screens.js:882
 #, python-format
 msgid "Validate"
-msgstr "Vahvista"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.autres_legumes_frais
 msgid "Other fresh vegetables"
-msgstr "Muut tuorevihannekset"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:527
+#: code:addons/point_of_sale/wizard/pos_open_statement.py:49
+#, python-format
+msgid "No Cash Register Defined !"
+msgstr ""
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:515
 #, python-format
 msgid ""
 "No cash statement found for this session. Unable to record returned cash."
@@ -2023,12 +2117,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.oignons_ail_echalotes
 msgid "Onions / Garlic / Shallots"
-msgstr "Sipulit / valkosipulit / salottisipulit"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.evian_50cl_product_template
 msgid "Evian 50cl"
-msgstr "Evian 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -2038,10 +2132,12 @@ msgstr "Muistiinpanot"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_lemon_2l_product_template
 msgid "Coca-Cola Light Lemon 2L"
-msgstr "Coca-Cola Light Lemon 2L"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.invoice:0 field:pos.order,amount_tax:0
+#: report:pos.details:0
+#: report:pos.invoice:0
+#: field:pos.order,amount_tax:0
 msgid "Taxes"
 msgstr "Verot"
 
@@ -2054,7 +2150,7 @@ msgstr "Myyntirivi"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:746
+#: code:addons/point_of_sale/static/src/xml/pos.xml:741
 #, python-format
 msgid "123"
 msgstr ""
@@ -2062,34 +2158,37 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.product_normal_action
 #: model:ir.ui.menu,name:point_of_sale.menu_point_of_sale_product
-#: model:ir.ui.menu,name:point_of_sale.menu_pos_products view:pos.order:0
+#: model:ir.ui.menu,name:point_of_sale.menu_pos_products
+#: view:pos.order:0
 msgid "Products"
 msgstr "Tuotteet"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_4formaggi_product_template
 msgid "Dr. Oetker Ristorante Quattro Formaggi"
-msgstr "Dr. Oetker Ristorante Quattro Formaggi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.croky_naturel_45g_product_template
 msgid "Croky Natural 45g"
-msgstr "Croky Natural 45g"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.tomate_en_grappe_product_template
 msgid "In Cluster Tomatoes"
-msgstr "Terttutomaatit"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.client,name:point_of_sale.action_pos_pos
 msgid "Start Point of Sale"
-msgstr "Käynnistä kassapääte"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:84 report:pos.details:0
-#: report:pos.payment.report.user:0 report:pos.user.product:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:84
+#: report:pos.details:0
+#: report:pos.payment.report.user:0
+#: report:pos.user.product:0
 #: field:report.sales.by.margin.pos,qty:0
 #: field:report.sales.by.margin.pos.month,qty:0
 #, python-format
@@ -2099,31 +2198,32 @@ msgstr "Määrä"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_1l_product_template
 msgid "Coca-Cola Zero 1L"
-msgstr "Coca-Cola Zero 1L"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:268
-#: code:addons/point_of_sale/static/src/js/screens.js:717
+#: code:addons/point_of_sale/static/src/js/screens.js:718
 #, python-format
 msgid "Help"
-msgstr "Ohje"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Point of Sale Orders"
-msgstr "Kassapäätteen tilaukset"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_et_fruit_50cl_product_template
 msgid "Spa Fruit and Orange 50cl"
-msgstr "Spa Fruit and Orange 50cl"
+msgstr ""
 
 #. module: point_of_sale
-#: view:pos.config:0 field:pos.config,journal_ids:0
+#: view:pos.config:0
+#: field:pos.config,journal_ids:0
 #: field:pos.session,journal_ids:0
 msgid "Available Payment Methods"
-msgstr "Saatavilla olevat maksutavat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_normal_action
@@ -2134,13 +2234,15 @@ msgid ""
 "                You must define a product for everything you sell through\n"
 "                the point of sale interface.\n"
 "              </p><p>\n"
-"                Do not forget to set the price and the point of sale category\n"
-"                in which it should appear. If a product has no point of sale\n"
+"                Do not forget to set the price and the point of sale "
+"category\n"
+"                in which it should appear. If a product has no point of "
+"sale\n"
 "                category, you can not sell it through the point of sale\n"
 "                interface.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa luodaksesi uuden tuotteen\n</p><p>\nYou must define a product for everything you sell through\nthe point of sale interface.\n</p><p>\nDo not forget to set the price and the point of sale category\nin which it should appear. If a product has no point of sale\ncategory, you can not sell it through the point of sale\ninterface.\n</p>"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -2155,7 +2257,7 @@ msgstr "Faksi:"
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Point of Sale Session"
-msgstr "Kassapäätteen istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -2173,24 +2275,24 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Source"
-msgstr "Lähde"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:461
 #, python-format
 msgid "Admin Badge"
-msgstr "Hallinnoijan ansiomerkki"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.make.payment,journal_id:0
 msgid "Payment Mode"
-msgstr "Maksutapa"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_paprika_45g_product_template
 msgid "Lays Paprika 45g"
-msgstr "Lays Paprika 45g"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
@@ -2200,10 +2302,11 @@ msgstr "Pankin tiliote"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:101
-#: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
+#: selection:pos.session,state:0
+#: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closed & Posted"
-msgstr "Suljettu ja lähetetty"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_sale_user
@@ -2217,17 +2320,17 @@ msgstr "Myynti käyttäjittäin"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:562
 #, python-format
 msgid "Phone:"
-msgstr "Puhelin:"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.evian_1l_product_template
 msgid "Evian 1L"
-msgstr "Evian 1L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.water
 msgid "Water"
-msgstr "Vesi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_ean_wizard
@@ -2241,35 +2344,29 @@ msgstr "Heinäkuu"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_config_pos
-#: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos view:pos.session:0
+#: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos
+#: view:pos.session:0
 msgid "Point of Sales"
-msgstr "Myyntipiste"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Qty of product"
 msgstr "Tuotteen määrä"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pomme_golden_perlim_product_template
 msgid "Golden Apples Perlim"
-msgstr "Golden Apples Perlim"
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:411
-#, python-format
-msgid ""
-"Your ending balance is too different from the theoretical cash closing "
-"(%.2f), the maximum allowed is: %.2f. You can contact your manager to force "
-"it."
 msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:100
-#: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
+#: selection:pos.session,state:0
+#: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closing Control"
-msgstr "Sulkemiskontrolli"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.pos.order,delay_validation:0
@@ -2289,73 +2386,75 @@ msgstr "Myyntipisteen maksu"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_50cl_product_template
 msgid "Coca-Cola Light 50cl"
-msgstr "Coca-Cola Light 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:466
 #, python-format
 msgid "Unknown Product"
-msgstr "Tuntematon tuote"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:36
 #, python-format
 msgid "<![endif]-->"
-msgstr "<![endif]-->"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.jupiler_50cl_product_template
 msgid "Jupiler 50cl"
-msgstr "Jupiler 50cl"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "End Period"
 msgstr "Lopeta jaso"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_lemon_33cl_product_template
 msgid "Coca-Cola Light Lemon 33cl"
-msgstr "Coca-Cola Light Lemon 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:33
 #, python-format
 msgid "<!--[if IE]>"
-msgstr "<!--[if IE]>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_ketchup_250g_product_template
 msgid "Lays Ketchup 250g"
-msgstr "Lays ketsuppi 250g"
+msgstr ""
 
 #. module: point_of_sale
 #: selection:report.pos.order,state:0
 msgid "Synchronized"
-msgstr "Synkronoitu"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chimay_rouge_33cl_product_template
 msgid "Chimay Red 33cl"
-msgstr "Chimay Red 33cl"
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,month:0
+#: view:report.pos.order:0
+#: field:report.pos.order,month:0
 msgid "Month"
 msgstr "Kuukausi"
 
 #. module: point_of_sale
 #: field:pos.category,image_medium:0
 msgid "Medium-sized image"
-msgstr "keskikokoinen kuva"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.papillon_orange_product_template
 msgid "Orange Butterfly"
-msgstr "Butterfly-appelsiinit"
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -2363,7 +2462,8 @@ msgid "Year of order date"
 msgstr ""
 
 #. module: point_of_sale
-#: report:pos.sales.user:0 report:pos.sales.user.today:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
 #: field:report.pos.order,date:0
 msgid "Date Order"
 msgstr "Päivämääräjärjestys"
@@ -2377,7 +2477,8 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_new_bank_statement_tree
-#: field:pos.box.entries,journal_id:0 field:pos.session,cash_register_id:0
+#: field:pos.box.entries,journal_id:0
+#: field:pos.session,cash_register_id:0
 msgid "Cash Register"
 msgstr "Kassakone"
 
@@ -2401,12 +2502,12 @@ msgstr "Myynti käyttäjittäin, päivittäinen kate"
 #. module: point_of_sale
 #: view:pos.open.statement:0
 msgid "Open Registers"
-msgstr "Avaa kassakoneet"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.poire
 msgid "Pears"
-msgstr "Päärynät"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.transaction.pos,journal_id:0
@@ -2419,9 +2520,10 @@ msgid "Opening Balance"
 msgstr "Alkusaldo"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 selection:report.pos.order,state:0
+#: view:account.bank.statement:0
+#: selection:report.pos.order,state:0
 msgid "Closed"
-msgstr "Suljettu"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.config,iface_cashdrawer:0
@@ -2431,12 +2533,12 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "TIN :"
-msgstr "TIN :"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.tomates
 msgid "Tomatos"
-msgstr "Tomaatit"
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -2446,12 +2548,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_2l_product_template
 msgid "Coca-Cola Zero 2L"
-msgstr "Coca-Cola Zero 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.oranges
 msgid "Oranges"
-msgstr "Appelsiinit"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_all_sales_lines
@@ -2461,7 +2563,7 @@ msgstr "Kaikki myyntirivit"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.beers
 msgid "Beers"
-msgstr "Oluet"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.config,name:0
@@ -2469,24 +2571,25 @@ msgid "An internal identification of the point of sale"
 msgstr ""
 
 #. module: point_of_sale
-#: view:pos.config:0 selection:pos.config,state:0
+#: view:pos.config:0
+#: selection:pos.config,state:0
 msgid "Active"
-msgstr "Aktiivinen"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.session,name:0
 msgid "Session ID"
-msgstr "Session ID"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.make.payment:0
 msgid "Pay Order"
-msgstr "Maksa tilaus"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Summary by Payment Methods"
-msgstr "Yhteenveto maksutavoittain"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2499,9 +2602,11 @@ msgstr ""
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:220
 #: code:addons/point_of_sale/static/src/xml/pos.xml:426
-#: code:addons/point_of_sale/static/src/xml/pos.xml:601
-#: report:all.closed.cashbox.of.the.day:0 report:pos.invoice:0
-#: report:pos.lines:0 report:pos.payment.report.user:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:596
+#: report:all.closed.cashbox.of.the.day:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: report:pos.payment.report.user:0
 #, python-format
 msgid "Total:"
 msgstr "Yhteensä:"
@@ -2509,14 +2614,14 @@ msgstr "Yhteensä:"
 #. module: point_of_sale
 #: field:res.users,ean13:0
 msgid "EAN13"
-msgstr "EAN13"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:578
+#: code:addons/point_of_sale/static/src/xml/pos.xml:573
 #, python-format
 msgid "% discount"
-msgstr "% alennus"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_sales_by_margin_pos
@@ -2531,7 +2636,7 @@ msgstr "Tilioterivit"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.croky_paprika_45g_product_template
 msgid "Croky Paprika 45g"
-msgstr "Croky Paprika 45g"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -2548,7 +2653,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:141
 #, python-format
 msgid "Search Products"
-msgstr "Hae tuotteita"
+msgstr ""
 
 #. module: point_of_sale
 #: field:report.transaction.pos,invoice_id:0
@@ -2563,7 +2668,7 @@ msgstr "Välisumma"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.carotte_product_template
 msgid "Carrots"
-msgstr "Porkkanat"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.open.statement:0
@@ -2582,92 +2687,97 @@ msgstr "Valmis"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:328
 #: model:ir.actions.report.xml,name:point_of_sale.pos_invoice_report
-#: report:pos.invoice:0 view:pos.order:0 field:pos.order,invoice_id:0
+#: report:pos.invoice:0
+#: view:pos.order:0
+#: field:pos.order,invoice_id:0
 #, python-format
 msgid "Invoice"
 msgstr "Lasku"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:695
-#: code:addons/point_of_sale/static/src/xml/pos.xml:706
+#: code:addons/point_of_sale/static/src/xml/pos.xml:690
+#: code:addons/point_of_sale/static/src/xml/pos.xml:701
 #, python-format
 msgid "shift"
-msgstr "shift"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.rochefort_8_33cl_product_template
 msgid "Rochefort \"8\" 33cl"
-msgstr "Rochefort \"8\" 33cl"
+msgstr ""
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 view:pos.session:0
+#: view:account.bank.statement:0
+#: view:pos.session:0
 msgid "Open"
 msgstr "Avaa"
 
 #. module: point_of_sale
-#: field:pos.order,name:0 field:pos.order.line,order_id:0
+#: field:pos.order,name:0
+#: field:pos.order.line,order_id:0
 msgid "Order Ref"
 msgstr "Tilauksen viite"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:513
-#: code:addons/point_of_sale/static/src/xml/pos.xml:577
+#: code:addons/point_of_sale/static/src/xml/pos.xml:572
 #, python-format
 msgid "With a"
-msgstr "-"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.courgette_product_template
 msgid "Zucchini"
-msgstr "Kesäkurpitsa"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.timmermans_geuze_37,5cl_product_template
 msgid "Timmermans Geuze 37.5cl"
-msgstr "Timmermans Geuze 37.5cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Continue Selling"
-msgstr "Jatka myyntiä"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:444
 #, python-format
 msgid "Payment Terminal"
-msgstr "Maksuterminaali"
+msgstr ""
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 field:pos.session,user_id:0
+#: view:account.bank.statement:0
+#: field:pos.session,user_id:0
 msgid "Responsible"
-msgstr "Vastuuhenkilö"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.croky_bolognaise_250g_product_template
 msgid "Croky Bolognese 250g"
-msgstr "Croky Bolognese 250g"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:460
 #, python-format
 msgid "Custom Ean13"
-msgstr "Mukautettu EAN-13"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:465
 #, python-format
 msgid "1.54€ Lemon"
-msgstr "1.54€ Sitruuna"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.make.payment,payment_name:0
 msgid "Payment Reference"
-msgstr "Maksun viite"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos_month
@@ -2677,7 +2787,7 @@ msgstr "Myynti käyttäjittäin ja kuukausittain"
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Cashbox Lines"
-msgstr "Kassakonerivit"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_payment_report_user
@@ -2685,13 +2795,15 @@ msgid "Today's Payment By User"
 msgstr "Päivän maksut käyttäjittäin"
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.margin.pos:0
+#: view:report.sales.by.margin.pos.month:0
 msgid "Sales by User Margin"
 msgstr "Myynnin kate käyttäjittäin"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:427 report:pos.invoice:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:427
+#: report:pos.invoice:0
 #, python-format
 msgid "Taxes:"
 msgstr "Verot:"
@@ -2699,7 +2811,7 @@ msgstr "Verot:"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_33cl_product_template
 msgid "Pepsi Max 33cl"
-msgstr "Pepsi Max 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_pos_order
@@ -2708,16 +2820,19 @@ msgstr "Myyntipisteen tilastot"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_product
-#: report:pos.details:0 field:pos.order.line,product_id:0
-#: report:pos.payment.report.user:0 report:pos.user.product:0
-#: view:report.pos.order:0 field:report.pos.order,product_id:0
+#: report:pos.details:0
+#: field:pos.order.line,product_id:0
+#: report:pos.payment.report.user:0
+#: report:pos.user.product:0
+#: view:report.pos.order:0
+#: field:report.pos.order,product_id:0
 msgid "Product"
 msgstr "Tuote"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_pollo_product_template
 msgid "Dr. Oetker Ristorante Pollo"
-msgstr "Dr. Oetker Ristorante Pollo"
+msgstr ""
 
 #. module: point_of_sale
 #: constraint:pos.session:0
@@ -2728,7 +2843,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.category,image_small:0
 msgid "Smal-sized image"
-msgstr "Pieni kuva"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_report
@@ -2736,7 +2851,7 @@ msgid "Pos Lines"
 msgstr "Kassapääte rivit"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:417
+#: code:addons/point_of_sale/point_of_sale.py:416
 #, python-format
 msgid "Point of Sale Profit"
 msgstr ""
@@ -2750,33 +2865,35 @@ msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_session_opening.py:67
-#: field:pos.box.entries,session_id:0 view:pos.order:0
+#: field:pos.box.entries,session_id:0
+#: view:pos.order:0
 #: field:pos.order,session_id:0
 #, python-format
 msgid "Session"
-msgstr "Istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_33cl_product_template
 msgid "Chaudfontaine 33cl"
-msgstr "Chaudfontaine 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_margherita_product_template
 msgid "Dr. Oetker La Margherita"
-msgstr "Dr. Oetker La Margherita"
+msgstr ""
 
 #. module: point_of_sale
-#: view:pos.order:0 selection:pos.order,state:0
+#: view:pos.order:0
+#: selection:pos.order,state:0
 msgid "Posted"
-msgstr "Kirjattu"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:229
 #, python-format
 msgid "Paid:"
-msgstr "Maksettu:"
+msgstr ""
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -2786,13 +2903,13 @@ msgstr "Tiliotteen nimi"
 #. module: point_of_sale
 #: field:pos.session,cash_register_total_entry_encoding:0
 msgid "Total Cash Transaction"
-msgstr "Käteistapahtumat yhteensä"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pommes_de_terre
 #: model:product.template,name:point_of_sale.pomme_de_terre_product_template
 msgid "Potatoes"
-msgstr "Perunat"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
@@ -2815,20 +2932,21 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_2l_product_template
 msgid "Pepsi 2L"
-msgstr "Pepsi 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pomme
 msgid "Apples"
-msgstr "Omenat"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.details:0
 msgid "Order"
-msgstr "Määräys"
+msgstr ""
 
 #. module: point_of_sale
-#: model:ir.model,name:point_of_sale.model_res_users report:pos.details:0
+#: model:ir.model,name:point_of_sale.model_res_users
+#: report:pos.details:0
 msgid "Users"
 msgstr "Käyttäjät"
 
@@ -2842,7 +2960,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:462
 #, python-format
 msgid "Client Badge"
-msgstr "Asiakkaan ansiomerkki"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.lines:0
@@ -2852,26 +2970,29 @@ msgstr "Yhteensä veroton"
 #. module: point_of_sale
 #: field:pos.session,cash_journal_id:0
 msgid "Cash Journal"
-msgstr "Käteispäiväkirja"
+msgstr ""
 
 #. module: point_of_sale
 #: model:res.groups,name:point_of_sale.group_pos_manager
 msgid "Manager"
-msgstr "Esimies"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_poivre_sel_oven_150g_product_template
 msgid "Lays Salt and Pepper Oven Baked 150g"
-msgstr "Lays Salt and Pepper Oven Baked 150g"
+msgstr ""
 
 #. module: point_of_sale
-#: field:pos.details,date_start:0 field:pos.sale.user,date_start:0
+#: field:pos.details,date_start:0
+#: field:pos.sale.user,date_start:0
 msgid "Date Start"
 msgstr "Aloituspäivämäärä"
 
 #. module: point_of_sale
-#: field:pos.order,amount_total:0 report:pos.payment.report.user:0
-#: view:pos.session:0 field:report.sales.by.user.pos,amount:0
+#: field:pos.order,amount_total:0
+#: report:pos.payment.report.user:0
+#: view:pos.session:0
+#: field:report.sales.by.user.pos,amount:0
 #: field:report.sales.by.user.pos.month,amount:0
 msgid "Total"
 msgstr "Yhteensä"
@@ -2885,12 +3006,6 @@ msgstr "Myynti käyttäjittäin"
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_open_statement
 msgid "Open Cash Register"
 msgstr "Avaa kassakone"
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:564
-#, python-format
-msgid "Unable to Delete!"
-msgstr "Ei voitu poistaa!"
 
 #. module: point_of_sale
 #: field:account.journal,amount_authorized_diff:0
@@ -2932,19 +3047,19 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_33cl_product_template
 msgid "Pepsi 33cl"
-msgstr "Pepsi 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.order,user_id:0
 msgid ""
-"Person who uses the the cash register. It can be a reliever, a student or an"
-" interim employee."
+"Person who uses the the cash register. It can be a reliever, a student or an "
+"interim employee."
 msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_decaf_33cl_product_template
 msgid "Coca-Cola Zero Decaf 33cl"
-msgstr "Coca-Cola Zero kofeiiniton 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment_report
@@ -2956,27 +3071,25 @@ msgstr "Maksuraportti"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_25cl_product_template
 msgid "Fanta Orange 25cl"
-msgstr "Fanta appelsiini 25cl"
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:813
-#, python-format
-msgid ""
-"To return product(s), you need to open a session that will be used to "
-"register the refund."
 msgstr ""
 
 #. module: point_of_sale
 #: view:pos.confirm:0
 msgid "Generate Journal Entries"
-msgstr "Luo päiväkirjaviennit"
+msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
-#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
-#: field:pos.order,company_id:0 field:pos.order.line,company_id:0
-#: report:pos.payment.report.user:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 report:pos.user.product:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
+#: report:pos.lines:0
+#: field:pos.order,company_id:0
+#: field:pos.order.line,company_id:0
+#: report:pos.payment.report.user:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: report:pos.user.product:0
 #: field:report.pos.order,company_id:0
 msgid "Company"
 msgstr "Yritys"
@@ -2989,28 +3102,28 @@ msgstr "Laskun päivämäärä"
 #. module: point_of_sale
 #: field:pos.box.entries,name:0
 msgid "Reason"
-msgstr "Syy"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.orangina_33cl_product_template
 msgid "Orangina 33cl"
-msgstr "Orangina 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.config:0
 msgid "Set to Inactive"
-msgstr "Aseta passiiviseksi"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chimay_bleu_33cl_product_template
 msgid "Chimay Bleu 33cl"
-msgstr "Chimay Bleu 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_account_journal_form
 #: model:ir.ui.menu,name:point_of_sale.menu_action_account_journal_form_open
 msgid "Payment Methods"
-msgstr "Maksutavat"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.chips
@@ -3020,14 +3133,14 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_spinaci_product_template
 msgid "Dr. Oetker Ristorante Spinaci"
-msgstr "Dr. Oetker Ristorante Spinaci"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:454
 #, python-format
 msgid "Reset"
-msgstr "Palauta"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -3047,32 +3160,30 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_in
 #: view:pos.session:0
 msgid "Put Money In"
-msgstr "Laita rahaa sisään"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_zero_orange_1,5l_product_template
 msgid "Fanta Orange Zero 1.5L"
-msgstr "Fanta Appelsiini Zero 1.5L"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.boni_orange_product_template
 msgid "Boni Oranges"
-msgstr "Boni appelsiinit"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:301
-#: code:addons/point_of_sale/point_of_sale.py:410
-#: code:addons/point_of_sale/point_of_sale.py:413
-#: code:addons/point_of_sale/point_of_sale.py:423
-#: code:addons/point_of_sale/point_of_sale.py:461
-#: code:addons/point_of_sale/point_of_sale.py:476
-#: code:addons/point_of_sale/point_of_sale.py:551
-#: code:addons/point_of_sale/point_of_sale.py:745
-#: code:addons/point_of_sale/point_of_sale.py:789
-#: code:addons/point_of_sale/point_of_sale.py:813
-#: code:addons/point_of_sale/point_of_sale.py:860
-#: code:addons/point_of_sale/point_of_sale.py:936
-#: code:addons/point_of_sale/point_of_sale.py:1050
+#: code:addons/point_of_sale/point_of_sale.py:300
+#: code:addons/point_of_sale/point_of_sale.py:409
+#: code:addons/point_of_sale/point_of_sale.py:412
+#: code:addons/point_of_sale/point_of_sale.py:422
+#: code:addons/point_of_sale/point_of_sale.py:459
+#: code:addons/point_of_sale/point_of_sale.py:536
+#: code:addons/point_of_sale/point_of_sale.py:733
+#: code:addons/point_of_sale/point_of_sale.py:777
+#: code:addons/point_of_sale/point_of_sale.py:839
+#: code:addons/point_of_sale/point_of_sale.py:920
+#: code:addons/point_of_sale/point_of_sale.py:1031
 #: code:addons/point_of_sale/report/pos_invoice.py:46
 #: code:addons/point_of_sale/wizard/pos_box.py:22
 #: code:addons/point_of_sale/wizard/pos_box_entries.py:46
@@ -3090,9 +3201,10 @@ msgid "No. Of Articles"
 msgstr "Tuotteiden määrä"
 
 #. module: point_of_sale
-#: selection:pos.order,state:0 selection:report.pos.order,state:0
+#: selection:pos.order,state:0
+#: selection:report.pos.order,state:0
 msgid "Cancelled"
-msgstr "Peruttu"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.user.product:0
@@ -3109,7 +3221,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.orangina_1,5l_product_template
 msgid "Orangina 1.5L"
-msgstr "Orangina 1.5L"
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -3119,10 +3231,11 @@ msgstr "Myyntipisteen analyysi"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.ice_cream
 msgid "Ice Cream"
-msgstr "Jäätelö"
+msgstr ""
 
 #. module: point_of_sale
-#: field:pos.config,shop_id:0 field:pos.order,shop_id:0
+#: field:pos.config,shop_id:0
+#: field:pos.order,shop_id:0
 #: field:report.pos.order,shop_id:0
 msgid "Shop"
 msgstr "Myymälä"
@@ -3141,20 +3254,21 @@ msgstr "Pankin tiliotteen rivi"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.belle_vue_kriek_25cl_product_template
 msgid "Belle-Vue Kriek 25cl"
-msgstr "Belle-Vue Kriek 25cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_petillante_1,5l_product_template
 msgid "Chaudfontaine Petillante 1.5l"
-msgstr "Chaudfontaine Petillante 1.5l"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_stracciatella_2,5l_product_template
 msgid "IJsboerke Stracciatella 2.5L"
-msgstr "IJsboerke Stracciatella 2.5L"
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS Report"
 msgstr "Myyntipisteen raportti"
@@ -3162,16 +3276,16 @@ msgstr "Myyntipisteen raportti"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_1,5l_product_template
 msgid "Chaudfontaine 1.5l"
-msgstr "Chaudfontaine 1.5l"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1115
+#: code:addons/point_of_sale/point_of_sale.py:1096
 #, python-format
 msgid "Trade Receivables"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:564
+#: code:addons/point_of_sale/point_of_sale.py:549
 #, python-format
 msgid "In order to delete a sale, it must be new or cancelled."
 msgstr ""
@@ -3188,12 +3302,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_50cl_product_template
 msgid "Coca-Cola Regular 50cl"
-msgstr "Coca-Cola 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.confirm:0
 msgid "Generate Entries"
-msgstr "Luo viennit"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.box.entries,product_id:0
@@ -3206,7 +3320,7 @@ msgid "Journal Entry"
 msgstr "Päiväkirjavienti"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:769
+#: code:addons/point_of_sale/point_of_sale.py:757
 #, python-format
 msgid "There is no receivable account defined to make payment."
 msgstr ""
@@ -3214,7 +3328,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.citron_product_template
 msgid "Lemon"
-msgstr "Sitruuna"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -3224,12 +3338,12 @@ msgstr "Peruutettu lasku"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_50cl_product_template
 msgid "Coca-Cola Zero 50cl"
-msgstr "Coca-Cola Zero 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_tonno_product_template
 msgid "Dr. Oetker Ristorante Tonno"
-msgstr "Dr. Oetker Ristorante Tonno"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -3237,7 +3351,7 @@ msgid "Supplier Invoice"
 msgstr "Toimittajan lasku"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:462
+#: code:addons/point_of_sale/point_of_sale.py:460
 #, python-format
 msgid ""
 "You cannot confirm all orders of this session, because they have not the "
@@ -3245,35 +3359,36 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
-#: view:pos.order:0 selection:pos.order,state:0
+#: view:pos.order:0
+#: selection:pos.order,state:0
 #: selection:report.pos.order,state:0
 msgid "New"
-msgstr "Uusi"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.open.statement:0
 msgid "Do you want to open cash registers?"
-msgstr "Haluatko avata kassakoneet?"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.perrier_50cl_product_template
 msgid "50cl Perrier"
-msgstr "50cl Perrier"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_cash_box_out
 msgid "cash.box.out"
-msgstr "cash.box.out"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_zero_orange_33cl_product_template
 msgid "Fanta Zero Orange 33cl"
-msgstr "Fanta Appelsiini Zero 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: help:product.product,available_in_pos:0
 msgid "Check if you want this product to appear in the Point of Sale"
-msgstr "Valitse tämä jos haluat tämän tuotteen näkyvän kassapäätteellä."
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -3283,7 +3398,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.maes_33cl_product_template
 msgid "Maes 33cl"
-msgstr "Maes 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -3300,25 +3415,25 @@ msgstr "Konfiguraatio"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.orval_33cl_product_template
 msgid "Orval 33cl"
-msgstr "Orval 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:515
 #, python-format
 msgid "discount"
-msgstr "alennus"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_1l_product_template
 msgid "Coca-Cola Regular 1L"
-msgstr "Coca-Cola 1L"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:745
+#: code:addons/point_of_sale/point_of_sale.py:733
 #, python-format
 msgid "Unable to cancel the picking."
-msgstr "Ei voitu perua keräilyä."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.config:0
@@ -3328,12 +3443,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.fruits
 msgid "Fresh Fruits"
-msgstr "Tuoreita hedelmiä"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lindemans_pecheresse_37,,5cl_product_template
 msgid "Lindemans sinful 37.5cl"
-msgstr "Lindemans sinful 37.5cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_invoice
@@ -3348,35 +3463,36 @@ msgstr "Joulukuu"
 #. module: point_of_sale
 #: field:pos.category,image:0
 msgid "Image"
-msgstr "Kuva"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_gazeuse_1,5l_product_template
 msgid "Spa Barisart 1.5l"
-msgstr "Spa Barisart 1.5l"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:831 view:pos.order:0
+#: code:addons/point_of_sale/point_of_sale.py:810
+#: view:pos.order:0
 #, python-format
 msgid "Return Products"
-msgstr "Palauta tuotteet"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.jupiler_33cl_product_template
 msgid "Jupiler 33cl"
-msgstr "Jupiler 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:484
 #, python-format
 msgid "Print Invoice"
-msgstr "Tulosta lasku"
+msgstr ""
 
 #. module: point_of_sale
-#: model:product.template,name:point_of_sale.peche_product_template
-msgid "Peaches"
-msgstr "Päärynät"
+#: field:pos.order,pos_reference:0
+msgid "Receipt Ref"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_details
@@ -3384,39 +3500,54 @@ msgid "Sales Details"
 msgstr "Myynnin yksityiskohdat"
 
 #. module: point_of_sale
-#: view:account.journal:0 model:ir.model,name:point_of_sale.model_pos_order
+#: view:account.journal:0
+#: model:ir.model,name:point_of_sale.model_pos_order
 #: model:ir.ui.menu,name:point_of_sale.menu_point_rep
 #: model:ir.ui.menu,name:point_of_sale.menu_point_root
-#: field:pos.session,config_id:0 field:pos.session.opening,pos_config_id:0
-#: view:product.product:0 view:res.partner:0 view:res.users:0
+#: field:pos.session,config_id:0
+#: field:pos.session.opening,pos_config_id:0
+#: view:product.product:0
+#: view:res.partner:0
+#: view:res.users:0
 msgid "Point of Sale"
 msgstr "Kassapääte"
 
 #. module: point_of_sale
-#: view:pos.order:0 field:pos.order,user_id:0
+#: view:pos.order:0
+#: field:pos.order,user_id:0
 msgid "Salesman"
 msgstr "Myyjä"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:41 view:pos.confirm:0
-#: view:pos.details:0 view:pos.discount:0 view:pos.ean_wizard:0
-#: view:pos.make.payment:0 view:pos.open.statement:0 view:pos.payment.report:0
-#: view:pos.payment.report.user:0 view:pos.receipt:0 view:pos.sale.user:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:41
+#: view:pos.confirm:0
+#: view:pos.details:0
+#: view:pos.discount:0
+#: view:pos.ean_wizard:0
+#: view:pos.make.payment:0
+#: view:pos.open.statement:0
+#: view:pos.payment.report:0
+#: view:pos.payment.report.user:0
+#: view:pos.receipt:0
+#: view:pos.sale.user:0
 #, python-format
 msgid "or"
-msgstr "tai"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 view:pos.order:0 selection:pos.order,state:0
-#: view:report.pos.order:0 selection:report.pos.order,state:0
+#: report:pos.details:0
+#: view:pos.order:0
+#: selection:pos.order,state:0
+#: view:report.pos.order:0
+#: selection:report.pos.order,state:0
 msgid "Invoiced"
 msgstr "Laskutettu"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "New Session"
-msgstr "Uusi istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.config,group_by:0
@@ -3429,8 +3560,10 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new order.\n"
 "              </p><p>\n"
-"                Use this menu to browse your preceeding orders. To record new\n"
-"                orders, you should better use the menu <i>Your Session</i> for\n"
+"                Use this menu to browse your preceeding orders. To record "
+"new\n"
+"                orders, you should better use the menu <i>Your Session</i> "
+"for\n"
 "                the touchscreen interface.\n"
 "              </p>\n"
 "            "
@@ -3441,17 +3574,17 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:450
 #, python-format
 msgid "Electronic Scale"
-msgstr "Elektroninen vaaka"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_gazeuse_50cl_product_template
 msgid "Spa Barisart 50cl"
-msgstr "Spa Barisart 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: field:res.users,pos_config:0
 msgid "Default Point of Sale"
-msgstr "Oletuskassapääte"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_box.py:23
@@ -3462,7 +3595,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.special_beers
 msgid "Special Beers"
-msgstr "Erikoisoluet"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.order.line,notice:0
@@ -3480,7 +3613,8 @@ msgid "Mode of Taxes"
 msgstr "Verotustapa"
 
 #. module: point_of_sale
-#: field:pos.order,amount_paid:0 selection:pos.order,state:0
+#: field:pos.order,amount_paid:0
+#: selection:pos.order,state:0
 msgid "Paid"
 msgstr "Maksettu"
 
@@ -3489,7 +3623,7 @@ msgstr "Maksettu"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:464
 #, python-format
 msgid "3.141Kg Oranges"
-msgstr "3.141Kg appelsiineja"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -3497,7 +3631,7 @@ msgid "PRO-FORMA"
 msgstr "Proforma"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:860
+#: code:addons/point_of_sale/point_of_sale.py:839
 #, python-format
 msgid "Please provide a partner for the sale."
 msgstr "Anna kumppani myyntiä varten."
@@ -3505,7 +3639,7 @@ msgstr "Anna kumppani myyntiä varten."
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.fruity_beers
 msgid "Fruity Beers"
-msgstr "Hedelmäiset oluet"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -3517,7 +3651,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:463
 #, python-format
 msgid "Soda 33cl"
-msgstr "Sooda 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.session,cash_register_balance_start:0
@@ -3527,7 +3661,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.raisins
 msgid "Grapes"
-msgstr "Rypäleet"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree
@@ -3538,17 +3672,18 @@ msgstr "Käyttäjäkohtaiset myynti"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_hawaii_product_template
 msgid "Dr. Oetker Ristorante Hawaii"
-msgstr "Dr. Oetker Ristorante Hawaii"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:483 view:pos.receipt:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:483
+#: view:pos.receipt:0
 #, python-format
 msgid "Print Receipt"
 msgstr "Tulosta kuitti"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:421
+#: code:addons/point_of_sale/point_of_sale.py:420
 #, python-format
 msgid "Point of Sale Loss"
 msgstr ""
@@ -3571,32 +3706,32 @@ msgstr "Myyntipisteen tilausrivit"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_petillante_33cl_product_template
 msgid "Chaudfontaine Petillante 33cl"
-msgstr "Chaudfontaine Petillante 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_2l_product_template
 msgid "Pepsi Max 2L"
-msgstr "Pepsi Max 2L"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.session,details_ids:0
 msgid "Cash Control"
-msgstr "Käteiskontrolli"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_vegetale_product_template
 msgid "Dr. Oetker Ristorante Vegetable"
-msgstr "Dr. Oetker Ristorante Vegetable"
+msgstr ""
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.soda
 msgid "Soda"
-msgstr "Sooda"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_paprika_300g_product_template
 msgid "Lays Paprika XXL 300g"
-msgstr "Lays Paprika XXL 300g"
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -3608,7 +3743,7 @@ msgstr "Hyvitys"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:417
 #, python-format
 msgid "Your shopping cart is empty"
-msgstr "Ostoskorisi on tyhjä"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/report/pos_invoice.py:46
@@ -3619,22 +3754,23 @@ msgstr "Luo lasku tälle myynnille."
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_mozzarella_product_template
 msgid "Dr. Oetker Ristorante Mozzarella"
-msgstr "Dr. Oetker Ristorante Mozzarella"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.payment.report.user:0
+#: report:pos.details:0
+#: report:pos.payment.report.user:0
 msgid "Disc(%)"
 msgstr "Alennus (%)"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "The session"
-msgstr "Istunto"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "General Information"
-msgstr "Yleistiedot"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.order.line:0
@@ -3644,11 +3780,11 @@ msgstr "Välisummat yhteensä"
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Close Session"
-msgstr "Sulje istunto"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/widgets.js:989
+#: code:addons/point_of_sale/static/src/js/widgets.js:975
 #, python-format
 msgid "Close"
 msgstr "Sulje"
@@ -3670,16 +3806,16 @@ msgstr "Alasumma ilman veroa"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:667
-#: code:addons/point_of_sale/static/src/xml/pos.xml:744
+#: code:addons/point_of_sale/static/src/xml/pos.xml:662
+#: code:addons/point_of_sale/static/src/xml/pos.xml:739
 #, python-format
 msgid "delete"
-msgstr "poista"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_50cl_product_template
 msgid "Spa Reine 50cl"
-msgstr "Spa Reine 50cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chicon_flandria_extra_product_template
@@ -3690,12 +3826,12 @@ msgstr ""
 #: model:product.template,name:point_of_sale.lays_light_naturel_170g_product_template
 #: model:product.template,name:point_of_sale.lays_naturel_170g_product_template
 msgid "Lays Natural Light 170g"
-msgstr "Lays Natural Light 170g"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.leffe_blonde_33cl_product_template
 msgid "Leffe Blonde 33cl"
-msgstr "Leffe Blonde 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_payment
@@ -3710,7 +3846,7 @@ msgstr "Käteispäiväkirja"
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Session:"
-msgstr "Istunnot:"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.config,iface_print_via_proxy:0
@@ -3723,34 +3859,30 @@ msgid "Today's Sales By User"
 msgstr "Päivän myynnit käyttjittäin"
 
 #. module: point_of_sale
-#: field:pos.order,lines:0
-msgid "Order Lines"
-msgstr "Tilausrivit"
+#: help:account.journal,amount_authorized_diff:0
+msgid ""
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theorical cash when closing a session, for non-POS managers. If this "
+"maximum is reached, the user will have an error message at the closing of "
+"his session saying that he needs to contact his manager."
+msgstr ""
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Customer Code"
-msgstr "Asiakaskoodi"
+msgstr ""
 
 #. module: point_of_sale
-#: report:pos.invoice:0 report:pos.lines:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
 msgid "Description"
 msgstr "Kuvaus"
-
-#. module: point_of_sale
-#: help:account.journal,amount_authorized_diff:0
-msgid ""
-"This field depicts the maximum difference allowed between the ending balance"
-" and the theorical cash when closing a session, for non-POS managers. If "
-"this maximum is reached, the user will have an error message at the closing "
-"of his session saying that he needs to contact his manager."
-msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_config_sessions
 #: field:pos.config,session_ids:0
 msgid "Sessions"
-msgstr "Istunnot"
+msgstr ""
 
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
@@ -3770,20 +3902,20 @@ msgstr "Sisäiset muistiinpanot"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_chocolat_2,5l_product_template
 msgid "IJsboerke Chocolat 2.5L"
-msgstr "IJsboerke Chocolat 2.5L"
+msgstr ""
 
 #. module: point_of_sale
 #: help:pos.category,image_small:0
 msgid ""
 "Small-sized image of the category. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is"
-" required."
-msgstr "Keskikokoinen kuva tälle kategorialle. Kuvan koko muutetaan automaattisesti kokoon 64x64px, säilyttäen kuvan mittasuhteet. Käytä tätä kenttää kaikkialla missä tarvitaan pientä kuvaa."
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.session.opening,pos_state:0
 msgid "Session Status"
-msgstr "Istunnon tila"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.order,picking_id:0
@@ -3796,16 +3928,21 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a payment method.\n"
 "              </p><p>\n"
-"                Payment methods are defined by accounting journals having the\n"
-"                field <i>PoS Payment Method</i> checked. In order to be useable\n"
-"                from the touchscreen interface, you must set the payment method\n"
+"                Payment methods are defined by accounting journals having "
+"the\n"
+"                field <i>PoS Payment Method</i> checked. In order to be "
+"useable\n"
+"                from the touchscreen interface, you must set the payment "
+"method\n"
 "                on the <i>Point of Sale</i> configuration.\n"
 "              </p>\n"
 "            "
 msgstr ""
 
 #. module: point_of_sale
-#: view:pos.order:0 field:pos.order,partner_id:0 view:report.pos.order:0
+#: view:pos.order:0
+#: field:pos.order,partner_id:0
+#: view:report.pos.order:0
 msgid "Customer"
 msgstr "Asiakas"
 
@@ -3817,17 +3954,17 @@ msgstr "Helmikuu"
 #. module: point_of_sale
 #: view:res.partner:0
 msgid "Edit"
-msgstr "Muokkaa"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Click to continue the session."
-msgstr "Klikkaa jatkaaksesi istuntoa."
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.config:0
 msgid "Set to Active"
-msgstr "Aseta aktiiviseksi"
+msgstr ""
 
 #. module: point_of_sale
 #: view:pos.category:0
@@ -3845,7 +3982,8 @@ msgid "April"
 msgstr "Huhtikuu"
 
 #. module: point_of_sale
-#: view:pos.order:0 field:pos.order,statement_ids:0
+#: view:pos.order:0
+#: field:pos.order,statement_ids:0
 msgid "Payments"
 msgstr "Maksut"
 
@@ -3856,10 +3994,10 @@ msgstr "Toimittajan hyvitys"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:598
+#: code:addons/point_of_sale/static/src/xml/pos.xml:593
 #, python-format
 msgid "Discount:"
-msgstr "Alennus:"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_margin_pos_month
@@ -3869,7 +4007,7 @@ msgstr "Käyttäjäkohtainen myyntikate kuukausittain"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.leffe_9_33cl_product_template
 msgid "Leffe Brune \"9\" 33cl"
-msgstr "Leffe Brune \"9\" 33cl"
+msgstr ""
 
 #. module: point_of_sale
 #: help:account.journal,journal_user:0
@@ -3883,20 +4021,21 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:41
 #, python-format
 msgid "Mozilla Firefox"
-msgstr "Mozilla Firefox"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.raisins_noir_product_template
 msgid "Black Grapes"
-msgstr "Mustat rypäleet"
+msgstr ""
 
 #. module: point_of_sale
 #: field:pos.category,sequence:0
 msgid "Sequence"
-msgstr "Sekvenssi"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/wizard/pos_return.py:316 view:pos.make.payment:0
+#: code:addons/point_of_sale/wizard/pos_return.py:316
+#: view:pos.make.payment:0
 #, python-format
 msgid "Make Payment"
 msgstr "Tee maksu"
@@ -3904,7 +4043,7 @@ msgstr "Tee maksu"
 #. module: point_of_sale
 #: constraint:pos.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "Virhe! Et voi luoda rekursiivisia ryhmiä."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_sales_user_today
@@ -3913,25 +4052,27 @@ msgstr "Käyttäjän myynti tänään"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:817
+#: code:addons/point_of_sale/static/src/js/screens.js:818
 #, python-format
 msgid "Next Order"
-msgstr "Seuraava tilaus"
+msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:98 selection:pos.session,state:0
+#: code:addons/point_of_sale/point_of_sale.py:98
+#: selection:pos.session,state:0
 #: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Opening Control"
-msgstr "Avauskontrolli"
+msgstr ""
 
 #. module: point_of_sale
 #: view:report.pos.order:0
 msgid "Month of order date"
-msgstr "Tilauspäivän kuukausi"
+msgstr ""
 
 #. module: point_of_sale
-#: view:report.pos.order:0 field:report.pos.order,year:0
+#: view:report.pos.order:0
+#: field:report.pos.order,year:0
 msgid "Year"
 msgstr "Vuosi"
 
@@ -3940,12 +4081,12 @@ msgstr "Vuosi"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:505
 #, python-format
 msgid "at"
-msgstr "sijainnissa"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_cash_box_in
 msgid "cash.box.in"
-msgstr "cash.box.in"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_session_orders
@@ -3953,4 +4094,7 @@ msgstr "cash.box.in"
 #: model:ir.ui.menu,name:point_of_sale.menu_point_ofsale
 #: field:pos.session,order_ids:0
 msgid "Orders"
-msgstr "Tilaukset"
+msgstr ""
+
+#~ msgid "VAT :"
+#~ msgstr "ALV:"

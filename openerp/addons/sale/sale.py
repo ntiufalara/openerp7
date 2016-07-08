@@ -151,12 +151,13 @@ class sale_order(osv.osv):
         sale_clause = ''
         no_invoiced = False
         for arg in args:
-            if (arg[1] == '=' and arg[2]) or (arg[1] == '!=' and not arg[2]):
-                clause += 'AND inv.state = \'paid\''
-            else:
-                clause += 'AND inv.state != \'cancel\' AND sale.state != \'cancel\'  AND inv.state <> \'paid\'  AND rel.order_id = sale.id '
-                sale_clause = ',  sale_order AS sale '
-                no_invoiced = True
+            if arg[1] == '=':
+                if arg[2]:
+                    clause += 'AND inv.state = \'paid\''
+                else:
+                    clause += 'AND inv.state != \'cancel\' AND sale.state != \'cancel\'  AND inv.state <> \'paid\'  AND rel.order_id = sale.id '
+                    sale_clause = ',  sale_order AS sale '
+                    no_invoiced = True
 
         cursor.execute('SELECT rel.order_id ' \
                 'FROM sale_order_invoice_rel AS rel, account_invoice AS inv '+ sale_clause + \
@@ -280,7 +281,7 @@ class sale_order(osv.osv):
         return osv.osv.unlink(self, cr, uid, unlink_ids, context=context)
 
     def copy_quotation(self, cr, uid, ids, context=None):
-        id = self.copy(cr, uid, ids[0], context=context)
+        id = self.copy(cr, uid, ids[0], context=None)
         view_ref = self.pool.get('ir.model.data').get_object_reference(cr, uid, 'sale', 'view_order_form')
         view_id = view_ref and view_ref[1] or False,
         return {
@@ -524,18 +525,14 @@ class sale_order(osv.osv):
             if grouped:
                 res = self._make_invoice(cr, uid, val[0][0], reduce(lambda x, y: x + y, [l for o, l in val], []), context=context)
                 invoice_ref = ''
-                origin_ref = ''
                 for o, l in val:
-                    invoice_ref += (o.client_order_ref or o.name) + '|'
-                    origin_ref += (o.origin or o.name) + '|'
+                    invoice_ref += o.name + '|'
                     self.write(cr, uid, [o.id], {'state': 'progress'})
                     cr.execute('insert into sale_order_invoice_rel (order_id,invoice_id) values (%s,%s)', (o.id, res))
                 #remove last '|' in invoice_ref
-                if len(invoice_ref) >= 1:
+                if len(invoice_ref) >= 1: 
                     invoice_ref = invoice_ref[:-1]
-                if len(origin_ref) >= 1:
-                    origin_ref = origin_ref[:-1]
-                invoice.write(cr, uid, [res], {'origin': origin_ref, 'name': invoice_ref})
+                invoice.write(cr, uid, [res], {'origin': invoice_ref, 'name': invoice_ref})
             else:
                 for order, il in val:
                     res = self._make_invoice(cr, uid, order, il, context=context)
@@ -580,8 +577,22 @@ class sale_order(osv.osv):
         assert len(ids) == 1, 'This option should only be used for a single id at a time.'
         wf_service = netsvc.LocalService('workflow')
         wf_service.trg_validate(uid, 'sale.order', ids[0], 'order_confirm', cr)
-        return True
-        
+
+        # redisplay the record as a sales order
+        view_ref = self.pool.get('ir.model.data').get_object_reference(cr, uid, 'sale', 'view_order_form')
+        view_id = view_ref and view_ref[1] or False,
+        return {
+            'type': 'ir.actions.act_window',
+            'name': _('Sales Order'),
+            'res_model': 'sale.order',
+            'res_id': ids[0],
+            'view_type': 'form',
+            'view_mode': 'form',
+            'view_id': view_id,
+            'target': 'current',
+            'nodestroy': True,
+        }
+
     def action_wait(self, cr, uid, ids, context=None):
         context = context or {}
         for o in self.browse(cr, uid, ids):

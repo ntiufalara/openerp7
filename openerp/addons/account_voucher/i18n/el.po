@@ -1,32 +1,31 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * account_voucher
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Greek translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2015-12-28 22:48+0000\n"
-"Last-Translator: Goutoudis Kostas <goutoudis@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/odoo/odoo-7/language/el/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 05:59+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: account_voucher
 #: field:account.bank.statement.line,voucher_id:0
 msgid "Reconciliation"
-msgstr "Συμφωνία"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_account_config_settings
 msgid "account.config.settings"
-msgstr "account.config.settings"
+msgstr ""
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:417
@@ -37,7 +36,7 @@ msgstr "Παραγραφή"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Payment Ref"
-msgstr "Αναφορά Πληρωμής"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -50,7 +49,8 @@ msgid "Open Customer Journal Entries"
 msgstr "Ανοχτές καταχωρήσεις Πελάτη στο ημερολόγιο"
 
 #. module: account_voucher
-#: view:account.voucher:0 view:sale.receipt.report:0
+#: view:account.voucher:0
+#: view:sale.receipt.report:0
 msgid "Group By..."
 msgstr "Ομαδοποίηση Κατά..."
 
@@ -59,12 +59,12 @@ msgstr "Ομαδοποίηση Κατά..."
 msgid ""
 "Computed as the difference between the amount stated in the voucher and the "
 "sum of allocation on the voucher lines."
-msgstr "Υπολογίστηκε ως η διαφορά μεταξύ του ποσού που αναγράφεται στο παραστατικό και του συνόλου των επιμερισμών στις γραμμές του παραστατικού."
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "(Update)"
-msgstr "(Ανανέωση)"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -81,7 +81,7 @@ msgstr "Εισαγωγή καταχωρήσεων"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Voucher Entry"
-msgstr "Εγγραφή Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
 #: selection:sale.receipt.report,month:0
@@ -91,7 +91,7 @@ msgstr "Μάρτιος"
 #. module: account_voucher
 #: field:account.voucher,message_unread:0
 msgid "Unread Messages"
-msgstr "Αδιάβαστα Μυνήματα"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -101,7 +101,7 @@ msgstr "Πληρωμή Λογαριασμού"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Are you sure you want to cancel this receipt?"
-msgstr "Σίγουρα θέλετε να καταργήσετε αυτή την απόδειξη;"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -111,32 +111,33 @@ msgstr "Ορισμός σε Πρόχειρη"
 #. module: account_voucher
 #: help:account.voucher,reference:0
 msgid "Transaction reference number."
-msgstr "Αριθμός αναφοράς συναλλαγής."
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Allocation"
-msgstr "Επιμερισμός"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,currency_help_label:0
 msgid ""
 "This sentence helps you to know how to specify the payment rate by giving "
 "you the direct effect it has"
-msgstr "Αυτή η πρόταση σας βοηθάει να αποφασίσετε πως να καθορίσετε το επιτόκιο πληρωμής, δίνοντας το άμεσο αποτέλεσμα που έχει"
+msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,user_id:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,user_id:0
 msgid "Salesperson"
-msgstr "Πωλητής"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Voucher Statistics"
-msgstr "Στατιστικά Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1655
+#: code:addons/account_voucher/account_voucher.py:1641
 #, python-format
 msgid ""
 "You can not change the journal as you already reconciled some statement "
@@ -146,7 +147,7 @@ msgstr ""
 #. module: account_voucher
 #: model:mail.message.subtype,description:account_voucher.mt_voucher_state_change
 msgid "Status changed"
-msgstr "Αλλαγή κατάστασης"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -157,7 +158,7 @@ msgstr "Επικύρωση"
 #: model:ir.actions.act_window,name:account_voucher.action_vendor_payment
 #: model:ir.ui.menu,name:account_voucher.menu_action_vendor_payment
 msgid "Supplier Payments"
-msgstr "Πληρωμές Προμηθευτή"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_purchase_receipt
@@ -169,20 +170,21 @@ msgid ""
 "                supplier payment related to this purchase receipt.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Κάντε κλικ για να καταχωρίσετε μια απόδειξη αγορών. \n              </p><p>\n                Όταν η απόδειξη αγορών είναι επιβεβαιωμένη, μπορείτε να καταχωρίσετε\n                την σχετική πληρωμή του προμηθευτή με αυτή την απόδειξη αγοράς.\n              </p>\n            "
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Search Vouchers"
-msgstr "Αναζήτηση Παραστατικών"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,writeoff_acc_id:0
 msgid "Counterpart Account"
-msgstr "Αντίστοιχος Λογαριασμός"
+msgstr ""
 
 #. module: account_voucher
-#: field:account.voucher,account_id:0 field:account.voucher.line,account_id:0
+#: field:account.voucher,account_id:0
+#: field:account.voucher.line,account_id:0
 #: field:sale.receipt.report,account_id:0
 msgid "Account"
 msgstr "Λογαριασμός"
@@ -200,11 +202,13 @@ msgstr "ΟΚ"
 #. module: account_voucher
 #: field:account.voucher.line,reconcile:0
 msgid "Full Reconcile"
-msgstr "Πλήρης Συμφωνία"
+msgstr ""
 
 #. module: account_voucher
-#: field:account.voucher,date_due:0 field:account.voucher.line,date_due:0
-#: view:sale.receipt.report:0 field:sale.receipt.report,date_due:0
+#: field:account.voucher,date_due:0
+#: field:account.voucher.line,date_due:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,date_due:0
 msgid "Due Date"
 msgstr "Ημερομηνία Λήξης"
 
@@ -216,13 +220,13 @@ msgstr "Σημειώσεις"
 #. module: account_voucher
 #: field:account.voucher,message_ids:0
 msgid "Messages"
-msgstr "Μηνύματα"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_purchase_receipt
 #: model:ir.ui.menu,name:account_voucher.menu_action_purchase_receipt
 msgid "Purchase Receipts"
-msgstr "Αποδείξεις Αγορών"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher.line,move_line_id:0
@@ -231,10 +235,10 @@ msgstr "Στοιχείο Ημερολογίου"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:558
-#: code:addons/account_voucher/account_voucher.py:1085
+#: code:addons/account_voucher/account_voucher.py:1073
 #, python-format
 msgid "Error!"
-msgstr "Λάθος!"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher.line,amount:0
@@ -249,7 +253,7 @@ msgstr "Επιλογές Πληρωμής"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "e.g. 003/10"
-msgstr "π.χ. 003/10"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -257,17 +261,17 @@ msgid "Other Information"
 msgstr "Άλλες Πληροφορίες"
 
 #. module: account_voucher
-#: selection:account.voucher,state:0 selection:sale.receipt.report,state:0
+#: selection:account.voucher,state:0
+#: selection:sale.receipt.report,state:0
 msgid "Cancelled"
 msgstr "Ακυρώθηκε"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1261
+#: code:addons/account_voucher/account_voucher.py:1249
 #, python-format
 msgid ""
-"You have to configure account base code and account tax code on the '%s' "
-"tax!"
-msgstr "Πρέπει να ρυθμίσετε τον κωδικό του βασικού λογαριασμού και τον κωδικό του φορολογικού λογαριασμού στον φόρο '%s'!"
+"You have to configure account base code and account tax code on the '%s' tax!"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_sale_receipt
@@ -275,16 +279,17 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a sale receipt.\n"
 "              </p><p>\n"
-"                When the sale receipt is confirmed, you can record the customer\n"
+"                When the sale receipt is confirmed, you can record the "
+"customer\n"
 "                payment related to this sales receipt.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Κάντε κλικ για να δημιουργήσετε μια νέα απόδειξη πώλησης.\n              </p><p>\n                Όταν η απόδειξη πώλησης επιβεβαιωθεί, μπορείτε να καταχωρίσετε την πληρωμή\n                του πελάτη που σχετίζεται με την απόδειξη πώλησης.\n              </p>\n            "
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Εάν επιλεγεί τα νέα μηνύματα χρειάζονται την προσοχή σας"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_account_bank_statement_line
@@ -292,25 +297,27 @@ msgid "Bank Statement Line"
 msgstr "Γραμμή Κίνησης Τραπεζικού Λογαριασμού"
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,day:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,day:0
 msgid "Day"
 msgstr "Ημέρα"
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,tax_id:0
+#: view:account.voucher:0
+#: field:account.voucher,tax_id:0
 msgid "Tax"
 msgstr "Φόρος"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:981
+#: code:addons/account_voucher/account_voucher.py:971
 #, python-format
 msgid "Invalid Action!"
-msgstr "Μη Έγκυρη Ενέργεια!"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,comment:0
 msgid "Counterpart Comment"
-msgstr "Αντίστοιχο Σχόλια"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher.line,account_analytic_id:0
@@ -322,12 +329,12 @@ msgstr "Αναλυτικός Λογαριασμός"
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr "Κρατά την συνολική σύνοψη (αριθμός των μυνημάτων, ...). Αυτή η σύνοψη είναι κατ' ευθείαν σε html format για να μπορεί να ενσωματωθεί σε εμφανίσεις kanban."
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Total Allocation"
-msgstr "Ολικός Επιμερισμός"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -337,11 +344,13 @@ msgstr "Πληροφορίες Πληρωμής"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "(update)"
-msgstr "(αναβάθμιση)"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 selection:account.voucher,state:0
-#: view:sale.receipt.report:0 selection:sale.receipt.report,state:0
+#: view:account.voucher:0
+#: selection:account.voucher,state:0
+#: view:sale.receipt.report:0
+#: selection:sale.receipt.report,state:0
 msgid "Draft"
 msgstr "Πρόχειρο"
 
@@ -353,33 +362,35 @@ msgstr "Εισαγωγή Τιμολογίων"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "e.g. Invoice SAJ/0042"
-msgstr "π.χ. Τιμολόγιο SAJ/0042"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1220
+#: code:addons/account_voucher/account_voucher.py:1208
 #, python-format
 msgid "Wrong voucher line"
-msgstr "Λάθος γραμμή παραστατικού"
+msgstr ""
 
 #. module: account_voucher
-#: selection:account.voucher,pay_now:0 selection:sale.receipt.report,pay_now:0
+#: selection:account.voucher,pay_now:0
+#: selection:sale.receipt.report,pay_now:0
 msgid "Pay Later or Group Funds"
-msgstr "Πληρωμή Αργότερα ή Ομαδοποίηση Διαθεσίμων"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 selection:account.voucher,type:0
+#: view:account.voucher:0
+#: selection:account.voucher,type:0
 #: selection:sale.receipt.report,type:0
 msgid "Receipt"
 msgstr "Απόδειξη"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1122
+#: code:addons/account_voucher/account_voucher.py:1110
 #, python-format
 msgid ""
 "You should configure the 'Gain Exchange Rate Account' in the accounting "
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
-msgstr "Πρέπει να ρυθμίσετε το 'Λογαριασμό Κερδών από Διαφορές Συναλλάγματος' στις ρυθμίσεις του λογαριασμού, ώστε να διαχειρίζεστε αυτοματοποιημένα την καταχώριση των λογιστικών εγγραφών που σχετίζονται με διαφορές στις συναλλαγματικές ισοτιμίες."
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -389,15 +400,17 @@ msgstr "Γραμμές Πώλησης"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Cancel Voucher"
-msgstr "Ακύρωση Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,period_id:0
+#: view:account.voucher:0
+#: field:account.voucher,period_id:0
 msgid "Period"
 msgstr "Περίοδος"
 
 #. module: account_voucher
-#: view:account.voucher:0 code:addons/account_voucher/account_voucher.py:231
+#: view:account.voucher:0
+#: code:addons/account_voucher/account_voucher.py:231
 #, python-format
 msgid "Supplier"
 msgstr "Πριμηθευτής"
@@ -405,12 +418,12 @@ msgstr "Πριμηθευτής"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Supplier Voucher"
-msgstr "Παραστατικό Προμηθευτή"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,message_follower_ids:0
 msgid "Followers"
-msgstr "Ακόλουθοι"
+msgstr ""
 
 #. module: account_voucher
 #: selection:account.voucher.line,type:0
@@ -418,19 +431,27 @@ msgid "Debit"
 msgstr "Χρέωση"
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,nbr:0
-msgid "# of Voucher Lines"
-msgstr "# Γραμμών Απόδειξης"
+#: code:addons/account_voucher/account_voucher.py:1641
+#, python-format
+msgid "Unable to change journal !"
+msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,type:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,nbr:0
+msgid "# of Voucher Lines"
+msgstr ""
+
+#. module: account_voucher
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,type:0
 msgid "Type"
 msgstr "Τύπος"
 
 #. module: account_voucher
 #: view:sale.receipt.report:0
 msgid "Pro-forma Vouchers"
-msgstr "Προσωρινά Παραστατικά"
+msgstr ""
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:318
@@ -438,7 +459,7 @@ msgstr "Προσωρινά Παραστατικά"
 msgid ""
 "At the operation date, the exchange rate was\n"
 "%s = %s"
-msgstr "Την ημέρα λειτουργίας, η συναλλαγματική ισοτιμία ήταν\n%s = %s"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_vendor_payment
@@ -446,7 +467,8 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new supplier payment.\n"
 "              </p><p>\n"
-"                OpenERP helps you easily track payments you make and the remaining balances you need to pay your suppliers.\n"
+"                OpenERP helps you easily track payments you make and the "
+"remaining balances you need to pay your suppliers.\n"
 "              </p>\n"
 "            "
 msgstr ""
@@ -454,12 +476,12 @@ msgstr ""
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Open Supplier Journal Entries"
-msgstr "Άνοιγμα Ημερολογιακών Καταχωρήσεων Προμηθευτών"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_review_voucher_list
 msgid "Vouchers Entries"
-msgstr "Καταχωρήσεις Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,name:0
@@ -475,7 +497,7 @@ msgstr "Τιμολόγιο Πληρωμής"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Are you sure to unreconcile and cancel this record ?"
-msgstr "Θέλετε σίγουρα να καταργήσετε αυτή την εγγραφή; Δεν θα υπάρχει συμφωνία στην εγγραφή"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -485,7 +507,7 @@ msgstr "Απόδειξη Πώλησης"
 #. module: account_voucher
 #: field:account.voucher,is_multi_currency:0
 msgid "Multi Currency Voucher"
-msgstr "Πολυνομισματικό Παραστατικό"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -500,32 +522,37 @@ msgstr "Ιούλιος"
 #. module: account_voucher
 #: help:account.voucher,state:0
 msgid ""
-" * The 'Draft' status is used when a user is encoding a new and unconfirmed Voucher.                         \n"
-"* The 'Pro-forma' when voucher is in Pro-forma status,voucher does not have an voucher number.                         \n"
-"* The 'Posted' status is used when user create voucher,a voucher number is generated and voucher entries are created in account                         \n"
+" * The 'Draft' status is used when a user is encoding a new and unconfirmed "
+"Voucher.                         \n"
+"* The 'Pro-forma' when voucher is in Pro-forma status,voucher does not have "
+"an voucher number.                         \n"
+"* The 'Posted' status is used when user create voucher,a voucher number is "
+"generated and voucher entries are created in account                         "
+"\n"
 "* The 'Cancelled' status is used when user cancel voucher."
-msgstr " * Η κατάσταση 'Πρόχειρο' χρησιμοποιείται όταν ένας χρήστης κωδικοποιεί ένα νέο και μη βεβαιωμένο Παραστατικό.                         \n* Η κατάσταση 'Προσωρινό' όταν ένα παραστατικό είναι σε Προσωρινή κατάσταση, το παραστατικό δεν φέρει αριθμό παραστατικού.                         \n* Η κατάσταση 'Καταχωρημένο' όταν ένας χρήστης δημιουργήσει ένα παραστατικό, δημιουργείται ο αριθμός και οι καταχωρήσεις του παραστατικού                         \n* Η κατάσταση 'Ακυρωμένο' όταν ένας χρήστης ακυρώσει ένα παραστατικό."
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,writeoff_amount:0
 msgid "Difference Amount"
-msgstr "Διαφορά Ποσού"
+msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,due_delay:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,due_delay:0
 msgid "Avg. Due Delay"
-msgstr "Μέση Καθυστέρηση Οφειλής"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Are you sure you want to unreconcile this record?"
-msgstr "Θέλετε σίγουρα να αποσυμφωνήσετε αυτή την εγγραφή;"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1261
+#: code:addons/account_voucher/account_voucher.py:1249
 #, python-format
 msgid "No Account Base Code and Account Tax Code!"
-msgstr "Χωρίς Κωδικό Βασικού Λογαριασμού και Φορολογικό Κωδικό Λογαριασμού!"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,tax_amount:0
@@ -535,7 +562,7 @@ msgstr "Ποσό Φόρου"
 #. module: account_voucher
 #: view:sale.receipt.report:0
 msgid "Validated Vouchers"
-msgstr "Επικυρωμένα Παραστατικά "
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_vendor_receipt
@@ -544,8 +571,10 @@ msgid ""
 "                Click to register a new payment. \n"
 "              </p><p>\n"
 "                Enter the customer and the payment method and then, either\n"
-"                create manually a payment record or OpenERP will propose to you\n"
-"                automatically the reconciliation of this payment with the open\n"
+"                create manually a payment record or OpenERP will propose to "
+"you\n"
+"                automatically the reconciliation of this payment with the "
+"open\n"
 "                invoices or sales receipts.\n"
 "              </p>\n"
 "            "
@@ -555,7 +584,7 @@ msgstr ""
 #: field:account.config.settings,expense_currency_exchange_account_id:0
 #: field:res.company,expense_currency_exchange_account_id:0
 msgid "Loss Exchange Rate Account"
-msgstr "Λογαριασμός Ζημιών από Τιμή Συναλλάγματος"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -565,29 +594,30 @@ msgstr "Πληρωτέο Ποσό"
 #. module: account_voucher
 #: field:account.voucher,payment_option:0
 msgid "Payment Difference"
-msgstr "Διαφορά Πληρωμής"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,audit:0
+#: view:account.voucher:0
+#: field:account.voucher,audit:0
 msgid "To Review"
 msgstr "Για Επισκόπηση"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1132
-#: code:addons/account_voucher/account_voucher.py:1146
-#: code:addons/account_voucher/account_voucher.py:1297
+#: code:addons/account_voucher/account_voucher.py:1120
+#: code:addons/account_voucher/account_voucher.py:1134
+#: code:addons/account_voucher/account_voucher.py:1286
 #, python-format
 msgid "change"
-msgstr "αλλαγή"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1118
+#: code:addons/account_voucher/account_voucher.py:1106
 #, python-format
 msgid ""
 "You should configure the 'Loss Exchange Rate Account' in the accounting "
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
-msgstr "Πρέπει να ρυθμίσετε το 'Λογαριασμό Απώλειες από Διαφορές Συναλλάγματος' στις ρυθμίσεις του λογαριασμού, ώστε να διαχειρίζεστε αυτοματοποιημένα την καταχώριση των λογιστικών εγγραφών που σχετίζονται με διαφορές στις συναλλαγματικές ισοτιμίες."
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -599,12 +629,12 @@ msgstr "Γραμμές Εξόδων"
 msgid ""
 "Fields with internal purpose only that depicts if the voucher is a multi "
 "currency one or not"
-msgstr "Πεδία με αποκλειστικά εσωτερικό σκοπό που περιγράφει αν το παραστατικό είναι πολυνομισματικό ή όχι"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.invoice:0
 msgid "Register Payment"
-msgstr "Καταχώρηση Πληρωμής"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.statement.from.invoice.lines,line_ids:0
@@ -622,7 +652,8 @@ msgid "Group by month of Invoice Date"
 msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,month:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,month:0
 msgid "Month"
 msgstr "Μήνας"
 
@@ -642,60 +673,65 @@ msgstr "Πληρωτές και Εισπρακτέα"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Voucher Payment"
-msgstr "Πληρωμή Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
 #: field:sale.receipt.report,state:0
 msgid "Voucher Status"
-msgstr "Κατάσταση"
+msgstr ""
 
 #. module: account_voucher
-#: field:account.voucher,company_id:0 field:account.voucher.line,company_id:0
-#: view:sale.receipt.report:0 field:sale.receipt.report,company_id:0
+#: field:account.voucher,company_id:0
+#: field:account.voucher.line,company_id:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,company_id:0
 msgid "Company"
 msgstr "Εταιρία"
 
 #. module: account_voucher
 #: help:account.voucher,paid:0
 msgid "The Voucher has been totally paid."
-msgstr "Το Παραστατικό έχει πλήρως εξοφληθεί. "
+msgstr ""
 
 #. module: account_voucher
 #: selection:account.voucher,payment_option:0
 msgid "Reconcile Payment Balance"
-msgstr "Συμφωνία Ισοζυγίου Πληρωμών"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Cancel Receipt"
-msgstr "Ακύρωση Απόδειξης"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1079
+#: code:addons/account_voucher/account_voucher.py:1067
 #, python-format
 msgid "Configuration Error !"
-msgstr "Λάθος Ρύθμισης!"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 view:sale.receipt.report:0
+#: view:account.voucher:0
+#: view:sale.receipt.report:0
 msgid "Draft Vouchers"
-msgstr "Πρόχειρα Παραστατικά"
+msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,price_total_tax:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,price_total_tax:0
 msgid "Total With Tax"
 msgstr "Σύνολο με Φόρο"
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Purchase Voucher"
-msgstr "Παραστατικό Αγοράς"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,state:0
+#: view:account.voucher:0
+#: field:account.voucher,state:0
 #: view:sale.receipt.report:0
 msgid "Status"
-msgstr "Κατάσταση"
+msgstr ""
 
 #. module: account_voucher
 #: view:sale.receipt.report:0
@@ -703,9 +739,10 @@ msgid "Group by year of Invoice Date"
 msgstr ""
 
 #. module: account_voucher
-#: view:account.statement.from.invoice.lines:0 view:account.voucher:0
+#: view:account.statement.from.invoice.lines:0
+#: view:account.voucher:0
 msgid "or"
-msgstr "ή"
+msgstr ""
 
 #. module: account_voucher
 #: selection:sale.receipt.report,month:0
@@ -715,14 +752,14 @@ msgstr "Αύγουστος"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Validate Payment"
-msgstr "Επικύρωση Πληρωμής"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,audit:0
 msgid ""
 "Check this box if you are unsure of that journal entry and if you want to "
 "note it as 'to be reviewed' by an accounting expert."
-msgstr "Ενεργοποιήστε εάν δεν είστε σίγουροι για την συγκεκριμένη ημερολογιακή εγγραφή και θέλετε να την χαρακτηρίσετε ως 'προς αναθεώρηση' από κάποιον επαγγελματία λογιστή."
+msgstr ""
 
 #. module: account_voucher
 #: selection:sale.receipt.report,month:0
@@ -730,10 +767,10 @@ msgid "October"
 msgstr "Οκτώβριος"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1080
+#: code:addons/account_voucher/account_voucher.py:1068
 #, python-format
 msgid "Please activate the sequence of selected journal !"
-msgstr "Παρακαλώ ενεργοποιήστε την ακολουθία του επιλεγμένου ημερολογίου !"
+msgstr ""
 
 #. module: account_voucher
 #: selection:sale.receipt.report,month:0
@@ -743,31 +780,32 @@ msgstr "Ιούνιος"
 #. module: account_voucher
 #: field:account.voucher,payment_rate_currency_id:0
 msgid "Payment Rate Currency"
-msgstr "Συναλλαγματική Ισοτιμία Νομίσματος"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,paid:0
 msgid "Paid"
-msgstr "Εξοφλημένο"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_sale_receipt
 #: model:ir.ui.menu,name:account_voucher.menu_action_sale_receipt
 msgid "Sales Receipts"
-msgstr "Αποδείξεις Πωλήσεων"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Είναι Ακόλουθος"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,analytic_id:0
 msgid "Write-Off Analytic Account"
-msgstr "Διαγραφή Ανείσπρακτου Αναλυτικού Λογαριασμού"
+msgstr ""
 
 #. module: account_voucher
-#: field:account.voucher,date:0 field:account.voucher.line,date_original:0
+#: field:account.voucher,date:0
+#: field:account.voucher.line,date_original:0
 #: field:sale.receipt.report,date:0
 msgid "Date"
 msgstr "Ημερομηνία"
@@ -785,7 +823,7 @@ msgstr "Εκτεταμένα Φίλτρα..."
 #. module: account_voucher
 #: field:account.voucher,paid_amount_in_company_currency:0
 msgid "Paid Amount in Company Currency"
-msgstr "Πληρωτέο Ποσό στο Νόμισμα της Εταιρίας"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.bank.statement.line,amount_reconciled:0
@@ -793,7 +831,8 @@ msgid "Amount reconciled"
 msgstr "Συμφωνημένο ποσό"
 
 #. module: account_voucher
-#: selection:account.voucher,pay_now:0 selection:sale.receipt.report,pay_now:0
+#: selection:account.voucher,pay_now:0
+#: selection:sale.receipt.report,pay_now:0
 msgid "Pay Directly"
 msgstr "Απευθείας Πληρωμή"
 
@@ -808,10 +847,10 @@ msgid "Previous Payments ?"
 msgstr "Προηγούμενες Πληρωμές ;"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1220
+#: code:addons/account_voucher/account_voucher.py:1208
 #, python-format
 msgid "The invoice you are willing to pay is not valid anymore."
-msgstr "Το τιμολόγιο που θέλετε να πληρώσετε δεν είναι έγκυρο πια."
+msgstr ""
 
 #. module: account_voucher
 #: selection:sale.receipt.report,month:0
@@ -822,42 +861,42 @@ msgstr "Ιανουάριος"
 #: model:ir.actions.act_window,name:account_voucher.action_voucher_list
 #: model:ir.ui.menu,name:account_voucher.menu_encode_entries_by_voucher
 msgid "Journal Vouchers"
-msgstr "Ημερολόγιο Παραστατικών"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_res_company
 msgid "Companies"
-msgstr "Εταιρείες"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,message_summary:0
 msgid "Summary"
-msgstr "Σύνοψη"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,active:0
 msgid "Active"
-msgstr "Ενεργό"
+msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1086
+#: code:addons/account_voucher/account_voucher.py:1074
 #, python-format
 msgid "Please define a sequence on the journal."
-msgstr "Παρακαλώ ορίστε μια αλληλουχία στο ημερολόγιο."
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.act_pay_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_vendor_receipt
 #: model:ir.ui.menu,name:account_voucher.menu_action_vendor_receipt
 msgid "Customer Payments"
-msgstr "Πληρωμές Πελατών"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_sale_receipt_report_all
 #: model:ir.ui.menu,name:account_voucher.menu_action_sale_receipt_report_all
 #: view:sale.receipt.report:0
 msgid "Sales Receipts Analysis"
-msgstr "Ανάλυση Αποδείξεων Πωλήσεων"
+msgstr ""
 
 #. module: account_voucher
 #: view:sale.receipt.report:0
@@ -872,22 +911,23 @@ msgstr "Αποστολή"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Invoices and outstanding transactions"
-msgstr "Τιμολόγια και απλήρωτες συναλλαγές"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,currency_help_label:0
 msgid "Helping Sentence"
-msgstr "Βοηθητική Πρόταση"
+msgstr ""
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,price_total:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,price_total:0
 msgid "Total Without Tax"
 msgstr "Σύνολο χωρίς Φόρο"
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Bill Date"
-msgstr "Ημερομηνία Λογαριασμού"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -931,7 +971,8 @@ msgid "Sales Information"
 msgstr "Πληροφορίες Πώλησης"
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher.line,voucher_id:0
+#: view:account.voucher:0
+#: field:account.voucher.line,voucher_id:0
 #: model:res.request.link,name:account_voucher.req_link_voucher
 msgid "Voucher"
 msgstr "Παραστατικό"
@@ -944,26 +985,29 @@ msgstr "Τιμολόγιο"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Voucher Items"
-msgstr "Είδη Παραστατικού"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.statement.from.invoice.lines:0 view:account.voucher:0
+#: view:account.statement.from.invoice.lines:0
+#: view:account.voucher:0
 msgid "Cancel"
 msgstr "Άκυρο"
 
 #. module: account_voucher
 #: model:ir.actions.client,name:account_voucher.action_client_invoice_menu
 msgid "Open Invoicing Menu"
-msgstr "Άνοιγμα Μενού Τιμολόγισης"
+msgstr ""
 
 #. module: account_voucher
-#: selection:account.voucher,state:0 view:sale.receipt.report:0
+#: selection:account.voucher,state:0
+#: view:sale.receipt.report:0
 #: selection:sale.receipt.report,state:0
 msgid "Pro-forma"
 msgstr "Προ-φόρμα"
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,move_ids:0
+#: view:account.voucher:0
+#: field:account.voucher,move_ids:0
 msgid "Journal Items"
 msgstr "Στοιχεία Ημερολογίου"
 
@@ -971,53 +1015,56 @@ msgstr "Στοιχεία Ημερολογίου"
 #: code:addons/account_voucher/account_voucher.py:558
 #, python-format
 msgid "Please define default credit/debit accounts on the journal \"%s\"."
-msgstr "Παρακαλώ ορίστε τους προεπιλεγμένους λογαριασμούς χρέωσης/πίστωσης στο ημερολόγιο \"%s\"."
+msgstr ""
 
 #. module: account_voucher
-#: selection:account.voucher,type:0 selection:sale.receipt.report,type:0
+#: selection:account.voucher,type:0
+#: selection:sale.receipt.report,type:0
 msgid "Purchase"
 msgstr "Αγορά"
 
 #. module: account_voucher
-#: view:account.invoice:0 view:account.voucher:0
+#: view:account.invoice:0
+#: view:account.voucher:0
 msgid "Pay"
 msgstr "Πλήρωσε"
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Currency Options"
-msgstr "Επιλογές Νομίσματος"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,payment_option:0
 msgid ""
 "This field helps you to choose what you want to do with the eventual "
-"difference between the paid amount and the sum of allocated amounts. You can"
-" either choose to keep open this difference on the partner's account, or "
+"difference between the paid amount and the sum of allocated amounts. You can "
+"either choose to keep open this difference on the partner's account, or "
 "reconcile it with the payment(s)"
-msgstr "Αυτό το πεδίο σας βοηθάει να επιλέξετε τι θέλετε να κάνετε με την ενδεχόμενη διαφορά ανάμεσα στο εξοφλημένο ποσό και στο σύνολο των επιμέρους ποσών. Μπορείτε είτε να διατηρήσετε την διαφορά ανοικτή στον λογαριασμό του συνεργάτη, είτε να την αντισταθμίσετε με την(τις) πληρωμή(ες)"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_sale_receipt_report_all
 msgid ""
 "<p>\n"
-"            From this report, you can have an overview of the amount invoiced\n"
+"            From this report, you can have an overview of the amount "
+"invoiced\n"
 "            to your customer as well as payment delays. The tool search can\n"
 "            also be used to personalise your Invoices reports and so, match\n"
 "            this analysis to your needs.\n"
 "          </p>\n"
 "        "
-msgstr "<p>\n            Από αυτή την εγγραφή μπορείτε να δείτε την επισκόπηση του τιμολογηθέντος ποσού\n            στους πελάτες σας, καθώς και τις καθυστερήσεις πληρωμών. Το εργαλείο αναζήτησης μπορεί\n            επίσης να χρησιμοποιηθεί για να εξατομικεύσει τις αναφορές Τιμολογίων, και κατά συνέπεια\n            να ταυτοποιήσει την ανάλυση με τις ανάγκες σας.\n           </p>\n        "
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Posted Vouchers"
-msgstr "Καταχωρημένα Παραστατικά"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,payment_rate:0
 msgid "Exchange Rate"
-msgstr "Συναλλαγματική Ισοτιμία"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -1035,8 +1082,10 @@ msgid "May"
 msgstr "Μάιος"
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,journal_id:0
-#: view:sale.receipt.report:0 field:sale.receipt.report,journal_id:0
+#: view:account.voucher:0
+#: field:account.voucher,journal_id:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,journal_id:0
 msgid "Journal"
 msgstr "Ημερολόγιο"
 
@@ -1046,7 +1095,8 @@ msgid "Internal Notes"
 msgstr "Εσωτερικές Σημειώσεις"
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,line_cr_ids:0
+#: view:account.voucher:0
+#: field:account.voucher,line_cr_ids:0
 msgid "Credits"
 msgstr "Πιστώσεις"
 
@@ -1058,25 +1108,29 @@ msgstr "Αρχεικό Ποσό"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Purchase Receipt"
-msgstr "Απόδειξη Αγοράς"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,payment_rate:0
 msgid ""
 "The specific rate that will be used, in this voucher, between the selected "
 "currency (in 'Payment Rate Currency' field)  and the voucher currency."
-msgstr "Η συγκεκριμένη ισοτιμία θα χρησιμοποιηθεί σε αυτό το παραστατικό ανάμεσα στο επιλεγμένο νόμισμα (στο πεδίο 'Συναλλαγματική Ισοτιμία Νομίσματος') και στο νόμισμα του παραστατικού."
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,pay_now:0
-#: selection:account.voucher,type:0 field:sale.receipt.report,pay_now:0
+#: view:account.voucher:0
+#: field:account.voucher,pay_now:0
+#: selection:account.voucher,type:0
+#: field:sale.receipt.report,pay_now:0
 #: selection:sale.receipt.report,type:0
 msgid "Payment"
 msgstr "Πληρωμή"
 
 #. module: account_voucher
-#: view:account.voucher:0 selection:account.voucher,state:0
-#: view:sale.receipt.report:0 selection:sale.receipt.report,state:0
+#: view:account.voucher:0
+#: selection:account.voucher,state:0
+#: view:sale.receipt.report:0
+#: selection:sale.receipt.report,state:0
 msgid "Posted"
 msgstr "Posted"
 
@@ -1093,12 +1147,12 @@ msgstr "Φεβρουάριος"
 #. module: account_voucher
 #: view:account.voucher:0
 msgid "Supplier Invoices and Outstanding transactions"
-msgstr "Τιμολόγια Προμηθευτών και Απλήρωτες συναλλαγές"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,reference:0
 msgid "Ref #"
-msgstr "Αναφ #"
+msgstr ""
 
 #. module: account_voucher
 #: view:account.voucher:0
@@ -1107,7 +1161,8 @@ msgid "Voucher Entries"
 msgstr "Εγγραφές Παραστατικών"
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,year:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,year:0
 msgid "Year"
 msgstr "Έτος"
 
@@ -1115,10 +1170,11 @@ msgstr "Έτος"
 #: field:account.config.settings,income_currency_exchange_account_id:0
 #: field:res.company,income_currency_exchange_account_id:0
 msgid "Gain Exchange Rate Account"
-msgstr "Λογαριασμός Κερδών από Τιμή Συναλλάγματος"
+msgstr ""
 
 #. module: account_voucher
-#: selection:account.voucher,type:0 selection:sale.receipt.report,type:0
+#: selection:account.voucher,type:0
+#: selection:sale.receipt.report,type:0
 msgid "Sale"
 msgstr "Πώληση"
 
@@ -1128,33 +1184,28 @@ msgid "April"
 msgstr "Απρίλιος"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1655
-#, python-format
-msgid "Unable to Change Journal!"
-msgstr ""
-
-#. module: account_voucher
 #: help:account.voucher,tax_id:0
 msgid "Only for tax excluded from price"
-msgstr "Μόνο για φόρους εξαιρούμενους από την τιμή"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher,type:0
 msgid "Default Type"
-msgstr "Προεπιλεγμένος Τύπος"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,message_ids:0
 msgid "Messages and communication history"
-msgstr "Μηνύματα και ιστορικό επικοινωνίας"
+msgstr ""
 
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_account_statement_from_invoice_lines
 msgid "Entries by Statement from Invoices"
-msgstr "Καταχωρίσεις κατά Δήλωση από τα Τιμολόγια"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,amount:0
+#: view:account.voucher:0
+#: field:account.voucher,amount:0
 msgid "Total"
 msgstr "Σύνολο"
 
@@ -1171,20 +1222,20 @@ msgid ""
 msgstr ""
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:981
+#: code:addons/account_voucher/account_voucher.py:971
 #, python-format
 msgid "Cannot delete voucher(s) which are already opened or paid."
-msgstr "Δεν είναι δυνατή η διαγραφή των παραστατικών που είναι ήδη ανοιχτά ή εξοφλημένα."
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,date:0
 msgid "Effective date for accounting entries"
-msgstr "Ημερομηνία έναρξης ισχύος για λογιστικές εγγραφές"
+msgstr ""
 
 #. module: account_voucher
 #: model:mail.message.subtype,name:account_voucher.mt_voucher_state_change
 msgid "Status Change"
-msgstr "Αλλαγή Κατάστασης"
+msgstr ""
 
 #. module: account_voucher
 #: selection:account.voucher,payment_option:0
@@ -1192,15 +1243,17 @@ msgid "Keep Open"
 msgstr "Διατήρηση ανοιχτό"
 
 #. module: account_voucher
-#: field:account.voucher,line_ids:0 view:account.voucher.line:0
+#: field:account.voucher,line_ids:0
+#: view:account.voucher.line:0
 #: model:ir.model,name:account_voucher.model_account_voucher_line
 msgid "Voucher Lines"
 msgstr "Γραμμές Παραστατικού"
 
 #. module: account_voucher
-#: view:sale.receipt.report:0 field:sale.receipt.report,delay_to_pay:0
+#: view:sale.receipt.report:0
+#: field:sale.receipt.report,delay_to_pay:0
 msgid "Avg. Delay To Pay"
-msgstr "Μέση Καθυστέρηση στην πληρωμή"
+msgstr ""
 
 #. module: account_voucher
 #: field:account.voucher.line,untax_amount:0
@@ -1210,11 +1263,13 @@ msgstr "Αφορολόγητο Ποσό"
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_sale_receipt_report
 msgid "Sales Receipt Statistics"
-msgstr "Στατιστικά Αποδείξεων Πωλήσεων"
+msgstr ""
 
 #. module: account_voucher
-#: view:account.voucher:0 field:account.voucher,partner_id:0
-#: field:account.voucher.line,partner_id:0 view:sale.receipt.report:0
+#: view:account.voucher:0
+#: field:account.voucher,partner_id:0
+#: field:account.voucher.line,partner_id:0
+#: view:sale.receipt.report:0
 #: field:sale.receipt.report,partner_id:0
 msgid "Partner"
 msgstr "Συνεργάτης"
@@ -1225,16 +1280,16 @@ msgid "Open Balance"
 msgstr "Ανοιχτό Ισοζύγιο"
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:1118
-#: code:addons/account_voucher/account_voucher.py:1122
+#: code:addons/account_voucher/account_voucher.py:1106
+#: code:addons/account_voucher/account_voucher.py:1110
 #, python-format
 msgid "Insufficient Configuration!"
-msgstr "Ανεπαρκής Ρύθμιση!"
+msgstr ""
 
 #. module: account_voucher
 #: help:account.voucher,active:0
 msgid ""
-"By default, reconciliation vouchers made on draft bank statements are set as"
-" inactive, which allow to hide the customer/supplier payment while the bank "
+"By default, reconciliation vouchers made on draft bank statements are set as "
+"inactive, which allow to hide the customer/supplier payment while the bank "
 "statement isn't confirmed."
 msgstr ""

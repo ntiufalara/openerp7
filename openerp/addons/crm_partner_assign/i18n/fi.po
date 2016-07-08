@@ -1,22 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * crm_partner_assign
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Finnish translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-03-07 08:38+0000\n"
-"PO-Revision-Date: 2016-02-24 23:01+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-7/language/fi/)\n"
+"PO-Revision-Date: 2013-11-13 13:38+0000\n"
+"Last-Translator: Harri Luuppala <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:06+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,delay_close:0
@@ -38,7 +37,7 @@ msgstr "Suunniteltu liikevaihto"
 msgid ""
 "Message type: email for email message, notification for system message, "
 "comment for other messages such as user replies"
-msgstr "Viestityyppi: Sähköposti  sähköposteille, Ilmoitus järjestelmän viesteille, ja Kommentti muille viesteille, kuten käyttäjien vastauksille."
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,nbr:0
@@ -46,7 +45,8 @@ msgid "# of Cases"
 msgstr "Tapausten määrä"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+#: view:crm.lead.report.assign:0
+#: view:crm.partner.report.assign:0
 msgid "Group By..."
 msgstr "Ryhmittele"
 
@@ -80,7 +80,7 @@ msgstr "Sisältö"
 msgid ""
 "Email address of the sender. This field is set when no matching partner is "
 "found for incoming emails."
-msgstr "Lähettäjän sähköpostiosoite. Tämä kenttä asetetaan kun tuleville viesteille ei löydy vastaavaa kumppania."
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:0
@@ -103,7 +103,8 @@ msgid "Whole Story"
 msgstr "Koko tarina"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,company_id:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,company_id:0
 msgid "Company"
 msgstr "Yritys"
 
@@ -118,7 +119,8 @@ msgid "Partner Date"
 msgstr "Kumppanin päiväys"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+#: view:crm.lead.report.assign:0
+#: view:crm.partner.report.assign:0
 #: view:res.partner:0
 msgid "Salesperson"
 msgstr "Myyjä"
@@ -129,7 +131,8 @@ msgid "Highest"
 msgstr "Korkein"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,day:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,day:0
 msgid "Day"
 msgstr "Päivä"
 
@@ -141,7 +144,7 @@ msgstr "Viestin yksilöivä tunniste"
 #. module: crm_partner_assign
 #: field:res.partner,date_review_next:0
 msgid "Next Partner Review"
-msgstr "Seuraava kumppanin katselmointi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,history_mode:0
@@ -149,9 +152,10 @@ msgid "Latest email"
 msgstr "Viimeisin sähköposti"
 
 #. module: crm_partner_assign
-#: field:crm.lead,partner_latitude:0 field:res.partner,partner_latitude:0
+#: field:crm.lead,partner_latitude:0
+#: field:res.partner,partner_latitude:0
 msgid "Geo Latitude"
-msgstr "Maantieteellinen leveys"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,state:0
@@ -188,18 +192,18 @@ msgstr ""
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Partner Activation"
-msgstr "Kumppanin aktivointi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,type:0
 msgid "System notification"
-msgstr "Järjestelmän ilmoitus"
+msgstr ""
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:74
 #, python-format
 msgid "Lead forward"
-msgstr "Liidin delegointi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,probability:0
@@ -230,7 +234,8 @@ msgid "Partner Grade"
 msgstr "Kumppanitaso"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+#: view:crm.lead.report.assign:0
+#: view:crm.partner.report.assign:0
 msgid "Section"
 msgstr "Osa"
 
@@ -245,7 +250,8 @@ msgid "Next"
 msgstr "Seuraava"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,priority:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,priority:0
 msgid "Priority"
 msgstr "Prioriteetti"
 
@@ -263,7 +269,7 @@ msgstr "Tyyppi"
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,type:0
 msgid "Email"
-msgstr "Sähköposti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: help:crm.lead,partner_assigned_id:0
@@ -278,17 +284,17 @@ msgstr "Alin"
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:0
 msgid "Date Invoice"
-msgstr "Laskun päiväys"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,template_id:0
 msgid "Template"
-msgstr "Mallipohja"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
 msgid "Assign Date"
-msgstr "Toimeksiantopäivämäärä"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -308,12 +314,12 @@ msgstr ""
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,parent_id:0
 msgid "Parent Message"
-msgstr "Edeltävä viesti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,res_id:0
 msgid "Related Document ID"
-msgstr "Liittyvä dokumentti ID"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,state:0
@@ -341,19 +347,21 @@ msgid "Date Review"
 msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,stage_id:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,stage_id:0
 msgid "Stage"
 msgstr "Vaihe"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,state:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,state:0
 msgid "Status"
-msgstr "Tila"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,to_read:0
 msgid "To read"
-msgstr "Lue"
+msgstr ""
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:74
@@ -364,15 +372,17 @@ msgstr "Välitä"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Geo Localization"
-msgstr "Maantieteellinen sijainti"
+msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+#: view:crm.lead.report.assign:0
+#: view:crm.partner.report.assign:0
 msgid "Opportunities Assignment Analysis"
 msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead.forward.to.partner:0 view:res.partner:0
+#: view:crm.lead.forward.to.partner:0
+#: view:res.partner:0
 msgid "Cancel"
 msgstr "Peruuta"
 
@@ -411,7 +421,7 @@ msgstr ""
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,type:0
 msgid "Comment"
-msgstr "Huomautus"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:res.partner,partner_weight:0
@@ -424,8 +434,10 @@ msgid "April"
 msgstr "Huhtikuu"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,grade_id:0
-#: view:crm.partner.report.assign:0 field:crm.partner.report.assign,grade_id:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,grade_id:0
+#: view:crm.partner.report.assign:0
+#: field:crm.partner.report.assign,grade_id:0
 msgid "Grade"
 msgstr "Luokitus"
 
@@ -440,7 +452,8 @@ msgid "Users that voted for this message"
 msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,month:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,month:0
 msgid "Month"
 msgstr "Kuukausi"
 
@@ -452,13 +465,13 @@ msgstr "Avauspäivä"
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,child_ids:0
 msgid "Child Messages"
-msgstr "Aliviestit"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,date_review:0
 #: field:res.partner,date_review:0
 msgid "Latest Partner Review"
-msgstr "Viimeisin kumppanin katselmointi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,subject:0
@@ -468,17 +481,17 @@ msgstr "Aihe"
 #. module: crm_partner_assign
 #: view:crm.lead.forward.to.partner:0
 msgid "or"
-msgstr "tai"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,body:0
 msgid "Contents"
-msgstr "Sisältö"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,vote_user_ids:0
 msgid "Votes"
-msgstr "Ääniä"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -488,18 +501,18 @@ msgstr "Mahdollisuuksien määrä"
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,starred:0
 msgid "Current user has a starred notification linked to this message"
-msgstr "Nykyinen käyttäjä on merkannut tähän viestiin linkitetyn huomautuksen tärkeäksi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,date_partnership:0
 #: field:res.partner,date_partnership:0
 msgid "Partnership Date"
-msgstr "Kumppanuuden alkupäivämäärä"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead:0
 msgid "Team"
-msgstr "Tiimi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,state:0
@@ -512,7 +525,8 @@ msgid "Low"
 msgstr "Matala"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 selection:crm.lead.report.assign,state:0
+#: view:crm.lead.report.assign:0
+#: selection:crm.lead.report.assign,state:0
 msgid "Closed"
 msgstr "Suljettu"
 
@@ -522,7 +536,8 @@ msgid "Mass forward to partner"
 msgstr ""
 
 #. module: crm_partner_assign
-#: view:res.partner:0 field:res.partner,opportunity_assigned_ids:0
+#: view:res.partner:0
+#: field:res.partner,opportunity_assigned_ids:0
 msgid "Assigned Opportunities"
 msgstr "Määritellyt mahdollisuudet"
 
@@ -593,14 +608,15 @@ msgid "Extended Filters..."
 msgstr "Laajennetut Suotimet..."
 
 #. module: crm_partner_assign
-#: field:crm.lead,partner_longitude:0 field:res.partner,partner_longitude:0
+#: field:crm.lead,partner_longitude:0
+#: field:res.partner,partner_longitude:0
 msgid "Geo Longitude"
-msgstr "Maantieteellinen pituus"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,opp:0
 msgid "# of Opportunity"
-msgstr "# Mahdollisuutta"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -625,12 +641,12 @@ msgstr "Tammikuu"
 #. module: crm_partner_assign
 #: view:crm.lead.forward.to.partner:0
 msgid "Send Mail"
-msgstr "Lähetä sähköposti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,date:0
 msgid "Date"
-msgstr "Päiväys"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -640,12 +656,12 @@ msgstr "Suunniteltu liikevaihto"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Partner Review"
-msgstr "Kumppanin katselmointi/tarkastus"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,period_id:0
 msgid "Invoice Period"
-msgstr "Laskutusjakso"
+msgstr ""
 
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_res_partner_grade
@@ -655,21 +671,22 @@ msgstr ""
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,message_id:0
 msgid "Message-Id"
-msgstr "Viestin ID"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.forward.to.partner:0
 #: field:crm.lead.forward.to.partner,attachment_ids:0
 msgid "Attachments"
-msgstr "Liitteet"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,record_name:0
 msgid "Message Record Name"
-msgstr "Viestin tietuenimi"
+msgstr ""
 
 #. module: crm_partner_assign
-#: field:res.partner.activation,sequence:0 field:res.partner.grade,sequence:0
+#: field:res.partner.activation,sequence:0
+#: field:res.partner.grade,sequence:0
 msgid "Sequence"
 msgstr "Sekvenssi"
 
@@ -679,7 +696,7 @@ msgstr "Sekvenssi"
 msgid ""
 "Cannot contact geolocation servers. Please make sure that your internet "
 "connection is up and running (%s)."
-msgstr "Ei yhteytttä sijaintipalveluihin. Tarkista että internet yhteytesi on toiminnassa (%s)."
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,month:0
@@ -697,19 +714,20 @@ msgid "Last date this case was forwarded/assigned to a partner"
 msgstr ""
 
 #. module: crm_partner_assign
-#: selection:crm.lead.report.assign,state:0 view:res.partner:0
+#: selection:crm.lead.report.assign,state:0
+#: view:res.partner:0
 msgid "Open"
 msgstr "Avaa"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,subtype_id:0
 msgid "Subtype"
-msgstr "Alityyppi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:res.partner,date_localization:0
 msgid "Geo Localization Date"
-msgstr "Maantieteellisen sijainnin päiväys"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -719,12 +737,12 @@ msgstr "Nykyinen"
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Liidi/mahdollisuus"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,notified_partner_ids:0
 msgid "Notified partners"
-msgstr "Kumppanit joille ilmoitettu"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.forward.to.partner:0
@@ -750,25 +768,28 @@ msgstr "Todennäköinen liikevaihto"
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:0
-#: field:crm.partner.report.assign,activation:0 view:res.partner:0
-#: field:res.partner,activation:0 view:res.partner.activation:0
+#: field:crm.partner.report.assign,activation:0
+#: view:res.partner:0
+#: field:res.partner,activation:0
+#: view:res.partner.activation:0
 msgid "Activation"
-msgstr "Aktivointi"
+msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead:0 field:crm.lead,partner_assigned_id:0
+#: view:crm.lead:0
+#: field:crm.lead,partner_assigned_id:0
 msgid "Assigned Partner"
 msgstr ""
 
 #. module: crm_partner_assign
 #: field:res.partner,grade_id:0
 msgid "Partner Level"
-msgstr "Kumppanuustaso"
+msgstr ""
 
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,to_read:0
 msgid "Current user has an unread notification linked to this message"
-msgstr "Nykyisellä käyttäjällä on lukematon ilmoitus kytkettynä tähän viestiin"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,type:0
@@ -788,7 +809,7 @@ msgstr "Helmikuu"
 #. module: crm_partner_assign
 #: field:res.partner.activation,name:0
 msgid "Name"
-msgstr "Nimi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: model:ir.actions.act_window,name:crm_partner_assign.res_partner_activation_act
@@ -797,14 +818,16 @@ msgid "Partner Activations"
 msgstr ""
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,country_id:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,country_id:0
 #: view:crm.partner.report.assign:0
 #: field:crm.partner.report.assign,country_id:0
 msgid "Country"
 msgstr "Maa"
 
 #. module: crm_partner_assign
-#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,year:0
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,year:0
 msgid "Year"
 msgstr "Vuosi"
 
@@ -827,7 +850,7 @@ msgstr "Viive avaamiseen"
 #: model:ir.actions.act_window,name:crm_partner_assign.action_report_crm_partner_assign
 #: model:ir.ui.menu,name:crm_partner_assign.menu_report_crm_partner_assign_tree
 msgid "Partnership Analysis"
-msgstr "Kumppanuusanalyysi"
+msgstr ""
 
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,notification_ids:0
@@ -844,17 +867,17 @@ msgstr ""
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_crm_lead_report_assign
 msgid "CRM Lead Report"
-msgstr "CRM liidiraportti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,composition_mode:0
 msgid "Composition mode"
-msgstr "Kirjoitustila"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,model:0
 msgid "Related Document Model"
-msgstr "Liittyvä dokumenttimalli"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,history_mode:0
@@ -864,14 +887,14 @@ msgstr "Tapauksen tiedot"
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,author_id:0
 msgid ""
-"Author of the message. If not set, email_from may hold an email address that"
-" did not match any partner."
-msgstr "Viestin louja. Jos tätä ei ole asetettu, viestin lähettäjä (email_from) voi olla osoite, joka ei täsmännyt mihinkään kumppaniin."
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+msgstr ""
 
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_crm_partner_report_assign
 msgid "CRM Partner Report"
-msgstr "CRM Kumppaniraportti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,priority:0
@@ -881,12 +904,12 @@ msgstr "Korkea"
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,partner_ids:0
 msgid "Additional contacts"
-msgstr "Lisäkontaktit"
+msgstr ""
 
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,parent_id:0
 msgid "Initial thread message."
-msgstr "Viestiketjun alkuperäinen viesti"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,create_date:0
@@ -896,7 +919,7 @@ msgstr "Luontipäivä"
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,filter_id:0
 msgid "Filters"
-msgstr "Suodattimet"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0

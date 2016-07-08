@@ -96,11 +96,7 @@ class CompanyLDAP(osv.osv):
             return False
 
         entry = False
-        try:
-            filter = filter_format(conf['ldap_filter'], (login,))
-        except TypeError:
-            _logger.warning('Could not format LDAP filter. Your filter should contain one \'%s\'.')
-            return False
+        filter = filter_format(conf['ldap_filter'], (login,))
         try:
             results = self.query(conf, filter)
 
@@ -242,7 +238,7 @@ class res_company(osv.osv):
     _inherit = "res.company"
     _columns = {
         'ldaps': fields.one2many(
-            'res.company.ldap', 'company', 'LDAP Parameters', groups="base.group_system"),
+            'res.company.ldap', 'company', 'LDAP Parameters'),
     }
 res_company()
 
@@ -255,10 +251,6 @@ class users(osv.osv):
             return user_id
         registry = RegistryManager.get(db)
         with registry.cursor() as cr:
-            cr.execute("SELECT id FROM res_users WHERE lower(login)=%s", (login,))
-            res = cr.fetchone()
-            if res:
-                return False
             ldap_obj = registry.get('res.company.ldap')
             for conf in ldap_obj.get_ldap_dicts(cr):
                 entry = ldap_obj.authenticate(conf, login, password)

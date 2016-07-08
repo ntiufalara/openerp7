@@ -22,7 +22,6 @@
 from operator import itemgetter
 import time
 
-from openerp import SUPERUSER_ID
 from openerp.osv import fields, osv
 
 class account_fiscal_position(osv.osv):
@@ -34,7 +33,7 @@ class account_fiscal_position(osv.osv):
         'company_id': fields.many2one('res.company', 'Company'),
         'account_ids': fields.one2many('account.fiscal.position.account', 'position_id', 'Account Mapping'),
         'tax_ids': fields.one2many('account.fiscal.position.tax', 'position_id', 'Tax Mapping'),
-        'note': fields.text('Notes'),
+        'note': fields.text('Notes', translate=True),
     }
 
     _defaults = {
@@ -187,8 +186,7 @@ class res_partner(osv.osv):
         return False
 
     def mark_as_reconciled(self, cr, uid, ids, context=None):
-        self.pool['account.move.reconcile'].check_access_rights(cr, uid, 'write')
-        return self.write(cr, SUPERUSER_ID, ids, {'last_reconciliation_date': time.strftime('%Y-%m-%d %H:%M:%S')}, context=context)
+        return self.write(cr, uid, ids, {'last_reconciliation_date': time.strftime('%Y-%m-%d %H:%M:%S')}, context=context)
 
     _columns = {
         'credit': fields.function(_credit_debit_get,

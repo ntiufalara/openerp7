@@ -1,22 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * hr
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Serbian Latin translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2015-10-31 17:12+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Serbian (Latin) (http://www.transifex.com/odoo/odoo-7/language/sr@latin/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Serbian Latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: sr@latin\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:10+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: hr
 #: model:process.node,name:hr.process_node_openerpuser0
@@ -64,22 +63,23 @@ msgstr ""
 #. module: hr
 #: view:hr.config.settings:0
 msgid "Time Tracking"
-msgstr "Praćenje Vremena"
+msgstr ""
 
 #. module: hr
-#: view:hr.employee:0 view:hr.job:0
+#: view:hr.employee:0
+#: view:hr.job:0
 msgid "Group By..."
 msgstr "Grupisano po..."
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.view_department_form_installer
 msgid "Create Your Departments"
-msgstr "Kreiraj svoje sektore"
+msgstr ""
 
 #. module: hr
 #: help:hr.job,no_of_employee:0
 msgid "Number of employees currently occupying this job position."
-msgstr "Broj zaposlenih koji trenutno zauzimaju ovo radno mjesto"
+msgstr ""
 
 #. module: hr
 #: field:hr.config.settings,module_hr_evaluation:0
@@ -87,8 +87,11 @@ msgid "Organize employees periodic evaluation"
 msgstr ""
 
 #. module: hr
-#: view:hr.department:0 view:hr.employee:0 field:hr.employee,department_id:0
-#: view:hr.job:0 field:hr.job,department_id:0
+#: view:hr.department:0
+#: view:hr.employee:0
+#: field:hr.employee,department_id:0
+#: view:hr.job:0
+#: field:hr.job,department_id:0
 #: model:ir.model,name:hr.model_hr_department
 msgid "Department"
 msgstr "Odeljenje"
@@ -96,7 +99,7 @@ msgstr "Odeljenje"
 #. module: hr
 #: field:hr.employee,work_email:0
 msgid "Work Email"
-msgstr "Poslovni email"
+msgstr ""
 
 #. module: hr
 #: help:hr.employee,image:0
@@ -123,10 +126,12 @@ msgstr "U zapošljavanju"
 #. module: hr
 #: field:hr.job,message_unread:0
 msgid "Unread Messages"
-msgstr "Nepročitane poruke"
+msgstr ""
 
 #. module: hr
-#: field:hr.department,company_id:0 view:hr.employee:0 view:hr.job:0
+#: field:hr.department,company_id:0
+#: view:hr.employee:0
+#: view:hr.job:0
 #: field:hr.job,company_id:0
 msgid "Company"
 msgstr "Preduzeće"
@@ -139,7 +144,7 @@ msgstr "Očekivano pri Zapošljavanju"
 #. module: hr
 #: view:hr.employee:0
 msgid "Other Information ..."
-msgstr "Ostale informacije ..."
+msgstr ""
 
 #. module: hr
 #: constraint:hr.employee.category:0
@@ -154,13 +159,13 @@ msgstr ""
 #. module: hr
 #: view:hr.employee:0
 msgid "Birth"
-msgstr "Datum rodjenja"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
 #: model:ir.ui.menu,name:hr.menu_view_employee_category_form
 msgid "Employee Tags"
-msgstr "Oznake zaposlenih"
+msgstr ""
 
 #. module: hr
 #: view:hr.job:0
@@ -190,7 +195,7 @@ msgstr "U braku"
 #. module: hr
 #: field:hr.job,message_ids:0
 msgid "Messages"
-msgstr "Poruke"
+msgstr ""
 
 #. module: hr
 #: view:hr.config.settings:0
@@ -215,19 +220,21 @@ msgstr "Pozicija"
 #. module: hr
 #: help:hr.job,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Ako je označeno, nove poruke zahtjevaju pažnju"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,color:0
 msgid "Color Index"
-msgstr "Indeks boja"
+msgstr ""
 
 #. module: hr
 #: model:process.transition,note:hr.process_transition_employeeuser0
 msgid ""
 "The Related user field on the Employee form allows to link the OpenERP user "
 "(and her rights) to the employee."
-msgstr "Dato korisničko polje u formi Zaposlenih omogućava da povežete OpenERP korisnika( i njegova prava) sa zapošljenim."
+msgstr ""
+"Dato korisničko polje u formi Zaposlenih omogućava da povežete OpenERP "
+"korisnika( i njegova prava) sa zapošljenim."
 
 #. module: hr
 #: field:hr.employee,image_medium:0
@@ -247,7 +254,7 @@ msgstr "Žensko"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_new_config
 msgid "Attendance"
-msgstr "Prisutnost"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,work_phone:0
@@ -260,7 +267,8 @@ msgid "Child Categories"
 msgstr "Pod Kategorija"
 
 #. module: hr
-#: field:hr.job,description:0 model:ir.model,name:hr.model_hr_job
+#: field:hr.job,description:0
+#: model:ir.model,name:hr.model_hr_job
 msgid "Job Description"
 msgstr "Opis Posla"
 
@@ -272,10 +280,11 @@ msgstr "Lokacija Kancelarije"
 #. module: hr
 #: field:hr.job,message_follower_ids:0
 msgid "Followers"
-msgstr "Pratioci"
+msgstr ""
 
 #. module: hr
-#: view:hr.employee:0 model:ir.model,name:hr.model_hr_employee
+#: view:hr.employee:0
+#: model:ir.model,name:hr.model_hr_employee
 #: model:process.node,name:hr.process_node_employee0
 msgid "Employee"
 msgstr "Zaposleni"
@@ -289,8 +298,8 @@ msgstr "Ostale Informacije"
 #: help:hr.employee,image_small:0
 msgid ""
 "Small-sized photo of the employee. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is"
-" required."
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
 msgstr ""
 
 #. module: hr
@@ -301,7 +310,7 @@ msgstr "Datum Rođenja"
 #. module: hr
 #: help:hr.job,no_of_recruitment:0
 msgid "Number of new employees you expect to recruit."
-msgstr "Broj novih radnika koje očekuješ da ćeš zaposliti"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.client,name:hr.action_client_hr_menu
@@ -318,8 +327,8 @@ msgstr ""
 #. module: hr
 #: help:hr.config.settings,module_account_analytic_analysis:0
 msgid ""
-"This installs the module account_analytic_analysis, which will install sales"
-" management too."
+"This installs the module account_analytic_analysis, which will install sales "
+"management too."
 msgstr ""
 
 #. module: hr
@@ -328,14 +337,16 @@ msgid "Human Resources Dashboard"
 msgstr "Glavna Tabla Ljudskih Resursa"
 
 #. module: hr
-#: view:hr.employee:0 field:hr.employee,job_id:0 view:hr.job:0
+#: view:hr.employee:0
+#: field:hr.employee,job_id:0
+#: view:hr.job:0
 msgid "Job"
 msgstr "Posao"
 
 #. module: hr
 #: field:hr.job,no_of_employee:0
 msgid "Current Number of Employees"
-msgstr "Trenutni broj zaposlenih"
+msgstr ""
 
 #. module: hr
 #: field:hr.department,member_ids:0
@@ -387,7 +398,7 @@ msgstr "Kontakt Zaposlenog"
 #. module: hr
 #: view:hr.employee:0
 msgid "e.g. Part Time"
-msgstr "npr. povremeno"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
@@ -395,13 +406,18 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new job position.\n"
 "              </p><p>\n"
-"                Job Positions are used to define jobs and their requirements.\n"
-"                You can keep track of the number of employees you have per job\n"
-"                position and follow the evolution according to what you planned\n"
+"                Job Positions are used to define jobs and their "
+"requirements.\n"
+"                You can keep track of the number of employees you have per "
+"job\n"
+"                position and follow the evolution according to what you "
+"planned\n"
 "                for the future.\n"
 "              </p><p>\n"
-"                You can attach a survey to a job position. It will be used in\n"
-"                the recruitment process to evaluate the applicants for this job\n"
+"                You can attach a survey to a job position. It will be used "
+"in\n"
+"                the recruitment process to evaluate the applicants for this "
+"job\n"
 "                position.\n"
 "              </p>\n"
 "            "
@@ -427,11 +443,16 @@ msgstr ""
 #. module: hr
 #: constraint:hr.employee:0
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
-msgstr "Greška! Nije moguće napraviti rekurzivnu hijerarhiju zaposlenih."
+msgstr ""
 
 #. module: hr
 #: help:hr.config.settings,module_hr_attendance:0
 msgid "This installs the module hr_attendance."
+msgstr ""
+
+#. module: hr
+#: field:hr.employee,image_small:0
+msgid "Smal-sized photo"
 msgstr ""
 
 #. module: hr
@@ -443,7 +464,7 @@ msgstr "Kategorija Zaposlenog"
 #. module: hr
 #: field:hr.employee,category_ids:0
 msgid "Tags"
-msgstr "Oznake"
+msgstr ""
 
 #. module: hr
 #: help:hr.config.settings,module_hr_contract:0
@@ -453,7 +474,7 @@ msgstr ""
 #. module: hr
 #: view:hr.employee:0
 msgid "Related User"
-msgstr "Odnosni korisnički nalog"
+msgstr ""
 
 #. module: hr
 #: view:hr.config.settings:0
@@ -468,7 +489,7 @@ msgstr "Kategorija"
 #. module: hr
 #: view:hr.job:0
 msgid "Stop Recruitment"
-msgstr "Zatvori konkurs"
+msgstr ""
 
 #. module: hr
 #: field:hr.config.settings,module_hr_attendance:0
@@ -498,7 +519,7 @@ msgstr "Kontakt Info"
 #. module: hr
 #: field:res.users,employee_ids:0
 msgid "Related employees"
-msgstr "Odnosni zaposleni"
+msgstr ""
 
 #. module: hr
 #: field:hr.config.settings,module_hr_holidays:0
@@ -511,7 +532,9 @@ msgid "Child Departments"
 msgstr "Pod Odeljenja"
 
 #. module: hr
-#: view:hr.employee:0 view:hr.job:0 field:hr.job,state:0
+#: view:hr.employee:0
+#: view:hr.job:0
+#: field:hr.job,state:0
 msgid "Status"
 msgstr "Status"
 
@@ -528,12 +551,12 @@ msgstr "Ugovor Zaposlenog"
 #. module: hr
 #: view:hr.config.settings:0
 msgid "Contracts"
-msgstr "Ugovori"
+msgstr ""
 
 #. module: hr
 #: help:hr.job,message_ids:0
 msgid "Messages and communication history"
-msgstr "Poruke i istorija komunikacije"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,ssnid:0
@@ -568,7 +591,7 @@ msgstr ""
 #. module: hr
 #: field:hr.employee,bank_account_id:0
 msgid "Bank Account Number"
-msgstr "Broj bankovnog računa"
+msgstr ""
 
 #. module: hr
 #: view:hr.department:0
@@ -578,14 +601,16 @@ msgstr "Preduzeća"
 #. module: hr
 #: field:hr.job,message_summary:0
 msgid "Summary"
-msgstr "Sažetak"
+msgstr ""
 
 #. module: hr
 #: model:process.transition,note:hr.process_transition_contactofemployee0
 msgid ""
 "In the Employee form, there are different kind of information like Contact "
 "information."
-msgstr "U formi Zaposljnih , ima različitih vrsta informacija kao Kontakt informacije."
+msgstr ""
+"U formi Zaposljnih , ima različitih vrsta informacija kao Kontakt "
+"informacije."
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
@@ -593,8 +618,10 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the OpenERP employee screen, you\n"
-"                can easily find all the information you need for each person;\n"
+"                With just a quick glance on the OpenERP employee screen, "
+"you\n"
+"                can easily find all the information you need for each "
+"person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
 "            "
@@ -603,7 +630,7 @@ msgstr ""
 #. module: hr
 #: view:hr.employee:0
 msgid "HR Settings"
-msgstr "Dodatne informacije"
+msgstr ""
 
 #. module: hr
 #: view:hr.employee:0
@@ -613,7 +640,7 @@ msgstr ""
 #. module: hr
 #: constraint:hr.department:0
 msgid "Error! You cannot create recursive departments."
-msgstr "Greška! Nije moguće napraviti rekurzivne sektore."
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,address_id:0
@@ -623,7 +650,7 @@ msgstr "Adresa Posla"
 #. module: hr
 #: view:hr.employee:0
 msgid "Public Information"
-msgstr "Javne informacije"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,marital:0
@@ -638,7 +665,7 @@ msgstr "ir.actions.act_window"
 #. module: hr
 #: field:hr.employee,last_login:0
 msgid "Latest Connection"
-msgstr "Zadnja konekcija"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,image:0
@@ -648,7 +675,7 @@ msgstr "Fotografija"
 #. module: hr
 #: view:hr.config.settings:0
 msgid "Cancel"
-msgstr "Otkazi"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -656,7 +683,8 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                OpenERP's department structure is used to manage all documents\n"
+"                OpenERP's department structure is used to manage all "
+"documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
@@ -672,7 +700,7 @@ msgstr ""
 #: help:hr.job,expected_employees:0
 msgid ""
 "Expected number of employees for this job position after new recruitment."
-msgstr "Očekivan broj novih radnika na ovom radnom mjestu nakon novog konkursa"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
@@ -681,7 +709,8 @@ msgid ""
 "                Click to define a new department.\n"
 "              </p><p>\n"
 "                Your departments structure is used to manage all documents\n"
-"                related to employees by departments: expenses and timesheets,\n"
+"                related to employees by departments: expenses and "
+"timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
@@ -695,7 +724,7 @@ msgstr "Lične informacije"
 #. module: hr
 #: field:hr.employee,city:0
 msgid "City"
-msgstr "Grad"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,passport_id:0
@@ -705,7 +734,7 @@ msgstr "Br. pasoša"
 #. module: hr
 #: field:hr.employee,mobile_phone:0
 msgid "Work Mobile"
-msgstr "Poslovni telefon"
+msgstr ""
 
 #. module: hr
 #: selection:hr.job,state:0
@@ -719,7 +748,7 @@ msgid ""
 msgstr ""
 
 #. module: hr
-#: code:addons/hr/hr.py:227
+#: code:addons/hr/hr.py:221
 #, python-format
 msgid "Welcome to %s! Please help him/her take the first steps with OpenERP!"
 msgstr ""
@@ -792,7 +821,7 @@ msgstr "Napomene"
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action2
 msgid "Subordinate Hierarchy"
-msgstr "Hijerarhija zaposlenih"
+msgstr ""
 
 #. module: hr
 #: field:hr.employee,resource_id:0
@@ -800,7 +829,8 @@ msgid "Resource"
 msgstr "Resurs"
 
 #. module: hr
-#: field:hr.department,complete_name:0 field:hr.employee,name_related:0
+#: field:hr.department,complete_name:0
+#: field:hr.employee,name_related:0
 #: field:hr.employee.category,complete_name:0
 msgid "Name"
 msgstr "Ime"
@@ -811,7 +841,8 @@ msgid "Gender"
 msgstr "Pol"
 
 #. module: hr
-#: view:hr.employee:0 field:hr.employee.category,employee_ids:0
+#: view:hr.employee:0
+#: field:hr.employee.category,employee_ids:0
 #: field:hr.job,employee_ids:0
 #: model:ir.actions.act_window,name:hr.hr_employee_normal_action_tree
 #: model:ir.actions.act_window,name:hr.open_view_employee_list
@@ -833,7 +864,7 @@ msgstr "Ime Odeljenja"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reports"
-msgstr "Izveštaji"
+msgstr ""
 
 #. module: hr
 #: field:hr.config.settings,module_hr_payroll:0
@@ -864,12 +895,12 @@ msgstr "Kreiranje OpenERP korisnika"
 #. module: hr
 #: field:hr.employee,login:0
 msgid "Login"
-msgstr "Prijava"
+msgstr ""
 
 #. module: hr
 #: field:hr.job,expected_employees:0
 msgid "Total Forecasted Employees"
-msgstr "Predviđen ukupan broj zaposlenih"
+msgstr ""
 
 #. module: hr
 #: help:hr.job,state:0
@@ -881,7 +912,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model,name:hr.model_res_users
 msgid "Users"
-msgstr "Korisnici"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
@@ -897,7 +928,8 @@ msgid ""
 "                    <b>Human Resources dashboard is empty.</b>\n"
 "                  </p><p>\n"
 "                    To add your first report into this dashboard, go to any\n"
-"                    menu, switch to list or graph view, and click <i>'Add to\n"
+"                    menu, switch to list or graph view, and click <i>'Add "
+"to\n"
 "                    Dashboard'</i> in the extended search options.\n"
 "                  </p><p>\n"
 "                    You can filter and group data before inserting into the\n"
@@ -908,7 +940,8 @@ msgid ""
 msgstr ""
 
 #. module: hr
-#: view:hr.employee:0 field:hr.employee,coach_id:0
+#: view:hr.employee:0
+#: field:hr.employee,coach_id:0
 msgid "Coach"
 msgstr "Trener"
 
@@ -928,7 +961,8 @@ msgid "hr.config.settings"
 msgstr ""
 
 #. module: hr
-#: field:hr.department,manager_id:0 view:hr.employee:0
+#: field:hr.department,manager_id:0
+#: view:hr.employee:0
 #: field:hr.employee,parent_id:0
 msgid "Manager"
 msgstr "Menadžer"
@@ -946,9 +980,4 @@ msgstr "Podređeni"
 #. module: hr
 #: view:hr.config.settings:0
 msgid "Apply"
-msgstr "Primeni"
-
-#. module: hr
-#: field:hr.employee,image_small:0
-msgid "Small-sized photo"
-msgstr "Manja fotografija"
+msgstr ""

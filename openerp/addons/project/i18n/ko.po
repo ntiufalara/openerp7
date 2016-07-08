@@ -1,22 +1,21 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * project
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Korean translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 00:10+0000\n"
-"PO-Revision-Date: 2015-10-30 02:53+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-7/language/ko/)\n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-07 19:36+0000\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:28+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: project
 #: view:project.project:0
@@ -26,12 +25,13 @@ msgstr ""
 #. module: project
 #: help:account.analytic.account,use_tasks:0
 msgid ""
-"If checked, this contract will be available in the project menu and you will"
-" be able to manage tasks or track issues"
-msgstr "선택하면 이 계약을 프로젝트 메뉴에서 사용할 수 있으며 업무 또는 이슈 추적을 관리할 수 있습니다."
+"If checked, this contract will be available in the project menu and you will "
+"be able to manage tasks or track issues"
+msgstr ""
 
 #. module: project
-#: field:project.project,progress_rate:0 view:report.project.task.user:0
+#: field:project.project,progress_rate:0
+#: view:report.project.task.user:0
 #: field:report.project.task.user,progress:0
 msgid "Progress"
 msgstr "진행"
@@ -44,7 +44,7 @@ msgstr "위임 별 과제"
 #. module: project
 #: view:project.project:0
 msgid "Parent"
-msgstr "부모"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.dblc_proj
@@ -54,7 +54,7 @@ msgstr "프로젝트의 과제들"
 #. module: project
 #: field:project.task.type,name:0
 msgid "Stage Name"
-msgstr "단계명"
+msgstr ""
 
 #. module: project
 #: model:process.transition.action,name:project.process_transition_action_openpendingtask0
@@ -67,14 +67,15 @@ msgid "New Project Based on Template"
 msgstr "템플릿에 기초한 새 프로젝트"
 
 #. module: project
-#: view:report.project.task.user:0 field:report.project.task.user,day:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,day:0
 msgid "Day"
-msgstr "일"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_merge
 msgid "Merge"
-msgstr "병합"
+msgstr ""
 
 #. module: project
 #: view:res.partner:0
@@ -82,9 +83,16 @@ msgid "Start Task"
 msgstr "과제 시작"
 
 #. module: project
-#: help:project.project,message_unread:0 help:project.task,message_unread:0
+#: code:addons/project/project.py:944
+#, python-format
+msgid "Warning !"
+msgstr ""
+
+#. module: project
+#: help:project.project,message_unread:0
+#: help:project.task,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "체크할 경우, 새로운 메시지를 주목할 필요가 있습니다."
+msgstr ""
 
 #. module: project
 #: model:process.node,name:project.process_node_donetask0
@@ -99,12 +107,12 @@ msgstr "과제가 완료되었습니다."
 #. module: project
 #: view:res.partner:0
 msgid "False"
-msgstr "거짓"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_testing
 msgid "Testing"
-msgstr "시험"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
@@ -114,21 +122,22 @@ msgstr "분석 계정"
 #. module: project
 #: field:project.config.settings,group_time_work_estimation_tasks:0
 msgid "Manage time estimation on tasks"
-msgstr "업무에 대한 예상 시간 관리"
+msgstr ""
 
 #. module: project
-#: help:project.project,message_summary:0 help:project.task,message_summary:0
+#: help:project.project,message_summary:0
+#: help:project.task,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr "대화 요약 (메시지 개수, ...)을 내포함. 이 요약은 간판 화면에 삽입할 수 있도록 html 형식으로 직접 작성됩니다."
+msgstr ""
 
 #. module: project
-#: code:addons/project/project.py:458 code:addons/project/project.py:969
-#: code:addons/project/project.py:1348
+#: code:addons/project/project.py:444
+#: code:addons/project/project.py:1332
 #, python-format
 msgid "Warning!"
-msgstr "경고!"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_res_partner
@@ -138,10 +147,11 @@ msgstr "파트너"
 #. module: project
 #: field:project.config.settings,group_manage_delegation_task:0
 msgid "Allow task delegation"
-msgstr "업무 위임 허용"
+msgstr ""
 
 #. module: project
-#: field:project.task.delegate,planned_hours:0 view:report.project.task.user:0
+#: field:project.task.delegate,planned_hours:0
+#: view:report.project.task.user:0
 #: field:report.project.task.user,hours_planned:0
 msgid "Planned Hours"
 msgstr "계획된 시간"
@@ -164,7 +174,7 @@ msgstr "처리해야 할 과제 전체 대비 완료된 과제의 비중 (%)"
 #. module: project
 #: model:ir.actions.client,name:project.action_client_project_menu
 msgid "Open Project Menu"
-msgstr "프로젝트 메뉴 열기"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.action_project_task_user_tree
@@ -177,12 +187,12 @@ msgstr ""
 #. module: project
 #: view:project.task.delegate:0
 msgid "Validation Task Title"
-msgstr "검증 업무 제목"
+msgstr ""
 
 #. module: project
 #: model:res.groups,name:project.group_delegate_task
 msgid "Task Delegation"
-msgstr "업무 위임중"
+msgstr ""
 
 #. module: project
 #: field:project.project,planned_hours:0
@@ -192,30 +202,33 @@ msgid "Planned Time"
 msgstr "계획된 시간"
 
 #. module: project
-#: view:project.task:0 selection:project.task,state:0
+#: view:project.task:0
+#: selection:project.task,state:0
 #: selection:project.task.delegate,state:0
 #: selection:project.task.history,state:0
 #: selection:project.task.history.cumulative,state:0
 #: model:project.task.type,name:project.project_tt_deployment
-#: selection:project.task.type,state:0 view:report.project.task.user:0
-#: selection:report.project.task.user,state:0 view:res.partner:0
+#: selection:project.task.type,state:0
+#: view:report.project.task.user:0
+#: selection:report.project.task.user,state:0
+#: view:res.partner:0
 msgid "Done"
 msgstr "완료"
 
 #. module: project
 #: model:project.category,name:project.project_category_01
 msgid "Contact's suggestion"
-msgstr "문의 제안"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,group_time_work_estimation_tasks:0
 msgid "Allows you to compute Time Estimation on tasks."
-msgstr "업무 추정 시간을 계산할 수 있습니다."
+msgstr ""
 
 #. module: project
 #: field:report.project.task.user,user_id:0
 msgid "Assigned To"
-msgstr "할당 대상"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_closed
@@ -224,7 +237,8 @@ msgid "Task Done"
 msgstr ""
 
 #. module: project
-#: view:project.project:0 view:report.project.task.user:0
+#: view:project.project:0
+#: view:report.project.task.user:0
 #: field:report.project.task.user,partner_id:0
 msgid "Contact"
 msgstr "연락처"
@@ -239,12 +253,12 @@ msgstr "위임"
 #: model:ir.actions.act_window,name:project.open_view_template_project
 #: view:project.project:0
 msgid "Templates of Projects"
-msgstr "프로젝트 서식"
+msgstr ""
 
 #. module: project
 #: field:project.project,analytic_account_id:0
 msgid "Contract/Analytic"
-msgstr "계약/분석"
+msgstr ""
 
 #. module: project
 #: view:project.config.settings:0
@@ -255,7 +269,7 @@ msgstr "프로젝트 관리"
 #: model:ir.actions.act_window,name:project.action_project_task_delegate
 #: view:project.task.delegate:0
 msgid "Project Task Delegate"
-msgstr "프로젝트 업무 위임"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_started
@@ -271,12 +285,12 @@ msgstr ""
 #. module: project
 #: view:project.config.settings:0
 msgid "Support"
-msgstr "지원"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Member"
-msgstr "구성원"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
@@ -288,15 +302,17 @@ msgstr ""
 msgid ""
 "Project's members are users who can have an access to the tasks related to "
 "this project."
-msgstr "이 프로젝트와 관련된 업무에 접근할 수 있는 사용자가 프로젝트 구성원입니다."
+msgstr ""
 
 #. module: project
-#: view:project.project:0 field:project.task,manager_id:0
+#: view:project.project:0
+#: field:project.task,manager_id:0
 msgid "Project Manager"
 msgstr "프로젝트 매니저"
 
 #. module: project
-#: field:project.project,state:0 field:project.task,state:0
+#: field:project.project,state:0
+#: field:project.task,state:0
 #: field:project.task.history,state:0
 #: field:project.task.history.cumulative,state:0
 #: field:report.project.task.user,state:0
@@ -306,41 +322,42 @@ msgstr "상태"
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "August"
-msgstr "8월"
+msgstr ""
 
 #. module: project
-#: view:project.project:0 field:project.project,complete_name:0
+#: view:project.project:0
+#: field:project.project,complete_name:0
 msgid "Project Name"
 msgstr "프로젝트 이름"
 
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "June"
-msgstr "6월"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Gantt View"
-msgstr "간트 차트 화면"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "October"
-msgstr "10월"
+msgstr ""
 
 #. module: project
 #: help:project.project,total_hours:0
 msgid ""
 "Sum of total hours of all tasks related to this project and its child "
 "projects."
-msgstr "이 프로젝트 및 하위 프로젝트와 관련된 모든 업무 시간의 총합계"
+msgstr ""
 
 #. module: project
 #: help:project.project,active:0
 msgid ""
 "If the active field is set to False, it will allow you to hide the project "
 "without removing it."
-msgstr "활성 필드를 거짓으로 설정하면 프로젝트 제거 없이 프로젝트를 숨길 수 있습니다."
+msgstr ""
 
 #. module: project
 #: model:process.transition,note:project.process_transition_opendonetask0
@@ -351,20 +368,21 @@ msgstr "과제가 완료되면, '완료' 상태가 됩니다."
 #: field:project.project,message_summary:0
 #: field:project.task,message_summary:0
 msgid "Summary"
-msgstr "요약"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Task summary..."
-msgstr "업무 요약"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Append this project to another one using analytic accounts hierarchy"
-msgstr "분석적 계정 계층 구조를 이용해서 다른 하나에 이 프로젝트 추가"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 msgid "In Progress Tasks"
 msgstr ""
 
@@ -372,19 +390,24 @@ msgstr ""
 #: help:res.company,project_time_mode_id:0
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
-"If you use the timesheet linked to projects (project_timesheet module), don't forget to setup the right unit of measure in your employees."
-msgstr "프로젝트와 과제에서 사용되는 UoM을 설정합니다. \n프로젝트에 연결된 타임시트를 이용한다면 (project_timesheet module), 직원들을 위한 적절한 UoM 설정을 잊지 마십시오."
+"If you use the timesheet linked to projects (project_timesheet module), "
+"don't forget to setup the right unit of measure in your employees."
+msgstr ""
+"프로젝트와 과제에서 사용되는 UoM을 설정합니다. \n"
+"프로젝트에 연결된 타임시트를 이용한다면 (project_timesheet module), 직원들을 위한 적절한 UoM 설정을 잊지 "
+"마십시오."
 
 #. module: project
-#: field:project.task,user_id:0 view:report.project.task.user:0
+#: field:project.task,user_id:0
+#: view:report.project.task.user:0
 msgid "Assigned to"
 msgstr "할당 대상"
 
 #. module: project
-#: code:addons/project/project.py:1058
+#: code:addons/project/project.py:1033
 #, python-format
 msgid "Delegated User should be specified"
-msgstr "위임할 사용자를 지정해야 합니다"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
@@ -392,8 +415,10 @@ msgid "Project(s) Manager"
 msgstr ""
 
 #. module: project
-#: selection:project.project,state:0 view:project.task:0
-#: selection:project.task,state:0 selection:project.task.history,state:0
+#: selection:project.project,state:0
+#: view:project.task:0
+#: selection:project.task,state:0
+#: selection:project.task.history,state:0
 #: selection:project.task.history.cumulative,state:0
 #: selection:project.task.type,state:0
 #: selection:report.project.task.user,state:0
@@ -423,13 +448,13 @@ msgstr ""
 #. module: project
 #: field:project.config.settings,module_pad:0
 msgid "Use integrated collaborative note pads on task"
-msgstr "업무에 통합된 협업 노트 패드를 사용합니다"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
 #: model:mail.message.subtype,name:project.mt_task_blocked
 msgid "Task Blocked"
-msgstr "업무 차단됨"
+msgstr ""
 
 #. module: project
 #: model:process.node,note:project.process_node_opentask0
@@ -439,32 +464,32 @@ msgstr "귀하의 작업 시간을 인코드"
 #. module: project
 #: field:project.project,alias_id:0
 msgid "Alias"
-msgstr "별명"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "oe_kanban_text_red"
-msgstr "oe_kanban_text_red"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_blocked
 msgid "Task blocked"
-msgstr "업무 차단"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Delegation"
-msgstr "위임"
+msgstr ""
 
 #. module: project
 #: field:project.task,create_date:0
 msgid "Create Date"
-msgstr "생성일"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Add a Description..."
-msgstr "설명 추가 ..."
+msgstr ""
 
 #. module: project
 #: view:res.partner:0
@@ -474,22 +499,22 @@ msgstr ""
 #. module: project
 #: view:project.config.settings:0
 msgid "Apply"
-msgstr "적용"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_delegate
 msgid "Task Delegate"
-msgstr "업무 위임"
+msgstr ""
 
 #. module: project
 #: help:project.task.delegate,new_task_description:0
 msgid "Reinclude the description of the task in the task of the user"
-msgstr "사용자 업무에서의 업무 설명을 다시 포함"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Project Settings"
-msgstr "프로젝트 설정"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -516,19 +541,20 @@ msgstr "총 남은 시간은 과제를 담당한 이에 의해 주기적으로 �
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "March"
-msgstr "3월"
+msgstr ""
 
 #. module: project
 #: view:board.board:0
 #: model:ir.actions.act_window,name:project.my_open_tasks_action
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 msgid "My Tasks"
 msgstr "내 과제들"
 
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! You cannot create recursive tasks."
-msgstr "오류! 업무를 재귀적으로 작성할 수 없습니다."
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -544,7 +570,7 @@ msgstr ""
 #: view:report.project.task.user:0
 #: field:report.project.task.user,opening_days:0
 msgid "Days to Open"
-msgstr "개시까지 소요일"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,priority:0
@@ -555,7 +581,7 @@ msgstr "매우 긴급"
 #: help:project.task.delegate,project_id:0
 #: help:project.task.delegate,user_id:0
 msgid "User you want to delegate this task to"
-msgstr "이 작업을 위임할 사용자"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
@@ -564,17 +590,20 @@ msgstr "템플릿으로 설정"
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
-#: view:project.config.settings:0 view:project.project:0 view:project.task:0
+#: view:project.config.settings:0
+#: view:project.project:0
+#: view:project.task:0
 #: field:project.task.history,task_id:0
 #: field:project.task.history.cumulative,task_id:0
-#: field:project.task.work,task_id:0 view:report.project.task.user:0
+#: field:project.task.work,task_id:0
+#: view:report.project.task.user:0
 msgid "Task"
 msgstr "과제"
 
 #. module: project
 #: help:project.config.settings,group_tasks_work_on_tasks:0
 msgid "Allows you to compute work on tasks."
-msgstr "업무에 따른 작업량을 계산할 수 있습니다."
+msgstr ""
 
 #. module: project
 #: view:project.project:0
@@ -584,7 +613,7 @@ msgstr "관리"
 #. module: project
 #: field:project.config.settings,group_tasks_work_on_tasks:0
 msgid "Log work activities on tasks"
-msgstr "업무에 대한 작업 활동 기록"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_analysis
@@ -592,19 +621,20 @@ msgid "Analysis"
 msgstr "분석"
 
 #. module: project
-#: field:project.task,name:0 field:report.project.task.user,name:0
+#: field:project.task,name:0
+#: field:report.project.task.user,name:0
 msgid "Task Summary"
-msgstr "업무 요약"
+msgstr ""
 
 #. module: project
 #: field:project.task,active:0
 msgid "Not a Template Task"
-msgstr "업무 서식이 아님"
+msgstr ""
 
 #. module: project
 #: field:project.task,planned_hours:0
 msgid "Initially Planned Hours"
-msgstr "최초 예정 시간"
+msgstr ""
 
 #. module: project
 #: model:process.transition,note:project.process_transition_delegate0
@@ -631,7 +661,7 @@ msgid ""
 "                  projects or invite customers to share your activities.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                  새 프로젝트를 작성합니다.\n                </p><p>\n                  프로젝트는 귀하의 활동을 구조화하는 데 사용됩니다 : \n                  업무 계획, 이슈 추적, 송장 작업표 등.\n                  내부 프로젝트(R&D, 업무 프로세스 개선 등), \n                  개인 프로젝트(나의 할 일) 또는 고객과의 협업 프로젝트 \n                  등을 만들 수 있습니다.\n                </p><p>\n                  귀하는 프로젝트에 내부 사용자와 협업할 수 있고\n                  귀하의 활동을 공유할 수 있는 고객을 초대할 수 있습니다.\n                </p>\n            "
+msgstr ""
 
 #. module: project
 #: view:project.config.settings:0
@@ -639,7 +669,8 @@ msgid "Planning"
 msgstr "계획"
 
 #. module: project
-#: view:project.task:0 field:project.task,date_deadline:0
+#: view:project.task:0
+#: field:project.task,date_deadline:0
 #: field:report.project.task.user,date_deadline:0
 msgid "Deadline"
 msgstr "마감 시한"
@@ -647,7 +678,7 @@ msgstr "마감 시한"
 #. module: project
 #: view:project.task.history.cumulative:0
 msgid "Ready"
-msgstr "준비"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
@@ -657,19 +688,20 @@ msgstr ""
 #. module: project
 #: field:project.config.settings,module_project_issue_sheet:0
 msgid "Invoice working time on issues"
-msgstr "이슈에 대한 송장 작업 시간"
+msgstr ""
 
 #. module: project
-#: view:project.project:0 view:project.task:0
+#: view:project.project:0
+#: view:project.task:0
 #: field:project.task.history,end_date:0
 #: field:project.task.history.cumulative,end_date:0
 msgid "End Date"
-msgstr "종료날짜"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_specification
 msgid "Specification"
-msgstr "명세서"
+msgstr ""
 
 #. module: project
 #: model:process.transition,note:project.process_transition_draftopentask0
@@ -679,7 +711,7 @@ msgstr "초안 상태에서 오픈 상태로 전환됩니다."
 #. module: project
 #: view:project.task.history.cumulative:0
 msgid "Task's Analysis"
-msgstr "업무 분석"
+msgstr ""
 
 #. module: project
 #: view:project.task.delegate:0
@@ -690,7 +722,7 @@ msgstr "새 과제 설명"
 #. module: project
 #: field:report.project.task.user,delay_endings_days:0
 msgid "Overpassed Deadline"
-msgstr "과거 만기일"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -711,19 +743,20 @@ msgstr "총 시간"
 #. module: project
 #: view:report.project.task.user:0
 msgid "Creation Date"
-msgstr "생성일"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Miscellaneous"
-msgstr "기타"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 field:project.task,stage_id:0
+#: view:project.task:0
+#: field:project.task,stage_id:0
 #: field:project.task.history,type_id:0
 #: field:project.task.history.cumulative,type_id:0
 msgid "Stage"
-msgstr "단계"
+msgstr ""
 
 #. module: project
 #: model:process.transition,name:project.process_transition_draftopentask0
@@ -733,12 +766,12 @@ msgstr "Draft Open task"
 #. module: project
 #: field:project.project,alias_model:0
 msgid "Alias Model"
-msgstr "별명 모델"
+msgstr ""
 
 #. module: project
 #: help:report.project.task.user,closing_days:0
 msgid "Number of Days to close the task"
-msgstr "업무 마감 소요 일수"
+msgstr ""
 
 #. module: project
 #: view:board.board:0
@@ -748,22 +781,23 @@ msgstr "내 보드"
 #. module: project
 #: model:ir.actions.act_window,name:project.open_task_type_form
 msgid "Stages"
-msgstr "단계"
+msgstr ""
 
 #. module: project
-#: view:project.project:0 view:project.task:0
+#: view:project.project:0
+#: view:project.task:0
 msgid "Delete"
-msgstr "삭제"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
 msgid "In progress"
-msgstr "진행 중"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "September"
-msgstr "9월"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,priority:0
@@ -773,7 +807,7 @@ msgstr "긴급"
 #. module: project
 #: model:project.category,name:project.project_category_02
 msgid "Feature request"
-msgstr "기능 요청"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
@@ -783,44 +817,46 @@ msgstr "위임된 과제들"
 #. module: project
 #: model:ir.model,name:project.model_project_task_work
 msgid "Project Task Work"
-msgstr "프로젝트 업무 작업"
+msgstr ""
 
 #. module: project
 #: code:addons/project/wizard/project_task_delegate.py:81
 #, python-format
 msgid "CHECK: %s"
-msgstr "확인 : %s"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Close Project"
-msgstr "프로젝트 마감"
+msgstr ""
 
 #. module: project
 #: field:project.project,tasks:0
 msgid "Task Activities"
-msgstr "업무 활동"
+msgstr ""
 
 #. module: project
-#: field:project.project,effective_hours:0 field:project.task.work,hours:0
+#: field:project.project,effective_hours:0
+#: field:project.task.work,hours:0
 msgid "Time Spent"
 msgstr "소요된 시간"
 
 #. module: project
-#: view:project.project:0 view:project.task:0
+#: view:project.project:0
+#: view:project.task:0
 msgid "í"
-msgstr "í"
+msgstr ""
 
 #. module: project
 #: field:account.analytic.account,company_uom_id:0
 msgid "unknown"
-msgstr "알 수 없음"
+msgstr ""
 
 #. module: project
 #: field:project.project,message_is_follower:0
 #: field:project.task,message_is_follower:0
 msgid "Is a Follower"
-msgstr "은(는) 팔로워임"
+msgstr ""
 
 #. module: project
 #: field:project.task,work_ids:0
@@ -830,7 +866,7 @@ msgstr "완료된 작업"
 #. module: project
 #: view:report.project.task.user:0
 msgid "Extended Filters..."
-msgstr "확장 필터..."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
@@ -840,31 +876,32 @@ msgstr ""
 #. module: project
 #: view:project.project:0
 msgid "Project Stages"
-msgstr "프로젝트 단계"
+msgstr ""
 
 #. module: project
 #: help:project.task,state:0
 msgid ""
 "The status is set to 'Draft', when a case is created.                      "
-"If the case is in progress the status is set to 'Open'."
-"                      When the case is over, the status is set to 'Done'."
-"                      If the case needs to be reviewed then the status is"
-"                       set to 'Pending'."
-msgstr "사례가 생성되었을 때 상태가 '초안'으로 설정됩니다. 사례가 진행 중일 경우 상태는 '개시'로 설정됩니다. 사례가 끝났을 경우 '완료'로 설정됩니다. 사례를 검토할 필요가 있을 경우 상태는 '보류 중'으로 설정됩니다."
+"If the case is in progress the status is set to 'Open'.                      "
+"When the case is over, the status is set to 'Done'.                      If "
+"the case needs to be reviewed then the status is                       set "
+"to 'Pending'."
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
 msgid "Companies"
-msgstr "업체"
+msgstr ""
 
 #. module: project
 #: field:project.task.type,fold:0
 msgid "Folded by Default"
-msgstr "기본적으로 접기"
+msgstr ""
 
 #. module: project
 #: field:project.task.history,date:0
-#: field:project.task.history.cumulative,date:0 field:project.task.work,date:0
+#: field:project.task.history.cumulative,date:0
+#: field:project.task.work,date:0
 msgid "Date"
 msgstr "날짜"
 
@@ -881,8 +918,9 @@ msgid ""
 "A task's kanban state indicates special situations affecting it:\n"
 " * Normal is the default situation\n"
 " * Blocked indicates something is preventing the progress of this task\n"
-" * Ready for next stage indicates the task is ready to be pulled to the next stage"
-msgstr "업무 칸반 상태는 그것이 영향을 미치는 특별한 상황을 나타냅니다 :\n * 보통은 기본 상태입니다.\n * 차단된 상태는 무언가가 이 업무의 진행 상태를 방해한다는 뜻입니다.\n * 다음 단계 준비 상태는 업무가 다음 단계로 이전할 준비가 되었음을 나타냅니다."
+" * Ready for next stage indicates the task is ready to be pulled to the next "
+"stage"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
@@ -892,20 +930,23 @@ msgstr ""
 #. module: project
 #: view:project.project:0
 msgid "Cancel Project"
-msgstr "프로젝트 취소"
+msgstr ""
 
 #. module: project
 #: help:project.project,analytic_account_id:0
 msgid ""
-"Link this project to an analytic account if you need financial management on"
-" projects. It enables you to connect projects with budgets, planning, cost "
+"Link this project to an analytic account if you need financial management on "
+"projects. It enables you to connect projects with budgets, planning, cost "
 "and revenue analysis, timesheets on projects, etc."
-msgstr "프로젝트에 대한 재무 관리가 필요하면 이 프로젝트를 분석 계정에 링크하십시오. 예산, 계획, 원가 및 수입 분석, 프로젝트 타임시트 등을 수행할 수 있습니다."
+msgstr ""
+"프로젝트에 대한 재무 관리가 필요하면 이 프로젝트를 분석 계정에 링크하십시오. 예산, 계획, 원가 및 수입 분석, 프로젝트 타임시트 등을 "
+"수행할 수 있습니다."
 
 #. module: project
 #: model:process.transition.action,name:project.process_transition_action_draftcanceltask0
 #: model:process.transition.action,name:project.process_transition_action_opencanceltask0
-#: view:project.config.settings:0 view:project.task.delegate:0
+#: view:project.config.settings:0
+#: view:project.task.delegate:0
 #: view:project.task.reevaluate:0
 msgid "Cancel"
 msgstr "취소"
@@ -913,12 +954,12 @@ msgstr "취소"
 #. module: project
 #: view:project.project:0
 msgid "Other Info"
-msgstr "기타 정보"
+msgstr ""
 
 #. module: project
 #: view:project.task.delegate:0
 msgid "_Delegate"
-msgstr "_Delegate"
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -931,29 +972,30 @@ msgstr "매우 낮음"
 msgid ""
 "Sum of spent hours of all tasks related to this project and its child "
 "projects."
-msgstr "이 프로젝트 및 하위 프로젝트와 관련된 모든 업무의 소요 시간의 합계"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid ""
 "Follow this project to automatically track the events associated to tasks "
 "and issues of this project."
-msgstr "프로젝트 이슈 및 업무와 연관된 이벤트를 추적하기 위해 이 프로젝트를 수행합니다."
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Users"
-msgstr "사용자"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
 msgid "Stage Changed"
-msgstr "단계가 변경됨"
+msgstr ""
 
 #. module: project
-#: view:project.project:0 model:res.groups,name:project.group_project_manager
+#: view:project.project:0
+#: model:res.groups,name:project.group_project_manager
 msgid "Manager"
-msgstr "매니저"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.project_category_action
@@ -962,22 +1004,22 @@ msgid ""
 "                Click to add a new tag.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                새로운 태그를 추가합니다.\n              </p>\n            "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_task_types_view
 msgid "Task Stages"
-msgstr "업무 단계"
+msgstr ""
 
 #. module: project
 #: field:project.category,name:0
 msgid "Name"
-msgstr "이름"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "November"
-msgstr "11월"
+msgstr ""
 
 #. module: project
 #: view:project.task.reevaluate:0
@@ -988,24 +1030,25 @@ msgstr ""
 #: model:ir.model,name:project.model_project_task_type
 #: view:project.task.type:0
 msgid "Task Stage"
-msgstr "과제 단계"
+msgstr ""
 
 #. module: project
 #: view:project.task.type:0
 msgid "Common"
-msgstr "공통"
+msgstr ""
 
 #. module: project
-#: help:project.project,message_ids:0 help:project.task,message_ids:0
+#: help:project.project,message_ids:0
+#: help:project.task,message_ids:0
 msgid "Messages and communication history"
-msgstr "메시지 및 대화이력"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid ""
 "To invoice or setup invoicing and renewal options, go to the related "
 "contract:"
-msgstr "송장 또는 송장 설정 그리고 옵션 갱신을 위해 관련 계약으로 이동 :"
+msgstr ""
 
 #. module: project
 #: field:project.task.delegate,state:0
@@ -1018,19 +1061,22 @@ msgid "Work summary"
 msgstr "작업 개요"
 
 #. module: project
-#: view:project.project:0 view:project.task:0 view:report.project.task.user:0
+#: view:project.project:0
+#: view:project.task:0
+#: view:report.project.task.user:0
 msgid "Group By..."
-msgstr "분류 기준..."
+msgstr ""
 
 #. module: project
-#: view:project.project:0 selection:project.project,state:0
+#: view:project.project:0
+#: selection:project.project,state:0
 msgid "Template"
 msgstr "템플릿"
 
 #. module: project
 #: view:project.project:0
 msgid "Re-open project"
-msgstr "프로젝트 재 개시"
+msgstr ""
 
 #. module: project
 #: help:project.project,priority:0
@@ -1040,7 +1086,7 @@ msgstr ""
 #. module: project
 #: constraint:project.project:0
 msgid "Error! project start-date must be lower then project end-date."
-msgstr "오류! 프로젝트 시작일은 프로젝트 마감일보다 앞이어야 합니다."
+msgstr ""
 
 #. module: project
 #: field:project.project,members:0
@@ -1053,15 +1099,18 @@ msgid "Delegated Tasks"
 msgstr "위임된 과제들"
 
 #. module: project
-#: view:project.project:0 field:project.project,message_unread:0
-#: view:project.task:0 field:project.task,message_unread:0
+#: view:project.project:0
+#: field:project.project,message_unread:0
+#: view:project.task:0
+#: field:project.task,message_unread:0
 msgid "Unread Messages"
-msgstr "읽지 않은 메시지"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 field:project.task,parent_ids:0
+#: view:project.task:0
+#: field:project.task,parent_ids:0
 msgid "Parent Tasks"
-msgstr "상위 업무"
+msgstr ""
 
 #. module: project
 #: model:process.node,name:project.process_node_opentask0
@@ -1071,7 +1120,7 @@ msgstr "과제 오픈"
 #. module: project
 #: view:project.task.type:0
 msgid "Stages common to all projects"
-msgstr "모든 프로젝트의 공통 단계"
+msgstr ""
 
 #. module: project
 #: model:process.node,name:project.process_node_drafttask0
@@ -1084,7 +1133,8 @@ msgid "Notes"
 msgstr "노트"
 
 #. module: project
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 msgid "Pending Tasks"
 msgstr ""
 
@@ -1096,7 +1146,7 @@ msgstr ""
 #. module: project
 #: model:project.category,name:project.project_category_04
 msgid "Usability"
-msgstr "사용성"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -1110,10 +1160,10 @@ msgid "Done by"
 msgstr "수행자"
 
 #. module: project
-#: code:addons/project/project.py:188
+#: code:addons/project/project.py:181
 #, python-format
 msgid "Invalid Action!"
-msgstr "유효하지 않은 액션!"
+msgstr ""
 
 #. module: project
 #: help:project.task.type,state:0
@@ -1131,22 +1181,24 @@ msgstr "기타 정보"
 #. module: project
 #: view:project.task:0
 msgid "Edit..."
-msgstr "편집..."
+msgstr ""
 
 #. module: project
-#: view:report.project.task.user:0 field:report.project.task.user,nbr:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,nbr:0
 msgid "# of tasks"
 msgstr ""
 
 #. module: project
 #: field:project.project,doc_count:0
 msgid "Number of documents attached"
-msgstr "첨부 문서 갯수"
+msgstr ""
 
 #. module: project
-#: field:project.task,priority:0 field:report.project.task.user,priority:0
+#: field:project.task,priority:0
+#: field:report.project.task.user,priority:0
 msgid "Priority"
-msgstr "우선순위"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
@@ -1159,7 +1211,7 @@ msgid ""
 "Internal email associated with this project. Incoming emails are "
 "automatically synchronizedwith Tasks (or optionally Issues if the Issue "
 "Tracker module is installed)."
-msgstr "이 프로젝트와 관련된 내부 이메일. 수신 이메일은 자동적으로 업무와 동기화됩니다(또는 이슈 추적 모듈이 설치되었으면 이슈와 동기화-선택사항)"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1168,12 +1220,13 @@ msgid ""
 "                Click to add a stage in the task pipeline.\n"
 "              </p><p>\n"
 "                Define the steps that will be used in the project from the\n"
-"                creation of the task, up to the closing of the task or issue.\n"
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
 "                You will use these stages in order to track the progress in\n"
 "                solving a task or an issue.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                업무순서도의 단계를 작성합니다.\n              </p><p>\n                업무 생성에서 업무 또는 문제 마감까지\n                프로젝트 내부에서 사용되는 단계를 정의합니다.\n                업무 또는 이슈 해결 과정의 추적을 위해\n                이러한 단계를 사용합니다.\n              </p>\n            "
+msgstr ""
 
 #. module: project
 #: help:project.task,total_hours:0
@@ -1181,22 +1234,24 @@ msgid "Computed as: Time Spent + Remaining Time."
 msgstr "계산: 소요 시간 + 남은 시간"
 
 #. module: project
-#: code:addons/project/project.py:382 code:addons/project/project.py:403
-#: code:addons/project/project.py:733
+#: code:addons/project/project.py:368
+#: code:addons/project/project.py:389
+#: code:addons/project/project.py:721
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (사본)"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_stage
 msgid "Task Stage Changed"
-msgstr "업무 단계 변경"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 field:project.task.history,remaining_hours:0
+#: view:project.task:0
+#: field:project.task.history,remaining_hours:0
 #: field:project.task.history.cumulative,remaining_hours:0
 msgid "Remaining Time"
-msgstr "잔여 시간"
+msgstr ""
 
 #. module: project
 #: field:project.task.delegate,name:0
@@ -1206,7 +1261,7 @@ msgstr "위임된 제목"
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "July"
-msgstr "7월"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_reevaluate
@@ -1221,23 +1276,17 @@ msgstr "지연 시간"
 #. module: project
 #: view:project.task.type:0
 msgid "Add a description..."
-msgstr "설명 추가 ..."
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Team"
-msgstr "팀"
-
-#. module: project
-#: code:addons/project/project.py:458
-#, python-format
-msgid "You must assign members on the project '%s'!"
-msgstr "'%s' 프로젝트에 구성원을 할당해야 합니다!"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,time_unit:0
 msgid "This will set the unit of measure used in projects and tasks."
-msgstr "이것은 프로젝트와 업무에 사용할 측정 단위를 설정합니다."
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -1245,49 +1294,51 @@ msgid "Very important"
 msgstr ""
 
 #. module: project
-#: view:report.project.task.user:0 field:report.project.task.user,month:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,month:0
 msgid "Month"
-msgstr "달"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_design
 msgid "Design"
-msgstr "디자인"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Start Date"
-msgstr "시작 날짜"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 selection:project.task,kanban_state:0
+#: view:project.task:0
+#: selection:project.task,kanban_state:0
 #: selection:project.task.history,kanban_state:0
 #: view:project.task.history.cumulative:0
 #: selection:project.task.history.cumulative,kanban_state:0
 msgid "Blocked"
-msgstr "차단됨"
+msgstr ""
 
 #. module: project
 #: help:project.task,progress:0
 msgid ""
 "If the task has a progress of 99.99% you should close the task if it's "
 "finished or reevaluate the time"
-msgstr "업무가 99.99%의 진행율이라면 시간을 재평가하거나 완료해서 업무를 마감해야 합니다."
+msgstr ""
 
 #. module: project
 #: field:project.task,user_email:0
 msgid "User Email"
-msgstr "사용자 이메일"
+msgstr ""
 
 #. module: project
 #: help:project.task.delegate,prefix:0
 msgid "Title for your validation task"
-msgstr "유효성 검사 업무에 대한 제목"
+msgstr ""
 
 #. module: project
 #: field:project.config.settings,time_unit:0
 msgid "Working time unit"
-msgstr "작업 시간 단위"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
@@ -1303,15 +1354,18 @@ msgstr "낮음"
 #. module: project
 #: selection:project.project,state:0
 msgid "Closed"
-msgstr "마감됨"
+msgstr ""
 
 #. module: project
-#: view:project.project:0 selection:project.project,state:0
-#: view:project.task:0 selection:project.task,state:0
+#: view:project.project:0
+#: selection:project.project,state:0
+#: view:project.task:0
+#: selection:project.task,state:0
 #: selection:project.task.delegate,state:0
 #: selection:project.task.history,state:0
 #: selection:project.task.history.cumulative,state:0
-#: selection:project.task.type,state:0 view:report.project.task.user:0
+#: selection:project.task.type,state:0
+#: view:report.project.task.user:0
 #: selection:report.project.task.user,state:0
 msgid "Pending"
 msgstr "보류"
@@ -1319,27 +1373,28 @@ msgstr "보류"
 #. module: project
 #: model:ir.actions.act_window,name:project.project_category_action
 #: model:ir.ui.menu,name:project.menu_project_category_act
-#: view:project.category:0 field:project.task,categ_ids:0
+#: view:project.category:0
+#: field:project.task,categ_ids:0
 msgid "Tags"
-msgstr "태그"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_history
 #: model:ir.model,name:project.model_project_task_history_cumulative
 msgid "History of Tasks"
-msgstr "업무 기록"
+msgstr ""
 
 #. module: project
 #: help:project.task.delegate,state:0
 msgid ""
 "New state of your own task. Pending will be reopened automatically when the "
 "delegated task is closed"
-msgstr "개인 업무의 새 상태. 위임된 업무가 마감될 때 자동적으로 보류가 재개됩니다."
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,group_manage_delegation_task:0
 msgid "Allows you to delegate tasks to other users."
-msgstr "다른 사용자에게 업무를 위임할 수 있습니다."
+msgstr ""
 
 #. module: project
 #: field:project.project,active:0
@@ -1349,7 +1404,7 @@ msgstr "활성"
 #. module: project
 #: model:ir.model,name:project.model_project_category
 msgid "Category of project's task, issue, ..."
-msgstr "프로젝트 업무 분류, 이슈..."
+msgstr ""
 
 #. module: project
 #: help:project.project,resource_calendar_id:0
@@ -1361,17 +1416,17 @@ msgstr "간트 다이어그램 보고서를 조정하기 위한 타임테이블 
 msgid ""
 "Computed as difference between planned hours by the project manager and the "
 "total hours of the task."
-msgstr "프로젝트 관리자에 의해 계획된 시간과 업무의 총 시간 사이의 차이 계산."
+msgstr ""
 
 #. module: project
 #: view:project.config.settings:0
 msgid "Helpdesk & Support"
-msgstr "헬프 데스크 및 지원"
+msgstr ""
 
 #. module: project
 #: help:report.project.task.user,opening_days:0
 msgid "Number of Days to Open the task"
-msgstr "업무 개시 소요 일수"
+msgstr ""
 
 #. module: project
 #: field:project.task,delegated_user_id:0
@@ -1386,24 +1441,23 @@ msgid ""
 msgstr "과제를 수행하는데 필요한 추정 시간이며, 주로, 해당 과제가 초안 상태일 때 프로젝트 매니저에 의해 설정됩니다."
 
 #. module: project
-#: code:addons/project/project.py:237
+#: code:addons/project/project.py:230
 #, python-format
 msgid "Attachments"
-msgstr "첨부 파일"
+msgstr ""
 
 #. module: project
 #: view:project.category:0
 msgid "Issue Version"
-msgstr "버전"
+msgstr ""
 
 #. module: project
-#: code:addons/project/project.py:189
+#: code:addons/project/project.py:182
 #, python-format
 msgid ""
 "You cannot delete a project containing tasks. You can either delete all the "
-"project's tasks and then delete the project or simply deactivate the "
-"project."
-msgstr "업무를 포함한 프로젝트는 삭제할 수 없습니다. 프로젝트의 모든 업무를 삭제한 다음 프로젝트를 삭제하거나 간단하게 프로젝트를 비활성화할 수 있습니다."
+"project's tasks and then delete the project or simply deactivate the project."
+msgstr ""
 
 #. module: project
 #: model:process.transition.action,name:project.process_transition_action_draftopentask0
@@ -1414,10 +1468,11 @@ msgstr "열기"
 #. module: project
 #: field:project.project,privacy_visibility:0
 msgid "Privacy / Visibility"
-msgstr "개인 / 가시성"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 field:project.task,remaining_hours:0
+#: view:project.task:0
+#: field:project.task,remaining_hours:0
 #: field:project.task.reevaluate,remaining_hours:0
 #: view:report.project.task.user:0
 #: field:report.project.task.user,remaining_hours:0
@@ -1427,23 +1482,23 @@ msgstr "남은 시간"
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_stage
 msgid "Stage changed"
-msgstr "단계가 변경됨"
+msgstr ""
 
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! Task end-date must be greater then task start-date"
-msgstr "오류! 업무 마감일은 업무 시작일 이후여야 합니다"
+msgstr ""
 
 #. module: project
 #: field:project.task.history,user_id:0
 #: field:project.task.history.cumulative,user_id:0
 msgid "Responsible"
-msgstr "담당자:"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Search Project"
-msgstr "프로젝트 검색"
+msgstr ""
 
 #. module: project
 #: view:project.task.delegate:0
@@ -1464,7 +1519,7 @@ msgstr ""
 #. module: project
 #: model:project.task.type,name:project.project_tt_development
 msgid "Development"
-msgstr "개발"
+msgstr ""
 
 #. module: project
 #: help:project.task,active:0
@@ -1487,7 +1542,8 @@ msgstr "소요 시간"
 #. module: project
 #: help:project.config.settings,module_pad:0
 msgid ""
-"Lets the company customize which Pad installation should be used to link to new pads\n"
+"Lets the company customize which Pad installation should be used to link to "
+"new pads\n"
 "                (by default, http://ietherpad.com/).\n"
 "                This installs the module pad."
 msgstr ""
@@ -1495,20 +1551,20 @@ msgstr ""
 #. module: project
 #: field:project.task,id:0
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
 msgid "Overpassed Tasks"
-msgstr "시한을 넘긴 업무"
+msgstr ""
 
 #. module: project
-#: code:addons/project/project.py:969
+#: code:addons/project/project.py:944
 #, python-format
 msgid ""
 "Child task still open.\n"
 "Please cancel or complete child task first."
-msgstr "하위 업무가 여전히 열려 있습니다.\n먼저 하위 업무를 마치거나 취소하십시오."
+msgstr ""
 
 #. module: project
 #: field:project.task.delegate,user_id:0
@@ -1518,12 +1574,12 @@ msgstr "할당 대상"
 #. module: project
 #: model:res.groups,name:project.group_time_work_estimation_tasks
 msgid "Time Estimation on Tasks"
-msgstr "업무 예상 시간"
+msgstr ""
 
 #. module: project
 #: field:project.task,total_hours:0
 msgid "Total"
-msgstr "합계"
+msgstr ""
 
 #. module: project
 #: model:process.node,note:project.process_node_taskbydelegate0
@@ -1545,7 +1601,7 @@ msgstr ""
 msgid ""
 "This stage is not visible, for example in status bar or kanban view, when "
 "there are no records in that stage to display."
-msgstr "이 단계는 이 단계에 표시될 기록이 없을 때 상태 표시줄 또는 간판 화면에 나타나지 않습니다."
+msgstr ""
 
 #. module: project
 #: view:project.task:0
@@ -1562,6 +1618,12 @@ msgid "CHECK: "
 msgstr "체크: "
 
 #. module: project
+#: code:addons/project/project.py:444
+#, python-format
+msgid "You must assign members on the project '%s' !"
+msgstr ""
+
+#. module: project
 #: view:project.project:0
 msgid "Pending Projects"
 msgstr ""
@@ -1569,7 +1631,7 @@ msgstr ""
 #. module: project
 #: view:project.task:0
 msgid "Remaining"
-msgstr "남음"
+msgstr ""
 
 #. module: project
 #: field:project.task,progress:0
@@ -1577,16 +1639,20 @@ msgid "Progress (%)"
 msgstr "진행 (%)"
 
 #. module: project
-#: field:project.task,company_id:0 field:project.task.work,company_id:0
-#: view:report.project.task.user:0 field:report.project.task.user,company_id:0
+#: field:project.task,company_id:0
+#: field:project.task.work,company_id:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,company_id:0
 msgid "Company"
-msgstr "회사"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,module_project_timesheet:0
 msgid ""
-"This allows you to transfer the entries under tasks defined for Project Management to\n"
-"                the timesheet line entries for particular date and user, with the effect of creating,\n"
+"This allows you to transfer the entries under tasks defined for Project "
+"Management to\n"
+"                the timesheet line entries for particular date and user, "
+"with the effect of creating,\n"
 "                editing and deleting either ways.\n"
 "                This installs the module project_timesheet."
 msgstr ""
@@ -1594,12 +1660,12 @@ msgstr ""
 #. module: project
 #: field:project.config.settings,module_project_issue:0
 msgid "Track issues and bugs"
-msgstr "업무 이슈 또는 버그"
+msgstr ""
 
 #. module: project
 #: field:project.config.settings,module_project_mrp:0
 msgid "Generate tasks from sale orders"
-msgstr "판매 주문에서 업무 생성"
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -1612,35 +1678,36 @@ msgid "Define the Requirements and Set Planned Hours."
 msgstr "요구조건을 정의하고, 시간 계획을 설정"
 
 #. module: project
-#: field:project.task,write_date:0
-msgid "Last Modification Date"
-msgstr "최신 수정일"
-
-#. module: project
-#: field:project.project,message_ids:0 field:project.task,message_ids:0
+#: field:project.project,message_ids:0
+#: field:project.task,message_ids:0
 msgid "Messages"
-msgstr "메시지"
+msgstr ""
 
 #. module: project
-#: field:project.project,color:0 field:project.task,color:0
+#: field:project.project,color:0
+#: field:project.task,color:0
 msgid "Color Index"
-msgstr "컬러 색인"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_board_project
 #: model:ir.model,name:project.model_project_project
 #: model:ir.ui.menu,name:project.menu_project_dashboard
 #: model:ir.ui.menu,name:project.menu_project_management
-#: view:project.project:0 view:project.task:0 field:project.task,project_id:0
+#: view:project.project:0
+#: view:project.task:0
+#: field:project.task,project_id:0
 #: field:project.task.delegate,project_id:0
 #: field:project.task.history.cumulative,project_id:0
-#: view:report.project.task.user:0 field:report.project.task.user,project_id:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,project_id:0
 #: model:res.request.link,name:project.req_link_project
 msgid "Project"
 msgstr "프로젝트"
 
 #. module: project
-#: selection:project.project,state:0 selection:project.task,state:0
+#: selection:project.project,state:0
+#: selection:project.task,state:0
 #: selection:project.task.history,state:0
 #: selection:project.task.history.cumulative,state:0
 #: model:project.task.type,name:project.project_tt_cancel
@@ -1656,7 +1723,8 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new task.\n"
 "              </p><p>\n"
-"                OpenERP's project management allows you to manage the pipeline\n"
+"                OpenERP's project management allows you to manage the "
+"pipeline\n"
 "                of tasks in order to get things done efficiently. You can\n"
 "                track progress, discuss on tasks, attach documents, etc.\n"
 "              </p>\n"
@@ -1664,55 +1732,60 @@ msgid ""
 msgstr ""
 
 #. module: project
-#: field:project.task,date_end:0 field:report.project.task.user,date_end:0
+#: field:project.task,date_end:0
+#: field:report.project.task.user,date_end:0
 msgid "Ending Date"
-msgstr "종료 날짜"
+msgstr ""
 
 #. module: project
 #: field:project.task.type,state:0
 msgid "Related Status"
-msgstr "관련된 상태"
+msgstr ""
 
 #. module: project
 #: view:project.project:0
 msgid "Documents"
-msgstr "문서"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_new
 msgid "Task created"
-msgstr "과제 생성"
+msgstr ""
 
 #. module: project
-#: view:report.project.task.user:0 field:report.project.task.user,no_of_days:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,no_of_days:0
 msgid "# of Days"
-msgstr "소요일수"
+msgstr ""
 
 #. module: project
 #: field:project.project,message_follower_ids:0
 #: field:project.task,message_follower_ids:0
 msgid "Followers"
-msgstr "팔로워"
+msgstr ""
 
 #. module: project
-#: selection:project.project,state:0 view:project.task:0
-#: selection:project.task,state:0 selection:project.task.history,state:0
+#: selection:project.project,state:0
+#: view:project.task:0
+#: selection:project.task,state:0
+#: selection:project.task.history,state:0
 #: selection:project.task.history.cumulative,state:0
-#: selection:project.task.type,state:0 view:report.project.task.user:0
+#: selection:project.task.type,state:0
+#: view:report.project.task.user:0
 msgid "New"
-msgstr "새로 만들기"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_task_history_cumulative
 #: model:ir.ui.menu,name:project.menu_action_view_task_history_cumulative
 msgid "Cumulative Flow"
-msgstr "누적 흐름"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
 #: field:report.project.task.user,hours_effective:0
 msgid "Effective Hours"
-msgstr "유효 시간"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -1730,7 +1803,8 @@ msgid "Manage resources planning on gantt view"
 msgstr ""
 
 #. module: project
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 msgid "Unassigned Tasks"
 msgstr "할당되지 않은 과제들"
 
@@ -1739,20 +1813,21 @@ msgstr "할당되지 않은 과제들"
 msgid ""
 "Sum of planned hours of all tasks related to this project and its child "
 "projects."
-msgstr "이 프로젝트 및 하위 프로젝트와 관련된 모든 업무의 계획된 시간의 합계"
+msgstr ""
 
 #. module: project
 #: view:res.partner:0
 msgid "For changing to done state"
-msgstr "완료 상태로 변경하기 위해 사용됨"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
 msgid "My Task"
-msgstr "내 업무"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 #: view:report.project.task.user:0
 msgid "My Projects"
 msgstr "내 프로젝트"
@@ -1760,18 +1835,21 @@ msgstr "내 프로젝트"
 #. module: project
 #: help:project.task,sequence:0
 msgid "Gives the sequence order when displaying a list of tasks."
-msgstr "업무 목록을 표시하는 순서를 제공합니다."
+msgstr ""
 
 #. module: project
-#: field:project.task,date_start:0 field:report.project.task.user,date_start:0
+#: field:project.task,date_start:0
+#: field:report.project.task.user,date_start:0
 msgid "Starting Date"
 msgstr "시작 날짜"
 
 #. module: project
-#: code:addons/project/project.py:424
+#: code:addons/project/project.py:410
 #: model:ir.actions.act_window,name:project.open_view_project_all
-#: model:ir.ui.menu,name:project.menu_projects view:project.project:0
-#: field:project.task.type,project_ids:0 view:res.company:0
+#: model:ir.ui.menu,name:project.menu_projects
+#: view:project.project:0
+#: field:project.task.type,project_ids:0
+#: view:res.company:0
 #, python-format
 msgid "Projects"
 msgstr "프로젝트"
@@ -1779,22 +1857,23 @@ msgstr "프로젝트"
 #. module: project
 #: model:res.groups,name:project.group_tasks_work_on_tasks
 msgid "Task's Work on Tasks"
-msgstr "업무에 대한 업무의 작업"
+msgstr ""
 
 #. module: project
 #: help:project.task.delegate,name:0
 msgid "New title of the task delegated to the user"
-msgstr "사용자에게 위임된 업무의 새 제목"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_project_task_user_tree
 #: model:ir.ui.menu,name:project.menu_project_task_user_tree
 #: view:report.project.task.user:0
 msgid "Tasks Analysis"
-msgstr "업무 분석"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 view:project.task.history.cumulative:0
+#: view:project.task:0
+#: view:project.task.history.cumulative:0
 msgid "Project Tasks"
 msgstr "프로젝트 과제"
 
@@ -1804,7 +1883,9 @@ msgstr "프로젝트 과제"
 #: model:ir.actions.act_window,name:project.action_view_task
 #: model:ir.ui.menu,name:project.menu_action_view_task
 #: model:process.process,name:project.process_process_tasksprocess0
-#: view:project.project:0 view:project.task:0 view:res.partner:0
+#: view:project.project:0
+#: view:project.task:0
+#: view:res.partner:0
 #: field:res.partner,task_ids:0
 msgid "Tasks"
 msgstr "과제들"
@@ -1812,32 +1893,36 @@ msgstr "과제들"
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "December"
-msgstr "12월"
+msgstr ""
 
 #. module: project
-#: view:project.config.settings:0 view:project.task.delegate:0
+#: view:project.config.settings:0
+#: view:project.task.delegate:0
 #: view:project.task.reevaluate:0
 msgid "or"
-msgstr "또는"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,module_project_mrp:0
 msgid ""
-"This feature automatically creates project tasks from service products in sale orders.\n"
-"                More precisely, tasks are created for procurement lines with product of type 'Service',\n"
-"                procurement method 'Make to Order', and supply method 'Manufacture'.\n"
+"This feature automatically creates project tasks from service products in "
+"sale orders.\n"
+"                More precisely, tasks are created for procurement lines with "
+"product of type 'Service',\n"
+"                procurement method 'Make to Order', and supply method "
+"'Manufacture'.\n"
 "                This installs the module project_mrp."
 msgstr ""
 
 #. module: project
 #: help:project.task.delegate,planned_hours:0
 msgid "Estimated time to close this task by the delegated user"
-msgstr "위임받은 사용자가 이 업무를 마감하기 위한 예상 시간"
+msgstr ""
 
 #. module: project
 #: model:project.category,name:project.project_category_03
 msgid "Experiment"
-msgstr "실험"
+msgstr ""
 
 #. module: project
 #: model:process.transition.action,name:project.process_transition_action_opendrafttask0
@@ -1846,20 +1931,21 @@ msgid "Draft"
 msgstr "초안"
 
 #. module: project
-#: field:project.task,kanban_state:0 field:project.task.history,kanban_state:0
+#: field:project.task,kanban_state:0
+#: field:project.task.history,kanban_state:0
 #: field:project.task.history.cumulative,kanban_state:0
 msgid "Kanban State"
-msgstr "칸반 상태"
+msgstr ""
 
 #. module: project
 #: field:project.config.settings,module_project_timesheet:0
 msgid "Record timesheet lines per tasks"
-msgstr "업무별 작업표 내용 기록"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "사용자 및 프로젝트 업무"
+msgstr ""
 
 #. module: project
 #: field:res.company,project_time_mode_id:0
@@ -1867,35 +1953,36 @@ msgid "Project Time Unit"
 msgstr "프로젝트 시간 단위"
 
 #. module: project
-#: view:project.task:0 selection:project.task,kanban_state:0
+#: view:project.task:0
+#: selection:project.task,kanban_state:0
 #: selection:project.task.history,kanban_state:0
 #: selection:project.task.history.cumulative,kanban_state:0
 msgid "Normal"
-msgstr "보통"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
 #: field:report.project.task.user,closing_days:0
 msgid "Days to Close"
-msgstr "마감 잔여일"
+msgstr ""
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
 msgid "User"
-msgstr "사용자"
+msgstr ""
 
 #. module: project
 #: help:project.project,alias_model:0
 msgid ""
 "The kind of document created when an email is received on this project's "
 "email alias"
-msgstr "이 프로젝트 이메일 별칭으로 이메일을 수신하면 작성되는 문서의 종류"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_config_settings
 #: view:project.config.settings:0
 msgid "Configure Project"
-msgstr "프로젝트 구성"
+msgstr ""
 
 #. module: project
 #: view:project.task.history.cumulative:0
@@ -1905,7 +1992,7 @@ msgstr ""
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "January"
-msgstr "1월"
+msgstr ""
 
 #. module: project
 #: field:project.task.delegate,prefix:0
@@ -1918,16 +2005,16 @@ msgid "Reevaluation Task"
 msgstr ""
 
 #. module: project
-#: code:addons/project/project.py:1348
+#: code:addons/project/project.py:1332
 #, python-format
 msgid "Please delete the project linked with this account first."
-msgstr "먼전 이 계정된 연결된 프로젝트를 삭제하시기 바랍니다."
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_new
 #: model:mail.message.subtype,name:project.mt_task_new
 msgid "Task Created"
-msgstr "업무 작성됨"
+msgstr ""
 
 #. module: project
 #: view:report.project.task.user:0
@@ -1940,19 +2027,21 @@ msgid "Projects in which I am a manager"
 msgstr ""
 
 #. module: project
-#: view:project.task:0 selection:project.task,kanban_state:0
+#: view:project.task:0
+#: selection:project.task,kanban_state:0
 #: selection:project.task.history,kanban_state:0
 #: selection:project.task.history.cumulative,kanban_state:0
 msgid "Ready for next stage"
-msgstr "다음 단계에 대한 준비"
+msgstr ""
 
 #. module: project
 #: field:project.task.type,case_default:0
 msgid "Default for New Projects"
-msgstr "새 프로젝트 기본값"
+msgstr ""
 
 #. module: project
-#: view:project.task:0 field:project.task,description:0
+#: view:project.task:0
+#: field:project.task,description:0
 #: field:project.task.type,description:0
 msgid "Description"
 msgstr "설명"
@@ -1960,29 +2049,30 @@ msgstr "설명"
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "May"
-msgstr "5월"
+msgstr ""
 
 #. module: project
 #: help:project.task.type,case_default:0
 msgid ""
 "If you check this field, this stage will be proposed by default on each new "
 "project. It will not assign this stage to existing projects."
-msgstr "이 필드를 선택하면 이 단계를 새 프로젝트마다 기본값으로 제시합니다. 기존 프로젝트에 이 단계를 할당하진 않습니다."
+msgstr ""
 
 #. module: project
 #: field:project.task,partner_id:0
 msgid "Customer"
-msgstr "고객"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "February"
-msgstr "2월"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,module_project_long_term:0
 msgid ""
-"A long term project management module that tracks planning, scheduling, and resource allocation.\n"
+"A long term project management module that tracks planning, scheduling, and "
+"resource allocation.\n"
 "                This installs the module project_long_term."
 msgstr ""
 
@@ -1994,22 +2084,22 @@ msgstr ""
 #. module: project
 #: selection:report.project.task.user,month:0
 msgid "April"
-msgstr "4월"
+msgstr ""
 
 #. module: project
 #: view:project.task:0
 msgid "Spent Hours"
-msgstr "소요 시간"
+msgstr ""
 
 #. module: project
 #: help:project.project,sequence:0
 msgid "Gives the sequence order when displaying a list of Projects."
-msgstr "프로젝트 목록을 표시하는 순서를 제공합니다."
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.act_res_users_2_project_task_opened
 msgid "Assigned Tasks"
-msgstr "할당 업무"
+msgstr ""
 
 #. module: project
 #: help:project.config.settings,module_project_issue_sheet:0
@@ -2019,18 +2109,22 @@ msgid ""
 msgstr ""
 
 #. module: project
-#: view:board.board:0 field:project.project,task_count:0
+#: view:board.board:0
+#: field:project.project,task_count:0
 msgid "Open Tasks"
 msgstr ""
 
 #. module: project
-#: field:project.project,priority:0 field:project.project,sequence:0
-#: field:project.task,sequence:0 field:project.task.type,sequence:0
+#: field:project.project,priority:0
+#: field:project.project,sequence:0
+#: field:project.task,sequence:0
+#: field:project.task.type,sequence:0
 msgid "Sequence"
 msgstr "시퀀스"
 
 #. module: project
-#: view:project.task:0 view:project.task.work:0
+#: view:project.task:0
+#: view:project.task.work:0
 msgid "Task Work"
 msgstr "과제 작업"
 
@@ -2039,14 +2133,16 @@ msgstr "과제 작업"
 msgid ""
 "Estimated time for you to validate the work done by the user to whom you "
 "delegate this task"
-msgstr "이 업무를 위임받은 사용자가 수행한 작업을 확인하기 위한 예상 시간"
+msgstr ""
 
 #. module: project
-#: view:report.project.task.user:0 field:report.project.task.user,year:0
+#: view:report.project.task.user:0
+#: field:report.project.task.user,year:0
 msgid "Year"
-msgstr "년"
+msgstr ""
 
 #. module: project
-#: field:project.project,type_ids:0 view:project.task.type:0
+#: field:project.project,type_ids:0
+#: view:project.task.type:0
 msgid "Tasks Stages"
-msgstr "업무 단계"
+msgstr ""

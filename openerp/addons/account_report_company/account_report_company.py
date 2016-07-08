@@ -31,7 +31,7 @@ class res_partner(osv.Model):
         return dict(self.name_get(cr, uid, ids, context=context))
 
     _display_name_store_triggers = {
-        'res.partner': (lambda self,cr,uid,ids,context=None: self.search(cr, uid, [('id','child_of',ids)], context=dict(active_test=False)),
+        'res.partner': (lambda self,cr,uid,ids,context=None: self.search(cr, uid, [('id','child_of',ids)]),
                         ['parent_id', 'is_company', 'name'], 10)
     }
 
@@ -42,11 +42,6 @@ class res_partner(osv.Model):
         # extra field to allow ORDER BY to match visible names
         'display_name': fields.function(_display_name, type='char', string='Name', store=_display_name_store_triggers, select=1),
     }
-
-    def _get_display_name(self, unaccent):
-        # use stored display name for better performances
-        return unaccent('res_partner.display_name')
-
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'

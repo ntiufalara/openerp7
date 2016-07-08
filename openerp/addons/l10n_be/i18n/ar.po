@@ -1,42 +1,41 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-# * l10n_be
-# 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# Arabic translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 7.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-11-24 02:53+0000\n"
-"PO-Revision-Date: 2016-05-15 20:50+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Arabic (http://www.transifex.com/odoo/odoo-7/language/ar/)\n"
+"PO-Revision-Date: 2012-12-21 23:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 06:15+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_appro_mbsd3
 msgid "Approvisionnements, marchandises, services et biens divers"
-msgstr "اللوازم والسلع والخدمات وغيرها من السلع"
+msgstr ""
 
 #. module: l10n_be
 #: field:vat.listing.clients,turnover:0
 msgid "Base Amount"
-msgstr "المبلغ الأساسي"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rmunrationschargessocialesetpensions2
 msgid "Rémunérations, charges sociales et pensions"
-msgstr "الأجور والضمان الاجتماعي والمعاشات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_locationfinancementetdroitssimilaires2
 msgid "Location-financement et droits similaires"
-msgstr "حقوق التأجير وhgمماثلة"
+msgstr ""
 
 #. module: l10n_be
 #: field:l1on_be.vat.declaration,tax_code_id:0
@@ -46,24 +45,27 @@ msgstr "رمز الضرائب"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_produitsetchargesdexploitation1
 msgid "Produits et charges d'exploitation"
-msgstr "دخل ونفقات التشغيل"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_chargesfinancires1
 msgid "Charges financières"
-msgstr "النفقات المالية"
+msgstr ""
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 field:l1on_be.vat.declaration,comments:0
-#: view:partner.vat.intra:0 field:partner.vat.intra,comments:0
-#: view:partner.vat.list:0 field:partner.vat.list,comments:0
+#: view:l1on_be.vat.declaration:0
+#: field:l1on_be.vat.declaration,comments:0
+#: view:partner.vat.intra:0
+#: field:partner.vat.intra,comments:0
+#: view:partner.vat.list:0
+#: field:partner.vat.list,comments:0
 msgid "Comments"
-msgstr "التعليقات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_primesdmission2
 msgid "Primes d'émission"
-msgstr "علاوة الإصدار"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.actions.act_window,name:l10n_be.action_account_report_be_pl
@@ -96,15 +98,16 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_prlvementssurlesimptsdiffrs1
 msgid "Prélèvements sur les impôts différés"
-msgstr "نقل من الضرائب المؤجلة"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.ui.menu,name:l10n_be.menu_account_report_be_bs
 msgid "Balance Sheet"
-msgstr "الميزانية العمومية"
+msgstr ""
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 view:partner.vat.intra:0
+#: view:l1on_be.vat.declaration:0
+#: view:partner.vat.intra:0
 #: field:partner.vat.intra,tax_code_id:0
 msgid "Company"
 msgstr "شركة"
@@ -112,33 +115,33 @@ msgstr "شركة"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_immobilisationsincorporelles1
 msgid "Immobilisations incorporelles"
-msgstr "الموجودات غير الملموسة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservesimmunises3
 msgid "Réserves immunisées"
-msgstr "احتياطيات غير الخاضعة للضريبة"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:317
 #, python-format
 msgid "No record to print."
-msgstr "لا يوجد سجل للطباعة."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rserves2
 msgid "Réserves"
-msgstr "أسهم"
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.intra,mand_id:0
 msgid "Reference given by the Representative of the sending company."
-msgstr "المرجعية التي قدمها الممثل للشركة المرسلة."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_installationsmachinesetoutillage2
 msgid "Installations, machines et outillage"
-msgstr "المصانع والآلات والمعدات"
+msgstr ""
 
 #. module: l10n_be
 #: help:l1on_be.vat.declaration,client_nihil:0
@@ -150,23 +153,23 @@ msgstr ""
 #. module: l10n_be
 #: view:partner.vat.intra:0
 msgid "Save XML"
-msgstr "حفظ XML"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_placementsdetrsorerie1
 msgid "Placements de trésorerie"
-msgstr "الاستثمارات النقدية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_autresdettes6
 #: model:account.financial.report,name:l10n_be.account_financial_report_autresdettes8
 msgid "Autres dettes"
-msgstr "مطلوبات أخرى"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.intra:0
 msgid "Create _XML"
-msgstr "إنشاء _XML"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_account_vat_declaration.py:87
@@ -175,14 +178,14 @@ msgstr "إنشاء _XML"
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:111
 #, python-format
 msgid "insufficient data!"
-msgstr "البيانات غير كافية!"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:317
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:116
 #, python-format
 msgid "Error!"
-msgstr "خطأ!"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_account_vat_declaration.py:112
@@ -197,12 +200,12 @@ msgstr "خطأ!"
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:246
 #, python-format
 msgid "Insufficient Data!"
-msgstr "لا يوجد معلومات كافية!"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_effetspayer4
 msgid "Effets à payer"
-msgstr "أوراق الدفع"
+msgstr ""
 
 #. module: l10n_be
 #: view:l1on_be.vat.declaration:0
@@ -212,12 +215,12 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_imptsdiffrs2
 msgid "Impôts différés"
-msgstr "الضرائب المؤجلة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_produitsfinanciers1
 msgid "Produits financiers"
-msgstr "المنتجات المالية"
+msgstr ""
 
 #. module: l10n_be
 #: field:vat.listing.clients,vat:0
@@ -227,7 +230,7 @@ msgstr "ضريبة القيمة المضافة"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_transfertauximptsdiffrs1
 msgid "Transfert aux impôts différés"
-msgstr "نقل إلى الضرائب المؤجلة"
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.intra,period_ids:0
@@ -238,17 +241,18 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_stocketcommandesencoursdexcution1
 msgid "Stock et commandes en cours d'exécution"
-msgstr "الأسهم وتشغيل الأوامر"
+msgstr ""
 
 #. module: l10n_be
 #: field:partner.vat.intra,mand_id:0
 msgid "Reference"
-msgstr "المرجع"
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.intra,period_code:0
 msgid ""
-"This is where you have to set the period code for the intracom declaration using the format: ppyyyy\n"
+"This is where you have to set the period code for the intracom declaration "
+"using the format: ppyyyy\n"
 "      PP can stand for a month: from '01' to '12'.\n"
 "      PP can stand for a trimester: '31','32','33','34'\n"
 "          The first figure means that it is a trimester,\n"
@@ -261,50 +265,50 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettesunanauplus2
 msgid "Dettes à un an au plus"
-msgstr "المبالغ المستحقة خلال سنة واحدة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_imptssurlersultat1
 msgid "Impôts sur le résultat"
-msgstr "الضرائب على الدخل"
+msgstr ""
 
 #. module: l10n_be
 #: field:partner.vat.intra,period_code:0
 msgid "Period Code"
-msgstr "كود الفترة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettescommerciales5
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettescommerciales7
 msgid "Dettes commerciales"
-msgstr "الذمم الدائنة التجارية"
+msgstr ""
 
 #. module: l10n_be
 #: field:partner.vat.intra,period_ids:0
 msgid "Period (s)"
-msgstr "الفترة (فترات)"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:94
 #, python-format
 msgid "No data found for the selected year."
-msgstr "لا توجد بيانات للسنة المختارة."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_actifsimmobilises0
 msgid "ACTIFS IMMOBILISES"
-msgstr "أصول ثابتة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.account.type,name:l10n_be.user_type_stock
 msgid "Stock et Encours"
-msgstr "الأوراق المالية والمتميز"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_autrescrances3
 #: model:account.financial.report,name:l10n_be.account_financial_report_autrescrances5
 msgid "Autres créances"
-msgstr "ذمم مدينة أخرى"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_fraisdtablissements1
@@ -314,24 +318,24 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_immobilisationsencoursetacomptesverss2
 msgid "Immobilisations en cours et acomptes versés"
-msgstr "الأصول تحت الانشاء وتقدم المدفوعات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.account.type,name:l10n_be.user_type_view
 msgid "Vue"
-msgstr "رأي"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:265
 #, python-format
 msgid "Data Insufficient!"
-msgstr "البيانات غير كافية!"
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.list,partner_ids:0
 msgid ""
 "You can remove clients/partners which you do not want to show in xml file"
-msgstr "يمكنك إزالة عملاء / شركاء التي لا تريد أن تظهر في ملف xml"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_bnficepertedelexcercice1
@@ -341,7 +345,7 @@ msgstr ""
 #. module: l10n_be
 #: field:l1on_be.vat.declaration,client_nihil:0
 msgid "Last Declaration, no clients in client listing"
-msgstr "إعلان الماضي، لا يوجد عملاء في القائمة العميل"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:258
@@ -354,13 +358,13 @@ msgstr "حفظ"
 msgid ""
 "Réductions de valeur sur stocks, sur commandes en cours d'exécution et sur "
 "créances commerciales: dotations (reprises)"
-msgstr "شطب على المخزون، والعقود في التقدم والتجارة المدينين: الزيادة (النقص)"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:116
 #, python-format
 msgid "Period code is not valid."
-msgstr "كود فترة غير صالح."
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.intra,no_vat:0
@@ -372,7 +376,7 @@ msgstr ""
 #. module: l10n_be
 #: field:partner.vat.intra,no_vat:0
 msgid "Partner With No VAT"
-msgstr "شريك مع عدم وجود ضريبة القيمة المضافة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_acomptesreussurcommandes6
@@ -389,23 +393,24 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_provisionspourrisquesetcharges2
 msgid "Provisions pour risques et charges"
-msgstr "أحكام للمخاطر والرسوم"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.actions.act_window,name:l10n_be.action_account_report_be_bs
 msgid "Bilan"
-msgstr "مع"
+msgstr ""
 
 #. module: l10n_be
 #: field:l1on_be.vat.declaration,file_save:0
-#: field:partner.vat.intra,file_save:0 field:partner.vat.list,file_save:0
+#: field:partner.vat.intra,file_save:0
+#: field:partner.vat.list,file_save:0
 msgid "Save File"
 msgstr "حفظ الملف"
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservesimmunises3_A
 msgid "Pour actions propres"
-msgstr "للأسهم الخاصة"
+msgstr ""
 
 #. module: l10n_be
 #: help:l1on_be.vat.declaration,ask_restitution:0
@@ -416,7 +421,7 @@ msgstr ""
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:119
 #, python-format
 msgid "Please select at least one Period."
-msgstr "يرجى تحديد فترة واحدة على الأقل."
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_account_vat_declaration.py:201
@@ -448,12 +453,12 @@ msgstr "م_عاينة"
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettesfinancires5
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettesfinancires7
 msgid "Dettes financières"
-msgstr "الديون المالية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_bnficereporte0
 msgid "Bénéfice reporté"
-msgstr "الربح المرحل"
+msgstr ""
 
 #. module: l10n_be
 #: help:partner.vat.intra,tax_code_id:0
@@ -463,22 +468,22 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_actif
 msgid "ACTIF"
-msgstr "الأصول"
+msgstr ""
 
 #. module: l10n_be
 #: field:partner.vat.intra,test_xml:0
 msgid "Test XML file"
-msgstr "اختبار ملف XML"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettes1
 msgid "DETTES"
-msgstr "المطلوبات"
+msgstr ""
 
 #. module: l10n_be
 #: view:l1on_be.vat.declaration:0
 msgid "Save xml"
-msgstr "حفظ XML"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_account_vat_declaration.py:114
@@ -486,45 +491,48 @@ msgstr "حفظ XML"
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:149
 #, python-format
 msgid "No phone associated with the company."
-msgstr "لا يوجد هاتف مرتبط مع المؤسسة."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettesplusdunan2
 msgid "Dettes à plus d'un an"
-msgstr "المبالغ المستحقة بعد سنة واحدة"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_account_vat_declaration.py:87
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:111
 #, python-format
 msgid "No VAT number associated with your company."
-msgstr "لا يوجد رقم ضريبة القيمة المضافة مرتبط مع الشركة."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservesimmunises3_B
 msgid "Autres"
-msgstr "آخر"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_crancesplusdunan1
 msgid "Créances à plus d'un an"
-msgstr "المبالغ المستحقة بعد سنة واحدة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_bnficepertedelexcerciceavantimpts1
 msgid "Bénéfice (Perte) de l'excercice avant impôts"
-msgstr "الربح (الخسارة) قبل الضرائب من توفيرنا"
+msgstr ""
 
 #. module: l10n_be
-#: view:partner.vat.intra:0 field:partner.vat.intra,country_ids:0
+#: view:partner.vat.intra:0
+#: field:partner.vat.intra,country_ids:0
 msgid "European Countries"
 msgstr "الدول الأوروبية"
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 view:partner.vat:0 view:partner.vat.intra:0
+#: view:l1on_be.vat.declaration:0
+#: view:partner.vat:0
+#: view:partner.vat.intra:0
 #: view:partner.vat.list:0
 msgid "or"
-msgstr "أو"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.intra:0
@@ -535,17 +543,17 @@ msgstr ""
 #: model:account.financial.report,name:l10n_be.account_financial_report_comptesdergularisation1
 #: model:account.financial.report,name:l10n_be.account_financial_report_comptesdergularisation2
 msgid "Comptes de régularisation"
-msgstr "المستحقات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_immobilisationscorporelles1
 msgid "Immobilisations corporelles"
-msgstr "أصول ثابتة"
+msgstr ""
 
 #. module: l10n_be
 #: field:vat.listing.clients,vat_amount:0
 msgid "VAT Amount"
-msgstr "قيمة ضريبة القيمة المضافة"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_vat_intra.py:246
@@ -561,7 +569,7 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_plusvaluesdervaluation2
 msgid "Plus-values de réévaluation"
-msgstr "مكاسب إعادة التقييم"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.model,name:l10n_be.model_partner_vat_list
@@ -571,7 +579,7 @@ msgstr "partner.vat.list"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservelgale3
 msgid "Réserve légale"
-msgstr "الاحتياطي القانوني"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_capitauxpropres1
@@ -585,9 +593,10 @@ msgid "No belgian contact with a VAT number in your database."
 msgstr ""
 
 #. module: l10n_be
-#: field:l1on_be.vat.declaration,msg:0 field:partner.vat.intra,msg:0
+#: field:l1on_be.vat.declaration,msg:0
+#: field:partner.vat.intra,msg:0
 msgid "File created"
-msgstr "إنشاء ملف"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.list:0
@@ -597,23 +606,23 @@ msgstr "العملاء"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_chargesexceptionnelles1
 msgid "Charges exceptionnelles"
-msgstr "رسوم غير عادية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_chiffredaffaires3
 msgid "Chiffre d'affaires"
-msgstr "دوران"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_autreschargesdexploitation2
 msgid "Autres charges d'exploitation"
-msgstr "مصروفات التشغيل الأخرى"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:296
 #, python-format
 msgid "XML File has been Created"
-msgstr "تم إنشاء ملف XML"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_belgium_bs
@@ -634,12 +643,12 @@ msgstr ""
 #. module: l10n_be
 #: view:l1on_be.vat.declaration:0
 msgid "Advanced Options"
-msgstr "خيارات متقدمة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_produitsexceptionnels1
 msgid "Produits exceptionnels"
-msgstr "الدخل الاستثنائي"
+msgstr ""
 
 #. module: l10n_be
 #: view:vat.listing.clients:0
@@ -649,39 +658,39 @@ msgstr ""
 #. module: l10n_be
 #: field:partner.vat.list,partner_ids:0
 msgid "Clients"
-msgstr "عملاء"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_margebrutedexploitation2
 msgid "Marge brute d'exploitation"
-msgstr "الهامش التشغيلي الإجمالي"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:265
 #, python-format
 msgid "No data available for the client."
-msgstr "لا توجد بيانات متاحة للعميل."
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_etablissementsdecrdit4
 msgid "Etablissements de crédit"
-msgstr "مؤسسات الائتمان"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_terrainsetconstructions2
 msgid "Terrains et constructions"
-msgstr "الأراضي والمباني"
+msgstr ""
 
 #. module: l10n_be
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:69
 #, python-format
 msgid "Error"
-msgstr "خطأ"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_capitalsouscrit3
 msgid "Capital souscrit"
-msgstr "رأس المال المكتتب"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.actions.act_window,name:l10n_be.action_vat_intra
@@ -691,12 +700,12 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_stocks2
 msgid "Stocks"
-msgstr "الأسهم"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_valeursdisponibles1
 msgid "Valeurs disponibles"
-msgstr "القيم المتوفرة"
+msgstr ""
 
 #. module: l10n_be
 #: field:l1on_be.vat.declaration,period_id:0
@@ -723,7 +732,7 @@ msgstr "معلومات عامة"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_immobilisationsfinancires1
 msgid "Immobilisations financières"
-msgstr "الأصول المالية"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.intra:0
@@ -738,7 +747,9 @@ msgid ""
 msgstr ""
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 view:partner.vat:0 view:partner.vat.intra:0
+#: view:l1on_be.vat.declaration:0
+#: view:partner.vat:0
+#: view:partner.vat.intra:0
 #: view:partner.vat.list:0
 msgid "Cancel"
 msgstr "إلغاء"
@@ -752,9 +763,10 @@ msgid "No email address associated with the company."
 msgstr ""
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 view:partner.vat.list:0
+#: view:l1on_be.vat.declaration:0
+#: view:partner.vat.list:0
 msgid "Create XML"
-msgstr "إنشاء XML"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_pertereporte0
@@ -769,7 +781,7 @@ msgstr "اسم العميل"
 #. module: l10n_be
 #: view:partner.vat.list:0
 msgid "XML File has been Created."
-msgstr "تم إنشاء ملف XML."
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat:0
@@ -780,17 +792,17 @@ msgstr ""
 #: model:account.financial.report,name:l10n_be.account_financial_report_autresemprunts6
 #: model:account.financial.report,name:l10n_be.account_financial_report_autresemprunts9
 msgid "Autres emprunts"
-msgstr "قروض أخرى"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.ui.menu,name:l10n_be.menu_account_report_be_pl
 msgid "Profit And Loss"
-msgstr "الربح و الخسارة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_passif0
 msgid "PASSIF"
-msgstr "المطلوبات"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.list:0
@@ -800,25 +812,26 @@ msgstr "طباعة"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_fournisseurs4
 msgid "Fournisseurs"
-msgstr "الموردين"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_commandesencoursdexcution2
 msgid "Commandes en cours d'exécution"
-msgstr "تشغيل الأوامر"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_actifscirculants0
 msgid "ACTIFS CIRCULANTS"
-msgstr "ممتلكات حالية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_capital2
 msgid "Capital"
-msgstr "رأس المال"
+msgstr ""
 
 #. module: l10n_be
-#: view:l1on_be.vat.declaration:0 view:partner.vat.intra:0
+#: view:l1on_be.vat.declaration:0
+#: view:partner.vat.intra:0
 #: view:partner.vat.list:0
 msgid "Save the File with '.xml' extension."
 msgstr ""
@@ -826,34 +839,33 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_dettesfiscalessalarialesetsociales3
 msgid "Dettes fiscales, salariales et sociales"
-msgstr "الضرائب والأجور والاجتماعية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_autresimmobilisationscorporelles2
 msgid "Autres immobilisations corporelles"
-msgstr "غيرها من الممتلكات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_crancesunanauplus1
 msgid "Créances à un an au plus"
-msgstr "المبالغ المستحقة خلال سنة واحدة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_impts4
 msgid "Impôts"
-msgstr "فرض الضرائب"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_charges_expl_pr_restruct2
 msgid ""
-"Charges d'exploitation portées à l'actif au titre de frais de "
-"restructuration"
+"Charges d'exploitation portées à l'actif au titre de frais de restructuration"
 msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rmunrationsetchargessociales4
 msgid "Rémunérations et charges sociales"
-msgstr "الأجور والضمان الاجتماعي"
+msgstr ""
 
 #. module: l10n_be
 #: model:ir.ui.menu,name:l10n_be.partner_vat_listing
@@ -886,17 +898,17 @@ msgstr ""
 #: code:addons/l10n_be/wizard/l10n_be_partner_vat_listing.py:64
 #, python-format
 msgid "No data for the selected year."
-msgstr "لا توجد بيانات للسنة المحدد."
+msgstr ""
 
 #. module: l10n_be
 #: field:partner.vat,limit_amount:0
 msgid "Limit Amount"
-msgstr "قيمة الحد"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_provisionsetimpotsdifferes1
 msgid "PROVISIONS ET IMPOTS DIFFERES"
-msgstr "المخصصات والضرائب المؤجلة"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_subsidesencapital2
@@ -906,7 +918,7 @@ msgstr ""
 #. module: l10n_be
 #: view:partner.vat.list:0
 msgid "Customer List"
-msgstr "قائمة العملاء"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.list:0
@@ -916,7 +928,7 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_mobilieretmatrielroulant2
 msgid "Mobilier et matériel roulant"
-msgstr "الأثاث والمركبات"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_capitalnonappel3
@@ -937,12 +949,12 @@ msgstr ""
 #: model:account.financial.report,name:l10n_be.account_financial_report_crancescommerciales3
 #: model:account.financial.report,name:l10n_be.account_financial_report_crancescommerciales5
 msgid "Créances commerciales"
-msgstr "الذمم التجارية"
+msgstr ""
 
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_bnficepertedexploitation1
 msgid "Bénéfice (Perte) d'exploitation"
-msgstr "الربح (الخسارة) من العمليات"
+msgstr ""
 
 #. module: l10n_be
 #: view:l1on_be.vat.declaration:0
@@ -966,7 +978,8 @@ msgid "No VAT number associated with the company."
 msgstr ""
 
 #. module: l10n_be
-#: field:l1on_be.vat.declaration,name:0 field:partner.vat.intra,name:0
+#: field:l1on_be.vat.declaration,name:0
+#: field:partner.vat.intra,name:0
 #: field:partner.vat.list,name:0
 msgid "File Name"
 msgstr "اسم الملف"
@@ -989,7 +1002,7 @@ msgstr "سنة"
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservesindisponibles3
 msgid "Réserves indisponibles"
-msgstr "احتياطيات متاحة"
+msgstr ""
 
 #. module: l10n_be
 #: view:partner.vat.list:0
@@ -999,4 +1012,4 @@ msgstr ""
 #. module: l10n_be
 #: model:account.financial.report,name:l10n_be.account_financial_report_rservesdisponibles3
 msgid "Réserves disponibles"
-msgstr "الاحتياطيات المتاحة"
+msgstr ""

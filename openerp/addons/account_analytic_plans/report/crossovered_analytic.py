@@ -70,25 +70,14 @@ class crossovered_analytic(report_sxw.rml_parse):
         line_pool = self.pool.get('account.analytic.line')
 
         self.dict_acc_ref = {}
-        filters = [
-            'date >= %(date1)s',
-            'date <= %(date2)s',
-        ]
-        params = {
-            'date1': form['date1'],
-            'date2': form['date2']
-        }
         if form['journal_ids']:
-            filters.append('journal_id IN %(journal_ids)s')
-            params['journal_ids'] = tuple(form['journal_ids'])
+            journal = " in (" + ','.join(map(lambda x: str(x), form['journal_ids'])) + ")"
         else:
-            filters.append('journal_id IS NOT NULL')
+            journal = 'is not null'
 
-        self.cr.execute(
-            "SELECT id FROM account_analytic_line WHERE " + ' AND '.join(filters),
-            params
-        )
+        query_general = "SELECT id FROM account_analytic_line WHERE (journal_id " + journal +") AND date>='"+ str(form['date1']) +"'"" AND date<='" + str(form['date2']) + "'"
 
+        self.cr.execute(query_general)
         l_ids = self.cr.fetchall()
         line_ids = [x[0] for x in l_ids]
 
@@ -113,24 +102,10 @@ class crossovered_analytic(report_sxw.rml_parse):
         self.base_amount = 0.0
         
         if selected_ids:
-            params['selected_ids'] = tuple(selected_ids)
-            filters = [
-                'aal.account_id = aaa.id',
-                'aal.id IN %(selected_ids)s',
-                'aal.date >= %(date1)s',
-                'aal.date <= %(date2)s',
-            ]
-            if form['journal_ids']:
-                filters.append('aal.journal_id in %(journal_ids)s')
-            else:
-                filters.append('aal.journal_id IS NOT NULL')
+            query = "SELECT SUM(aal.amount) AS amt, SUM(aal.unit_amount) AS qty FROM account_analytic_line AS aal, account_analytic_account AS aaa \
+                    WHERE aal.account_id = aaa.id AND aal.id IN ("+','.join(map(str,selected_ids))+") AND (aal.journal_id " + journal +") AND aal.date>='"+ str(form['date1']) +"'"" AND aal.date<='" + str(form['date2']) + "'"
 
-            self.cr.execute(
-                "SELECT SUM(aal.amount) AS amt, SUM(aal.unit_amount) AS qty"
-                " FROM account_analytic_line AS aal, account_analytic_account AS aaa"
-                " WHERE " + ' AND '.join(filters),
-                params
-            )
+            self.cr.execute(query)
             info=self.cr.dictfetchall()
             res['ref_qty'] = info[0]['qty']
             res['ref_amt'] = info[0]['amt']
@@ -144,20 +119,10 @@ class crossovered_analytic(report_sxw.rml_parse):
         if not ids:
             ids = self.ids
 
-        filters = [
-            'aal.account_id = aaa.id',
-            'aal.date >= %(date1)s',
-            'aal.date <= %(date2)s',
-        ]
-        params = {
-            'date1': form['date1'],
-            'date2': form['date2'],
-        }
         if form['journal_ids']:
-            filters.append('aal.journal_id IN %(journal_ids)s')
-            params['journal_ids'] = tuple(form['journal_ids'])
+            journal=" in (" + ','.join(map(lambda x: str(x), form['journal_ids'])) + ")"
         else:
-            filters.append('aal.journal_id IS NOT NULL')
+            journal= 'is not null'
 
         acc_pool = self.pool.get('account.analytic.account')
         line_pool = self.pool.get('account.analytic.line')
@@ -170,15 +135,10 @@ class crossovered_analytic(report_sxw.rml_parse):
         for acc_id in self.final_list:
             selected_ids = line_pool.search(self.cr, self.uid, [('account_id','=',acc_id), ('move_id', 'in', self.dict_acc_ref[form['ref']])])
             if selected_ids:
-                filters.append('aal.id IN %(selected_ids)s')
-                params['selected_ids'] = tuple(selected_ids)
+                query="SELECT aaa.code AS code, SUM(aal.amount) AS amt, SUM(aal.unit_amount) AS qty, aaa.name AS acc_name, aal.account_id AS id FROM account_analytic_line AS aal, account_analytic_account AS aaa \
+                WHERE aal.account_id=aaa.id AND aal.id IN ("+','.join(map(str,selected_ids))+") AND (aal.journal_id " + journal +") AND aal.date>='"+ str(form['date1']) +"'"" AND aal.date<='" + str(form['date2']) + "'"" GROUP BY aal.account_id,aaa.name,aaa.code ORDER BY aal.account_id"
 
-                self.cr.execute(
-                    "SELECT aaa.code AS code, SUM(aal.amount) AS amt, SUM(aal.unit_amount) AS qty, aaa.name AS acc_name, aal.account_id AS id"
-                    " FROM account_analytic_line AS aal, account_analytic_account AS aaa"
-                    " WHERE " + ' AND '.join(filters)
-                    + " GROUP BY aal.account_id,aaa.name,aaa.code ORDER BY aal.account_id"
-                )
+                self.cr.execute(query)
                 res = self.cr.dictfetchall()
                 if res:
                     for element in res:
