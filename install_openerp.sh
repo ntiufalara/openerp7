@@ -30,5 +30,5 @@ git clone https://github.com/ntiufalara/openerp7.git
 echo
 echo ">>> Executando o servidor e abrindo o navegador..."
 echo
-/home/$usuario/openerp7/openerp-server
+/home/$usuario/openerp7/openerp-server &
 firefox "http://localhost:8069"
