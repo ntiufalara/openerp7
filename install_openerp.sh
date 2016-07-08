@@ -1,6 +1,7 @@
 #!/bin/bash
 usuario=$USER
 echo "\n>>> Instalando Banco de dados\n"
+sudo apt-get update
 sudo apt-get install postgresql -y
 echo "\n>>> Instalando Dependências do OpenERP\n"
 sudo apt-get install -y graphviz ghostscript postgresql-client \
