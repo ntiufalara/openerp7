@@ -1,9 +1,9 @@
 #!/bin/bash
 usuario=$USER
 echo "\n>>> Instalando Banco de dados\n"
-sudo apt-get install postgresql
+sudo apt-get install postgresql -y
 echo "\n>>> Instalando Dependências do OpenERP\n"
-sudo apt-get install graphviz ghostscript postgresql-client \
+sudo apt-get install -y graphviz ghostscript postgresql-client \
           python-dateutil python-feedparser python-gdata \
           python-ldap python-libxslt1 python-lxml python-mako \
           python-openid python-psycopg2 python-pybabel python-pychart \
