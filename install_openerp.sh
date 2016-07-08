@@ -21,7 +21,7 @@ sudo apt-get install -y graphviz ghostscript postgresql-client \
 echo
 echo ">>> Criando usuário para o banco de dados"
 echo
-sudo su postgres createuser $usuario -s
+sudo su postgres "createuser $usuario -s -P"
 cd /home/$usuario
 echo
 echo ">>> Clonando o repositório de código do OpenERP 7"
