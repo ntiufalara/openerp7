@@ -1,4 +1,4 @@
-# ![Universidade Digital](http://ntiufalara.github.io/universidade-digital/assets/img/logo.png)
+# OpenERP 7
 
 Instalação e configuração do ambiente de desenvolvimento:
 
@@ -43,4 +43,3 @@ Execute o script para levantar o servidor de desenvolvimento na porta 8069:
 ```bash
  $ ./openerp-server.py # use -h para saber mais sobre esse script
 ```
-
