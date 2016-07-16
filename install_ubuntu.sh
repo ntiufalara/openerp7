@@ -3,11 +3,11 @@ usuario=$USER
 echo
 echo ">>> Atualizando repositórios do Ubuntu"
 echo
-sudo apt-get update
+sudo apt update
 echo
 echo ">>> Instalando Dependências do OpenERP"
 echo
-sudo apt-get install -y graphviz ghostscript postgresql-client \
+sudo apt install -y graphviz ghostscript postgresql-client \
           python-dateutil python-feedparser python-gdata \
           python-ldap python-libxslt1 python-lxml python-mako \
           python-openid python-psycopg2 python-pybabel python-pychart \
