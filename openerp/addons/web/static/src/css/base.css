@@ -2265,7 +2265,7 @@
 }
 .openerp .oe_form td.oe_form_group_cell_label {
   border-right: 1px solid #dddddd;
-  padding: 2px 0px;
+  padding: 6px 0px;
 }
 .openerp .oe_form td.oe_form_group_cell_label label {
   line-height: 18px;
